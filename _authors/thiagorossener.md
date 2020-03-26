@@ -6,9 +6,9 @@ display_name: John Robert
 position: 
 bio: Just a developer.
 github_username: trojrobert
-facebook_username: thiagorossener
-twitter_username: thiagorossener
+facebook_username: 
+twitter_username: trojrobert
 instagram_username: thiagorossener
 linkedin_username: thiagorossener
-medium_username: thiagorossener
+medium_username: 
 ---
