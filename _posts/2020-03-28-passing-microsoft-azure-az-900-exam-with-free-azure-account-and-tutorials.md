@@ -11,7 +11,7 @@ tags:
 author:
 paginate: false
 ---
-![cloud computing](\assets\img\uploads\cloud_computing_connection.png)
+
 *Source : https://en.wikipedia.org/wiki/Cloud_computing*
 ## What is Microsoft Azure Fundamental AZ-900 Exam?
 
