@@ -11,13 +11,13 @@ tags:
 author:
 paginate: false
 ---
-
+![Source : https://en.wikipedia.org/wiki/Cloud_computing](\assets\img\uploads\cloud_computing_connection.png)
 ## What is Microsoft Azure Fundamental AZ-900 Exam?
 
 [Azure](https://docs.microsoft.com/en-us/learn/modules/welcome-to-azure/2-what-is-azure) is a platform from Microsoft that provide cloud services to help individuals and organizations meet their current and future business challenges. Azure helps with building, managing, deploying applications on a massive global network. We have other cloud service providers like [Amazon Web Service](https://aws.amazon.com/), [Google Cloud](https://aws.amazon.com/), [Alibaba Cloud](https://eu.alibabacloud.com/), [IBM Cloud](https://www.ibm.com/cloud) and others. Cloud Services reduce cost, increase scalability, availability, reliability, and security.
 [AZ-900 Exam](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900) certifies your knowledge in Microsoft Azure Fundamentals, it is meant for beginners in cloud computing and people that want to demonstrate foundational level knowledge of cloud services and how those services are provided with Microsoft Azure. You don’t need any technical background to pass the exams but a technical background would make things easier. There are other Microsoft Azure certification exams like DP-100 for Azure Data Scientist Associate, AI-100 for azure AI Engineer Associate, … this list keeps updating every day.
 
-![placeholder](\assets\img\uploads\azure-certifications-path.png)
+![Source : https://www.whizlabs.com/blog/azure-certifications-path/](\assets\img\uploads\azure-certifications-path.png)
 
 ## What did I do to pass the AZ-900 Exam?
 
@@ -58,3 +58,6 @@ The exam will test your knowledge in 4 models
 
 **Exam structure and Score** - You have the opportunity to select some questions for review, which will give you the opportunity to review and correct them before the final submission. After the final submission, you have another 10 minutes opportunity to review all the question but this time you can not make any corrections. To pass the exams you need to a total of at least 700, your exam report will be available immediately after you finish. This report contains your total score, pass or fail status and a bar chart showing performance in key areas of the exam. The certificate will be out about 2 days after the exam, you have the opportunity to retake the exam after 24 hours if you fail.
 
+![How the certicate looks like](\assets\img\uploads\az-900-certificate.png)
+
+After you have passed the AZ-900 exam, you can decide to move forward by taking one of the associate certifications. I wish you the best as you start the journey in Cloud computing and in your exam.  Happy Learning!!!
