@@ -26,6 +26,7 @@ I spent about 4 days studying an average of 6 -8 hours to prepare for the exams.
 * At my home or office
 * At a Certiport test center
 * I have a private Access code
+
 You select one of these options, after these, you select the time and date you for the exam. I selected "at my home or office" and the time was in pacific daylight time(US) zone. I prepared for the exam with only free tutorials and a free Microsoft Azure account, though some paid tutorials could make it easier. 
  
 ### What free tutorials and account did I use?
@@ -39,4 +40,17 @@ You select one of these options, after these, you select the time and date you f
  
 There are a lot of very good paid courses I didn’t use any of them, examples are [Microsoft Instructor-led course](https://docs.microsoft.com/en-us/learn/certifications/courses/az-900t01), [Udemy AZ-900 Azure Exam Prep: Microsoft Azure Fundamentals in 2020](https://www.udemy.com/course/az-900-azure-exam-prep-understanding-cloud-concepts/), [AZ-900: Microsoft Azure Fundamentals Exam Prep-2020 edition](https://www.udemy.com/course/az900-azure/), [Microsoft Azure – Beginner’s Guide + AZ-900 preparation](https://www.udemy.com/course/microsoft-azure-beginners-guide/) and
  [Whizlabs AZ-900 Exam Practices Tests](https://www.whizlabs.com/login/)
+ 
+ 
+## What does the AZ-900 exam look like?
+The exam will test your knowledge in 4 models
+* Cloud Concepts (15-20%)
+* Core Azure Service (30-35%)
+* Security, Privacy, Compliance, and Trust (25-30%)
+* Azure Pricing and Support (20-25%)
+
+[**Price**](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900) – The exam cost 99 euros since I am in Germany, the price varies by country, in the USA it cost $99. Though the euro has more value than the dollar I don’t understand the economics behind that. Note after adding VAT it cost about 120 euros. You can get a reduction if you are a Microsoft Imagine Academy program member, Microsoft Partner Network program member or a Microsoft Certified Trainer. You can cancel the appointment 6 business days before the exam day to get a full refund.
+**Questions** – I had 41 questions though I learn it can vary between 40 – 60 questions. There are different formats of questions like short answer, repeated answer choices, build a list, multiple-choice, mark review, review screen, active screen, best answer, drag and drop, etc. Note you are not required to type (input) any answer during the exam.
+**Duration** – the exam itself is 60 minutes but the scheduled time varies between 85 -90 minutes which involves reading the exam guidelines, taking a survey and a review.
+**Exam structure and Score** - You have the opportunity to select some questions for review, which will give you the opportunity to review and correct them before the final submission. After the final submission, you have another 10 minutes opportunity to review all the question but this time you can not make any corrections. To pass the exams you need to a total of at least 700, your exam report will be available immediately after you finish. This report contains your total score, pass or fail status and a bar chart showing performance in key areas of the exam. The certificate will be out about 2 days after the exam, you have the opportunity to retake the exam after 24 hours if you fail.
 
