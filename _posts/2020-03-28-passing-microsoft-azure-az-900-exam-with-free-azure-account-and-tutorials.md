@@ -50,7 +50,10 @@ The exam will test your knowledge in 4 models
 * Azure Pricing and Support (20-25%)
 
 [**Price**](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900) – The exam cost 99 euros since I am in Germany, the price varies by country, in the USA it cost $99. Though the euro has more value than the dollar I don’t understand the economics behind that. Note after adding VAT it cost about 120 euros. You can get a reduction if you are a Microsoft Imagine Academy program member, Microsoft Partner Network program member or a Microsoft Certified Trainer. You can cancel the appointment 6 business days before the exam day to get a full refund.
+
 **Questions** – I had 41 questions though I learn it can vary between 40 – 60 questions. There are different formats of questions like short answer, repeated answer choices, build a list, multiple-choice, mark review, review screen, active screen, best answer, drag and drop, etc. Note you are not required to type (input) any answer during the exam.
+
 **Duration** – the exam itself is 60 minutes but the scheduled time varies between 85 -90 minutes which involves reading the exam guidelines, taking a survey and a review.
+
 **Exam structure and Score** - You have the opportunity to select some questions for review, which will give you the opportunity to review and correct them before the final submission. After the final submission, you have another 10 minutes opportunity to review all the question but this time you can not make any corrections. To pass the exams you need to a total of at least 700, your exam report will be available immediately after you finish. This report contains your total score, pass or fail status and a bar chart showing performance in key areas of the exam. The certificate will be out about 2 days after the exam, you have the opportunity to retake the exam after 24 hours if you fail.
 
