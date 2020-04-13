@@ -3,7 +3,7 @@ date: 2020-04-13 03:15:20
 layout: post
 title: "Becoming an Azure Data Scientist Associate: How to pass DP-100 exam"
 subtitle:
-description: 
+description: The purpose of this article is to explain what the Microsoft azure DP-100 exam is, the content of the exam, and what I did to pass the exam. I believe this article will guide you with preparing and taking the DP-100 exam.
 image: \assets\img\uploads\azure-ml-workflow.PNG
 optimized_image: \assets\img\uploads\azure-ml-workflow.PNG
 category:
