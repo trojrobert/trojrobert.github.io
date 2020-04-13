@@ -1,7 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: trojrobert
+title: trojrobert | trojrobert
+description: trojrobert
 tags:
   - blog
   - template
@@ -56,12 +56,12 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
 paginate_content:
-  enabled: true
+  enabled: false
   debug: false
   collections:
     - posts
@@ -100,4 +100,4 @@ exclude: [
 ]
 
 # Theme
-version: v3.0.2
+version:
