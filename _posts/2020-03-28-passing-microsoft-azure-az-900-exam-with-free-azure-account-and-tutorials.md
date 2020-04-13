@@ -58,6 +58,6 @@ The exam will test your knowledge in 4 models
 
 **Exam structure and Score** - You have the opportunity to select some questions for review, which will give you the opportunity to review and correct them before the final submission. After the final submission, you have another 10 minutes to see all the answers you supplied but this time you cannot make any corrections. To pass the exams you need to a total of at least 700. Your exam report will be available immediately after you finish. This report contains your total score, pass or fail status and a bar chart showing performance in key areas of the exam. The certificate will be out about 2 days after the exam. You have the opportunity to retake the exam after 24 hours if you fail.
 
-![az-900-certificate](\assets\img\uploads\az-900-certificate.png)]
+![az-900-certificate](\assets\img\uploads\az-900-certificate.png)
 *My Microsoft Azure Fundamental Certificate*
 I also thought Microsoft Azure Fundamentals at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=13s), this video can be of help. After you have passed the AZ-900 exam, you can decide to move forward by taking one of the associate certifications.  I wrote an article on [Becoming an Azure Data Scientist Associate: How to pass DP-100 exam](https://trojrobert.github.io/becoming-an-azure-data-scientist-associate-how-to-pass-dp-100-exam/). I wish you the best as you start the journey in Cloud computing and in your exam.  Happy Learning!!!
