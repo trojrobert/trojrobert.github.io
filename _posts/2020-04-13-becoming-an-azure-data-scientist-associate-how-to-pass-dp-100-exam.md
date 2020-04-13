@@ -37,7 +37,7 @@ The exam will not cover preview features on the Azure Machine Learning Studio, i
 
 ![Azure Machine Learning Workspace](\assets\img\uploads\azure-ml-workspace.PNG)
 
-## What did I do to pass the DP-100 Exam? 
+## What I did to pass the DP-100 Exam? 
 
 A little about me before I wrote the DP-100. I wrote the exam during the COVID-19 pandemic lockdown, I just passed the Microsoft Azure Fundamental Certification AZ-900 exam on March 24th, 2020, you can read my article on [Passing Microsoft Azure AZ-900 exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) before writing the Microsoft Azure Data Scientist Associate Certification DP-100 on April 7, 2020. At this time I was finishing my masters in Data Analytics(Machine Learning and Big Data) at the University of Hildesheim in Germany so I have knowledge about the Data Science, please note that the AZ-900 exam is not a prerequisite to the DP-100 exam. There are 4 ways to take in the exams.
 •	At a local test center
