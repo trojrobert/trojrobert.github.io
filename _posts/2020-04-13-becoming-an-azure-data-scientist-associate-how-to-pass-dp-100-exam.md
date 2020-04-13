@@ -4,8 +4,8 @@ layout: post
 title: "Becoming an Azure Data Scientist Associate: How to pass DP-100 exam"
 subtitle:
 description:
-image:
-optimized_image:
+image: \assets\img\uploads\azure-ml-workflow.PNG
+optimized_image: \assets\img\uploads\azure-ml-workflow.PNG
 category:
 tags:
 author:
@@ -35,6 +35,7 @@ The exam will not cover preview features on the Azure Machine Learning Studio, i
 
 **Deploy and consume models (20-25%)** - this involves creating production compute targets, deploying a model as a service, creating a pipeline for batch inferencing, and publishing a designer pipeline as a web service. 
 
+![Azure Machine Learning Workspace](\assets\img\uploads\azure-ml-workspace.PNG)
 
 ## What did I do to pass the DP-100 Exam? 
 
@@ -58,7 +59,7 @@ To save money as a student, I used only free account and tutorials, but note you
  
 **[Microsoft DP-100 Exam sample Questions on examtopics.com](https://www.examtopics.com/exams/microsoft/dp-100/view/1/)** – this website contains about 60 sample questions for free, these sample questions will help you to understand the type of questions to expect in the example. 
 
-
+![Azure Data Scientist Certicate](\assets\img\uploads\dp-100-certicate)
 ## What does the DP-100 exam look like? 
  
 **[Price](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-100)** – It cost about 165 euros before adding VAT since I live in Germany, the price varies based on countries, it also cost about $165 in the US even though $1 does not the same value as 1 euro. For this exam at the time I took it, there was a discount for students so it cost me 91 euros before VAT and about 110 euros after VAT. There are also discount for Microsoft Imagine Academy program members, Microsoft Partner Network program members or a Microsoft Certified Trainer. You can cancel the appointment 6 business days before the exam day to get a full refund.
