@@ -2,7 +2,7 @@
 date: 2020-03-28 09:04:29
 layout: post
 title: "Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials"
-subtitle: This article explains how to pass the Microsoft Azure Fundamentals Certification AZ-900 Exam without paying for tutorials and Microsoft Azure Account.
+subtitle: This article explains how to pass the Microsoft Azure Fundamentals Certification AZ-900 Exam using free resources.
 description: 
 image: \assets\img\uploads\cloud_computing_connection.png
 optimized_image: \assets\img\uploads\cloud_computing_connection.png
