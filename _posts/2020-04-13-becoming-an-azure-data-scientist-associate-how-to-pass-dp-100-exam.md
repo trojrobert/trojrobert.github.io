@@ -3,7 +3,7 @@ date: 2020-04-13 03:15:20
 layout: post
 title: "Becoming an Azure Data Scientist Associate: How to pass DP-100 exam"
 subtitle:
-description:
+description: 
 image: \assets\img\uploads\azure-ml-workflow.PNG
 optimized_image: \assets\img\uploads\azure-ml-workflow.PNG
 category:
@@ -73,6 +73,8 @@ Exam language - English, Korean, Japanese and Simplified Chinese
 **Duration** – the exam lasted for 180 minutes (3 hours) but the scheduled time was 210 minutes(3 hours 30 minutes) that is you have extra 30 minutes to do other things like reading the exam guidelines, taking a survey and a review.
 
 **Exam structure and Score** -  You have the opportunity to select some questions for review, which will give you the opportunity to review and correct them before the final submission. After the final submission, you have another 10 minutes to see all the answers you supplied but this time you cannot make any correction. To pass the exams you need to a total of at least 700. Your exam report will be available immediately after you finish. This report contains your total score, pass or fail status and a bar chart showing performance in key areas of the exam. The certificate will be out about 2 days after the exam. You have the opportunity to retake the exam after 24 hours if you fail. You can read more about microsoft certification exam policy and frequently asked questions [here](https://www.microsoft.com/en-us/learning/certification-exam-policies.aspx).
+
+I also thaught Microsoft Azure Fundamentals for Data Science at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=13s), this video can be of help. I wrote an article on [Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/). I wish you the best as you start the journey in Cloud computing and in your exam.  Happy Learning!!!
 
 
 
