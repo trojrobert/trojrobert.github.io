@@ -33,7 +33,7 @@ Following these options you have a choice of your desired date and time to take 
 ### Free resources I used
 
 
-1. [Microsoft Azure free account](https://azure.microsoft.com/free.) - this is a free azure account that comes with  a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards. I was able to pass my AZ-900 exams without paying for  Microsoft Azure subscription.
+1. [Microsoft Azure free account](https://azure.microsoft.com/free.) - this is a free azure account that comes with  a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards. I was able to pass my AZ-900 exams without the need for a Microsoft Azure subscription.
 
 2. [Microsoft Learn Platform for Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/) – this is a free online tutorial provided by Microsoft, mostly text based with a few short video clips, that explain all the important Azure concepts. It consists of 12 modules as of the time I wrote the exam. It is estimated to take 9hrs 48 mins of study time but expect to spend much more time studying the material. It took me 2 full days to complete it.  
  
