@@ -50,18 +50,18 @@ To save money as a student, I used only free account and tutorials, but note you
 
 ## What free tutorials and account did I use? 
  
-**[Microsoft Azure Free Account]**(https://azure.microsoft.com) – this is a Microsoft Azure account that offers you free 12 months of popular services, about $170 - $200 credit to explore Azure for 30 days and 25+ services. 
+**[Microsoft Azure Free Account](https://azure.microsoft.com)** – this is a Microsoft Azure account that offers you free 12 months of popular services, about $170 - $200 credit to explore Azure for 30 days and 25+ services. 
  
-**[Microsoft Learn Platform Tutorial]**(https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/) on Building AI solution with Azure Machine Learning – there are two training options offered by Microsoft for the preparation of the DP-100 exams, first is the free online training and the second is the paid instructor-led training. This is the free online training, it consists of 7 modules that require about 5 hours 19 minutes, but because you need to go through all the links in the training and understand every line of code in the practical section, it will take you more time. 
+**[Microsoft Learn Platform Tutorial](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)** on Building AI solution with Azure Machine Learning – there are two training options offered by Microsoft for the preparation of the DP-100 exams, first is the free online training and the second is the paid instructor-led training. This is the free online training, it consists of 7 modules that require about 5 hours 19 minutes, but because you need to go through all the links in the training and understand every line of code in the practical section, it will take you more time. 
  
-**[Pluralsight Microsoft Azure Data Scientist (DP-100)]**(https://www.pluralsight.com/paths/microsoft-azure-data-scientist-dp-100) – it teaches how Azure services work together to enable various parts of the Machine Learning workflow. This tutorial from Pluralsight contains 25 lectures that require about 48 hours but since I have an understanding of data science workflow already I focused more on the Building and Deploying Models in Microsoft Azure section.  
+**[Pluralsight Microsoft Azure Data Scientist (DP-100)](https://www.pluralsight.com/paths/microsoft-azure-data-scientist-dp-100)** – it teaches how Azure services work together to enable various parts of the Machine Learning workflow. This tutorial from Pluralsight contains 25 lectures that require about 48 hours but since I have an understanding of data science workflow already I focused more on the Building and Deploying Models in Microsoft Azure section.  
  
-**[Microsoft DP-100 Exam sample Questions on examtopics.com]**(https://www.examtopics.com/exams/microsoft/dp-100/view/1/) – this website contains about 60 sample questions for free, these sample questions will help you to understand the type of questions to expect in the example. 
+**[Microsoft DP-100 Exam sample Questions on examtopics.com](https://www.examtopics.com/exams/microsoft/dp-100/view/1/)** – this website contains about 60 sample questions for free, these sample questions will help you to understand the type of questions to expect in the example. 
 
 
 ## What does the DP-100 exam look like? 
  
-**[Price]**(https://docs.microsoft.com/en-us/learn/certifications/exams/dp-100) – It cost about 165 euros before adding VAT since I live in Germany, the price varies based on countries, it also cost about $165 in the US even though $1 does not the same value as 1 euro. For this exam at the time I took it, there was a discount for students so it cost me 91 euros before VAT and about 110 euros after VAT. There are also discount for Microsoft Imagine Academy program members, Microsoft Partner Network program members or a Microsoft Certified Trainer. You can cancel the appointment 6 business days before the exam day to get a full refund.
+**[Price](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-100)** – It cost about 165 euros before adding VAT since I live in Germany, the price varies based on countries, it also cost about $165 in the US even though $1 does not the same value as 1 euro. For this exam at the time I took it, there was a discount for students so it cost me 91 euros before VAT and about 110 euros after VAT. There are also discount for Microsoft Imagine Academy program members, Microsoft Partner Network program members or a Microsoft Certified Trainer. You can cancel the appointment 6 business days before the exam day to get a full refund.
  
 Exam language - English, Korean, Japanese and Simplified Chinese
  
