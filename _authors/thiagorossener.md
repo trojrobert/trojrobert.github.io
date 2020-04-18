@@ -4,7 +4,7 @@ photo: /assets/img/uploads/profile.png
 name: thiagorossener
 display_name: John Robert
 position: 
-bio: I love working with Data. Data Science. Big Data. Machine Leanring 
+bio: I love working with Data. Data Science. Big Data. Machine Learning 
 github_username: trojrobert
 facebook_username: 
 twitter_username: trojrobert
