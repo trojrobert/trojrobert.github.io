@@ -6,9 +6,9 @@ display_name: John Robert
 position: 
 bio: I love working with Data. Data Science. Big Data. Machine Learning 
 github_username: trojrobert
-facebook_username: 
+facebook_username: trojrobert
 twitter_username: trojrobert
-instagram_username: 
+instagram_username: trojrobert
 linkedin_username: john-robert-587907103
-medium_username: 
+medium_username: trojrobert
 ---
