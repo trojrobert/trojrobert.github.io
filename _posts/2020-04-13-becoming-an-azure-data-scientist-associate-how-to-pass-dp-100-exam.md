@@ -42,10 +42,10 @@ The exam will not cover preview features on the Azure Machine Learning Studio, i
 
 My background story before I wrote DP-100 exams, I had just passed the Microsoft Azure Fundamental Certification AZ-900 exams in the heat of the Covid-19 pandemic, precisely March 24th, 2020, you can read my article on [Passing Microsoft Azure AZ-900 exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) before writing the Microsoft Azure Data Scientist Associate Certification DP-100 on April 7, 2020. I was in the penultimate semester of my masters program in Data Analytics(Machine Learning and Big Data), so I had knowledge of Data Science, please note that the AZ-900 exam is not a prerequisite for the DP-100 exam. There are 4 ways to take the exams:
 
-•	At a local test center
-•	At my home or office
-•	At a Certiport test center
-•	I have a private Access code
+* At a local test center
+*	At my home or office
+*	At a Certiport test center
+* I have a private Access code
 
 Following these options, you have a choice of your desired date and time to take the exam. My preference was to take it at home  It took me about 3 full days to prepare for the exams, a full day means studying for about 8 -10 hours a day. On the first day I completed the Microsoft Learn Platform tutorial, on the second day I completed the Pluralsight tutorial, and on the third day, I did revision and completed the sample questions on examtopic.com.  
  
