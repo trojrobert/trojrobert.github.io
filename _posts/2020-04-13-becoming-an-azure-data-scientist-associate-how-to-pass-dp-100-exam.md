@@ -14,14 +14,14 @@ paginate: false
 
 The purpose of this article is to explain what the Microsoft azure DP-100 exam is, the content of the exam, and what I did to pass the exam. I believe this article will guide you with preparing and taking the DP-100 exam.
 
-Prerequisites for passing the exam
+**Prerequisites for passing the exam**
 *	Basic understanding of python. 
 *	Basic understanding of Machine Learning and have worked previously on classification and regression projects.
 
 
 ## What is the Microsoft Azure DP-100 exam? 
 
-The [DP-100 exam](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-100) (Designing and Implementing a Data Science Solution on Azure) by Microsoft is the exam you need to take to get the Azure Data Scientist Associate certificate, it tests your knowledge of data science, and machine learning to implement and run machine learning workloads on Azure. This is the only exam you need to pass to be an [Azure Data Scientist Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist), there is an optional prerequisites Microsoft Azure Fundamentals certification which exam is called AZ-900 exam, I wrote an article on [Passing Microsoft Azure AZ-900 Exam with free azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/).
+The [DP-100 exam](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-100) (Designing and Implementing a Data Science Solution on Azure) by Microsoft is the exam you need to take to get the Azure Data Scientist Associate certificate, it tests your knowledge of data science, and machine learning to implement and run machine learning workloads on Azure. This is the only exam you need to pass to be an [Azure Data Scientist Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist). There is an optional prerequisite Microsoft Azure Fundamentals certification which exam is called AZ-900 exam, I wrote an article on [Passing Microsoft Azure AZ-900 Exam with free azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/).
 
 
 ## What is the content of the Microsoft Azure DP-100 exam? 
@@ -40,7 +40,8 @@ The exam will not cover preview features on the Azure Machine Learning Studio, i
 
 ## What I did to pass the DP-100 Exam
 
-My background story before I wrote DP-100 exams, It was the during of the Covid-19 pandemic and I  had just passed the Microsoft Azure Fundamental Certification AZ-900 exam on March 24th, 2020, you can read my article on [Passing Microsoft Azure AZ-900 exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) before writing the Microsoft Azure Data Scientist Associate Certification DP-100 on April 7, 2020. I was in the penultimate semester of my masters program in Data Analytics(Machine Learning and Big Data), so I had knowledge of Data Science, please note that the AZ-900 exam is not a prerequisite for the DP-100 exam. There are 4 ways to take in the exams.
+My background story before I wrote DP-100 exams, I had just passed the Microsoft Azure Fundamental Certification AZ-900 exams in the heat of the Covid-19 pandemic, precisely March 24th, 2020, you can read my article on [Passing Microsoft Azure AZ-900 exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) before writing the Microsoft Azure Data Scientist Associate Certification DP-100 on April 7, 2020. I was in the penultimate semester of my masters program in Data Analytics(Machine Learning and Big Data), so I had knowledge of Data Science, please note that the AZ-900 exam is not a prerequisite for the DP-100 exam. There are 4 ways to take the exams:
+
 •	At a local test center
 •	At my home or office
 •	At a Certiport test center
@@ -48,16 +49,16 @@ My background story before I wrote DP-100 exams, It was the during of the Covid-
 
 Following these options, you have a choice of your desired date and time to take the exam. My preference was to take it at home  It took me about 3 full days to prepare for the exams, a full day means studying for about 8 -10 hours a day. On the first day I completed the Microsoft Learn Platform tutorial, on the second day I completed the Pluralsight tutorial, and on the third day, I did revision and completed the sample questions on examtopic.com.  
  
-To save money as a student, I used only free account and tutorials, but note you need to understand how Azure Machine Learning designer work that requires an enterprise edition of Azure Machine Learning workspace, this enterprise edition requires a paid subscription but the video from pluralsight is very helpful to learn about the Azure Machine Learning Designer. Please it is also important to understand every line of code in the practical. Details about the free resources I used are written below.
+To save money as a student, I used only free account and tutorials, but note that you need to understand how Azure Machine Learning designer work, and it requires an enterprise edition of Azure Machine Learning workspace. This enterprise edition requires a paid subscription but the videos on pluralsight are very helpful to learn about the Azure Machine Learning Designer. Please it is also important to understand every line of code in the practical. Details about the free resources I used are written below.
 
 
 ## What free resources did I use? 
  
 **[Microsoft Azure Free Account](https://azure.microsoft.com)** – This is a free azure account that comes with  a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards. 
  
-**[Microsoft Learn Platform Tutorial](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)** on Building AI solution with Azure Machine Learning – There are two training options offered by Microsoft for the preparation of the DP-100 exams, first is the free online training and the second is the paid instructor-led training. The free online training consists of 7 modules as of the time I took it, it was estimated to take about 5 hours 19 minutes but you might need more hours since you need to go through all the links in the training, understand and run every line of code in the practical section. The code is written in python and connect to Azure using python SDK. 
+**[Microsoft Learn Platform Tutorial](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)** on Building AI solution with Azure Machine Learning – There are two training options offered by Microsoft for the preparation towards the DP-100 exams, first is the free online training and the second is the paid instructor-led training. The free online training consists of 7 modules as of the time I took it, it was estimated to take about 5 hours 19 minutes but you might need more hours since you need to go through all the links in the training, understand and run every line of code in the practical section. The code is written in python and connect to Azure using python SDK. 
  
-**[Pluralsight Microsoft Azure Data Scientist (DP-100) Tutorial](https://www.pluralsight.com/paths/microsoft-azure-data-scientist-dp-100)** – It teaches how Azure services work together to enable various parts of the Machine Learning workflow. It consists of 25 lectures estimated to take about 48 hours but since I have an understanding of data science workflow already I focused more on the Building and Deploying Models in Microsoft Azure section.  
+**[Pluralsight Microsoft Azure Data Scientist (DP-100) Tutorial](https://www.pluralsight.com/paths/microsoft-azure-data-scientist-dp-100)** – It teaches how Azure services work together to enable various parts of the Machine Learning workflow. It consists of 25 lectures estimated to take about 48 hours but since I have an understanding of data science workflow already, I focused more on the Building and Deploying Models in Microsoft Azure section.  
  
 **[Microsoft DP-100 Exam sample Questions on examtopics.com](https://www.examtopics.com/exams/microsoft/dp-100/view/1/)** – This website contains about 60 sample questions for free, these sample questions will help you to understand the type of questions to expect in the exam. 
 
