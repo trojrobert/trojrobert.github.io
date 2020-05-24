@@ -54,7 +54,7 @@ To save money as a student, I used only free account and tutorials, but note tha
 
 ## What free resources did I use? 
  
-**[Microsoft Azure Free Account](https://azure.microsoft.com)** – This is a free azure account that comes with  a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards. 
+**[Microsoft Azure Free Account](https://azure.microsoft.com/en-us/free/)** – This is a free azure account that comes with  a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards. 
  
 **[Microsoft Learn Platform Tutorial](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)** on Building AI solution with Azure Machine Learning – There are two training options offered by Microsoft for the preparation towards the DP-100 exams, first is the free online training and the second is the paid instructor-led training. The free online training consists of 7 modules as of the time I took it, it was estimated to take about 5 hours 19 minutes but you might need more hours since you need to go through all the links in the training, understand and run every line of code in the practical section. The code is written in python and connect to Azure using python SDK. 
  
