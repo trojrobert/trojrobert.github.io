@@ -165,7 +165,7 @@ Other useful links
 [VM Series](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)
 [Azure Processors](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service)
 
-[Source](/assets/img/uploads/ai-100-certificate)
+![My Microsoft AI-100 Certificate](/assets/img/uploads/ai-100-certificate.png)
 
 ## Skills measured in the exam
 
