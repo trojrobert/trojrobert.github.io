@@ -65,8 +65,8 @@ I read about 6 - 8  hours for 2 weeks( 10 days), I spent about 2 days on Microso
 
 The following definitions explain important terms in azure used by AI engineers, each term is linked to documentation, explore the tutorials and how-to pages in the documentation, they really help to drive home the concepts.
 
-![](/assets/img/uploads/)
-[source](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service#fpgas-vs-cpu-gpu-and-asic)
+![CPU GPU FPGA ASIC](/assets/img/uploads/cpu_gpu_fpga_asic.png)
+source - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service#fpgas-vs-cpu-gpu-and-asic
 
 [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/introduction) - is a managed cloud service that's built for these complex hybrid extract-transform-load (ETL), extract-load-transform (ELT), and data integration projects.
 
@@ -161,10 +161,36 @@ Bing Search API – let you build web-connected apps and services that find webp
 [Azure Compliance](https://azure.microsoft.com/en-in/overview/trusted-cloud/compliance/) - Microsoft offers a comprehensive set of compliance offerings to help your organization comply with national, regional, and industry-specific requirements governing the collection and use of data.
 
 Other useful links 
-https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning
-[VM Series]https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/
+[Microsoft Machine Learning Products](https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-science-and-machine-learning)
+[VM Series](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/series/)
 [Azure Processors](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service)
 
+[Source](/assets/img/uploads/ai-100-certificate)
+
+## Skills measured in the exam
+
+Analyze solution requirements (25-30%)
+* Recommend Cognitive Services APIs to meet business requirements.
+* Map security requirements to tools, technologies, and processes.
+* Select the software, services, and storage required to support a solution.
+
+Design AI- Solutions (40-45%)
+* Design solutions that include one or more pipelines.
+* Design solutions that uses Cognitive Services
+* Design solutions that implement the Bot Framework.
+* Design the compute infrastructure to support a solution
+* Design for data governance, compliance, integrity, and security
+
+Implement and monitor AI solutions (25-30%)
+*	Implement an AI workflow
+*	Integrate AI services and solution components
+*	Monitor and evaluate the AI environment
+
+David das Neves GitHub page (https://github.com/ddneves/awesome-azure-learning/blob/master/topics/certifications/ai-100.md) contain information that will be useful for the exam. 
+
+
+
+I also taught Microsoft Azure Fundamentals for Data Science at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=15s). I also wrote articles on [Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) and [Microsoft Azure DP-100 Exam for Data Scientist Associate](https://medium.com/@trojrobert/becoming-an-azure-data-scientist-associate-how-to-pass-dp-100-exam-804b51a21c2a). I wish you the best in your exam. Happy Learning!!!
 
 
 
