@@ -15,9 +15,9 @@ paginate: false
 source: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-edge
 
  
-I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI Engineer Associate, therefore decided to compile resources that contributed to my success in the exam.
+I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI Engineer Associate, therefore I decided to compile resources that contributed to my success in the exam.
 
-[**What is Microsoft Azure AI-100 Exam**?](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer) This is the exam you have to pass to become a Microsoft Azure AI Engineer Associate, it involves designing and implementing an Azure AI solution. 
+[**What is Microsoft Azure AI-100 Exam**?](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer) This is the exam you have to pass to become a Microsoft Azure AI Engineer Associate. It involves designing and implementing an Azure AI solution. 
 
 **What is expected from the candidates?** 
 
