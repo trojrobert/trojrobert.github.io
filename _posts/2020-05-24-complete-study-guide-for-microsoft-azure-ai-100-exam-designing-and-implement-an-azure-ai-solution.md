@@ -3,7 +3,7 @@ date: 2020-05-24 12:10:46
 layout: post
 title: "Complete Study Guide for Microsoft Azure AI-100 Exam: Designing and Implement an Azure AI Solution"
 subtitle:
-description:
+description: The purpose of this article is to share with you what the Microsoft Azure AI 100 certification on Designing and Implementing an Azure AI Solution is all about, what I did to pass the exam, and the structure of the exam. 
 image: /assets/img/uploads/stream_analytic_egde.png
 optimized_image: /assets/img/uploads/stream_analytic_egde.png
 category:
@@ -17,7 +17,7 @@ source: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics
  
 I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI Engineer Associate, I complied all the useful resources and definition that contributed to my success in the exam. 
 
-[**What is Microsoft Azure AI-100 Exam**?](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer): This is the exam you have to pass to become a Microsoft Azure AI Engineer Associate, it involves designing and implementing an Azure AI solution. 
+[**What is Microsoft Azure AI-100 Exam**?](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer) This is the exam you have to pass to become a Microsoft Azure AI Engineer Associate, it involves designing and implementing an Azure AI solution. 
 
 **What is expected from the candidates?** 
 
