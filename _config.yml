@@ -3,11 +3,11 @@ name: trojrobert
 title: trojrobert | trojrobert
 description: trojrobert
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - Azure
+  - DP-100
+  - AZ-100
+  - cloud computing
+  - machine learning
 email: youremail@xyz.com
 disqus_username: disqus_username
 show_hero: true
@@ -24,12 +24,12 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: https://github.com/trojrobert
 facebook_username: facebook_username
-twitter_username: twitter_username
+twitter_username: https://twitter.com/trojrobert
 instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+linkedin_username: https://www.linkedin.com/in/john-robert-587907103/
+medium_username: https://medium.com/@trojrobert
 
 
 # Posts Settings
