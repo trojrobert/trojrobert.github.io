@@ -4,8 +4,8 @@ layout: post
 title: "Complete Study Guide for Microsoft Azure AI-100 Exam: Designing and Implement an Azure AI Solution"
 subtitle:
 description:
-image: 
-optimized_image: 
+image: /assets/img/uploads/stream_analytic_egde.png
+optimized_image: /assets/img/uploads/stream_analytic_egde.png
 category:
 tags:
 author:
