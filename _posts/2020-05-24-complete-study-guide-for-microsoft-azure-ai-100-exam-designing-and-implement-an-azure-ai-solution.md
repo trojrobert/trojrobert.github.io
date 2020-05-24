@@ -18,11 +18,16 @@ I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI
 [**What is Microsoft Azure AI-100 Exam**?](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer): This is the exam you have to pass to become a Microsoft Azure AI Engineer Associate, it involves designing and implementing an Azure AI solution. 
 
 **What is expected from the candidates?** 
-•	You should have subject matter expertise using cognitive services, machine learning, and knowledge mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, and conversational AI.
-•	You must be able to analyze the requirements for AI solutions, recommend appropriate tools and technologies and implements solutions that meet scalability and performance requirements.
-•	You should be able to translate the vision from solution architects and work with data scientists, data engineers, IOT specialists, and AI developers to build complete end to end solutions.
-•	You should have knowledge and experience designing and implementing AI apps and agents that use Microsoft Azure Cognitive Services, Azure Bot Service, Azure Cognitive Search, and data storage in Azure.
-•	You should be able to recommend solutions that use open source technologies, understand the components that make up the Azure AI portfolio and the available data storage options, and understand when a custom API should be developed to meet specific requirements.
+
+*	You should have subject matter expertise using cognitive services, machine learning, and knowledge mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, and conversational AI.
+
+*	You must be able to analyze the requirements for AI solutions, recommend appropriate tools and technologies and implements solutions that meet scalability and performance requirements.
+
+*	You should be able to translate the vision from solution architects and work with data scientists, data engineers, IOT specialists, and AI developers to build complete end to end solutions.
+
+*	You should have knowledge and experience designing and implementing AI apps and agents that use Microsoft Azure Cognitive Services, Azure Bot Service, Azure Cognitive Search, and data storage in Azure.
+
+*	You should be able to recommend solutions that use open source technologies, understand the components that make up the Azure AI portfolio and the available data storage options, and understand when a custom API should be developed to meet specific requirements.
 
 
 
