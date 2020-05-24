@@ -1,5 +1,5 @@
 ---
-date: 2020-05-24 11:52:20
+date: 2020-05-24 11:53:44
 layout: post
 title: "Complete Study Guide for Microsoft Azure AI-100 Exam - Designing and Implementing an Azure AI Solution"
 subtitle:
