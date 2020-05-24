@@ -1,7 +1,7 @@
 ---
 date: 2020-05-24 12:10:46
 layout: post
-title: "Complete Study Guide for Microsoft Azure AI-100 Exam: Designing and Implement an Azure AI Solution"
+title: "Complete Study Guide for Microsoft Azure AI-100 Exam: Designing and Implementing an Azure AI Solution"
 subtitle:
 description: The purpose of this article is to share with you what the Microsoft Azure AI 100 certification on Designing and Implementing an Azure AI Solution is all about, what I did to pass the exam, and the structure of the exam. 
 image: /assets/img/uploads/stream_analytic_egde.png
@@ -45,6 +45,7 @@ The exam costs $165 which varies based on country plus addition tax if applicabl
 ## Resources used 
 
 [Microsoft Azure Account](https://azure.microsoft.com/en-us/free/) - This is a free azure account that comes with a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards.
+
 Microsoft Learn Platform Tutorial – this contain the following learning paths
 
 * [Evaluate text with Azure Cognitive Language Services](https://docs.microsoft.com/en-us/learn/paths/evaluate-text-with-language-services/) – this contain 3 modules and is estimated to be completed in about 2 hours 13 minutes.
