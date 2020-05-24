@@ -11,6 +11,7 @@ tags:
 author:
 paginate: false
 ---
+source: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-edge
 
 The purpose of this article is to share with you what the Microsoft Azure AI-100 certification on Designing and Implementing an Azure AI Solution is all about, what I did to pass the exam, and the structure of the exam. 
 I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI Engineer Associate, I complied all the useful resources and definition that contributed to my success in the exam. 
