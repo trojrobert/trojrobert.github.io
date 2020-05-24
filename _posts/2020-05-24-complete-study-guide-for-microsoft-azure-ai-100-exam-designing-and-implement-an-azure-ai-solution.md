@@ -15,7 +15,7 @@ paginate: false
 source: https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-edge
 
  
-I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI Engineer Associate, I complied all the useful resources and definition that contributed to my success in the exam. 
+I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI Engineer Associate, therefore decided to compile resources that contributed to my success in the exam.
 
 [**What is Microsoft Azure AI-100 Exam**?](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer) This is the exam you have to pass to become a Microsoft Azure AI Engineer Associate, it involves designing and implementing an Azure AI solution. 
 
@@ -23,7 +23,7 @@ I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI
 
 *	You should have subject matter expertise using cognitive services, machine learning, and knowledge mining to architect and implement Microsoft AI solutions involving natural language processing, speech, computer vision, and conversational AI.
 
-*	You must be able to analyze the requirements for AI solutions, recommend appropriate tools and technologies and implements solutions that meet scalability and performance requirements.
+*	You must be able to analyze the requirements for AI solutions, recommend appropriate tools and technologies and implement solutions that meet scalability and performance requirements.
 
 *	You should be able to translate the vision from solution architects and work with data scientists, data engineers, IOT specialists, and AI developers to build complete end to end solutions.
 
@@ -32,39 +32,38 @@ I just passed the Microsoft Azure AI-100 exam which made me a Microsoft Azure AI
 *	You should be able to recommend solutions that use open source technologies, understand the components that make up the Azure AI portfolio and the available data storage options, and understand when a custom API should be developed to meet specific requirements.
 
 ## My experience 
-I wrote the exam on May 22, 2020 using the option of taking my exam “at home or office”. Before the day of the exam, I have spent about 70 hours preparing for the exam. I will share with you the details of the materials and the time spend on each material later. My exam was scheduled for 12:30 pm central European Time, on my schedule I have 210 minutes but the exam itself took 180 minutes (3 hours), the remaining 30 minutes was for surveys and reviews.
+I wrote the exam on May 22, 2020 using the option of taking my exam “at home or office”. Before the day of the exam, I had spent about 70 hours preparing for the exam. I will share with you the details of the materials and the time spent on each material later. My exam was scheduled for 12:30 pm central European Time, on my schedule I had 210 minutes but the exam itself took 180 minutes (3 hours), the remaining 30 minutes was for surveys and reviews.
 
- I was in front of my computer by 12:00 pm and the "Begin Exam" button was already activated. I clicked "Begin Exam", as I said earlier, I am writing my exam from home. I was asked to download the OnVUE app, then I inserted my access code and phone number in the app. I was sent a URL by text message to my phone, on opening the URL, I was asked to upload of a picture of myself, my ID( passport or driving license), my desk(front), left, right, and back using my phone. After I uploaded everything correctly, I refreshed the OnVUE app on my computer then I got a message to wait for 15 minutes for a representative to contact me.  A representative chatted me up and told me to show her my 360 using my room with my laptop webcam because after uploading the pictures, phones are not allowed at arm's length. Note, you can’t use an external monitor if you are using a laptop. After the interaction with the representative, she gave me the exams. Few minutes to read instructions and accept terms and conditions, then 10 minutes survey on your level in Azure AI solutions, then  180 minutes(3 hours) for exams, then 10 minutes to review all my questions but you can’t change your answer during this review,  then finally a survey. 
+ I was in front of my computer by 12:00 pm and the “Begin Exam” button was already activated. I clicked on “Begin Exam” as I said earlier, I am writing my exam from home. I was asked to download the OnVUE app, then I inserted my access code and phone number in the app. I was sent a URL by text message to my phone. On opening the URL, I was asked to upload a picture of myself, my ID( passport or driving license), my desk(front), left, right, and back using my phone. After I uploaded everything correctly, I refreshed the OnVUE app on my computer then I got a message to wait for 15 minutes for a representative to contact me. A representative chatted me up and told me to show her my 360 using my room with my laptop webcam because after uploading the pictures, phones are not allowed at arm’s length. Note, you can’t use an external monitor if you are using a laptop. After the interaction with the representative, she gave me the exams. I was given few minutes to read instructions and accept terms and conditions, this was followed by 10 minutes survey on my level in Azure AI solutions. The exam itself was for 180 minutes(3 hours) for exams with an additional 10 minutes to review all my questions, this review does not allow for any change in answers. Lastly, a final survey followed.
  
-During the 180 minutes for the exam, I was given 36 questions (I learnt the questions could vary from 30 - 50), my first 6 questions were the questions which you cannot select to be reviewed and changed later. There are two review sessions, first is during your 180 minutes and the other is during the 10 minutes after your submitting. You can review and change answers to questions selected for review in the first session but in the second session you have access to all your questions and you can't change answers. You are not required to type anything during the exam.
+During the 180 minutes for the exam, I was given 36 questions (I learnt the questions could vary from 30–50), my first 6 questions were the questions which you cannot select to be reviewed and changed later. There are two review sessions, first is during your 180 minutes and the other is during the 10 minutes after your submitting. You can review and change answers to questions selected for review in the first session but in the second session you have access to all your questions and you can’t change answers. You are not required to type anything during the exam.
 
 ## About AI-100 Exam 
 
-The exam costs $165 which varies based on country plus addition tax if applicable. There was a discount for students when I was wrote the exam, instead of 165 euros(since I live in Germany), I had to pay 91 euros and the 17.29 tax which summed up to be 108.29. Check details about the exam [here](https://docs.microsoft.com/en-us/learn/certifications/exams/ai-100). The pass mark is 700, the question type varies from drag and drop to arrange in the right other to multiple-choice and so on. You are not required to type anything. 
+The exam costs $165 which varies based on country plus addition tax if applicable. There was a discount for students when I wrote the exam, instead of 165 euros(since I live in Germany), I had to pay 91 euros and the 17.29 tax which summed up to be 108.29. Check details about the exam [here](https://docs.microsoft.com/en-us/learn/certifications/exams/ai-100). The pass mark is 700, the question type varies from drag and drop, arrange in the right other, to multiple-choice and so on. You are not required to type anything.
 
 ## Resources used 
 
 [Microsoft Azure Account](https://azure.microsoft.com/en-us/free/) - This is a free azure account that comes with a 12 months validity. $200 free credit is offered for the first 30 days and more than 25 products are accessible for free afterwards.
 
-Microsoft Learn Platform Tutorial – this contain the following learning paths
+Microsoft Learn Platform Tutorial –  this contains the following learning paths
 
-* [Evaluate text with Azure Cognitive Language Services](https://docs.microsoft.com/en-us/learn/paths/evaluate-text-with-language-services/) – this contain 3 modules and is estimated to be completed in about 2 hours 13 minutes.
+* [Evaluate text with Azure Cognitive Language Services](https://docs.microsoft.com/en-us/learn/paths/evaluate-text-with-language-services/) –  this contains 3 modules and is estimated to be completed in about 2 hours 13 minutes.
 
-* [Process and translate speech with Azure Cognitive Speech Services](https://docs.microsoft.com/en-us/learn/paths/translate-speech-with-speech-services/) – this contain 2 modules and it is estimated to be completed in about 1 hour 44 minutes.
+* [Process and translate speech with Azure Cognitive Speech Services](https://docs.microsoft.com/en-us/learn/paths/translate-speech-with-speech-services/) – this contains 2 modules and it is estimated to be completed in about 1 hour 44 minutes.
 
-* [Create Intelligent Bots with Azure Bot Service](https://docs.microsoft.com/en-us/learn/paths/create-bots-with-the-azure-bot-service/) - this contain 1 module and it is estimated to be completed in about 29 minutes.
+* [Create Intelligent Bots with Azure Bot Service](https://docs.microsoft.com/en-us/learn/paths/create-bots-with-the-azure-bot-service/) - this contains 1 module and it is estimated to be completed in about 29 minutes.
 
-* [Process and classify images with Azure Cognitive Vision Services](https://docs.microsoft.com/en-us/learn/paths/classify-images-with-vision-services/) - this contain 4 modules and it is estimated to be completed in about 2 hours 45 minutes.
+* [Process and classify images with Azure Cognitive Vision Services](https://docs.microsoft.com/en-us/learn/paths/classify-images-with-vision-services/) - this contains s4 modules and it is estimated to be completed in about 2 hours 45 minutes.
 
-[Pluralsight](https://www.pluralsight.com/paths/microsoft-azure-ai-engineer-ai-100) – You can use the free trial for 7 days, the Microsoft Azure Ai Engineer(AI-100) contain 14 courses and it is estimated to be completed in about 26 hours. 
+[Pluralsight](https://www.pluralsight.com/paths/microsoft-azure-ai-engineer-ai-100) – You can use the free trial for 7 days, the Microsoft Azure Ai Engineer(AI-100) contains 14 courses and it is estimated to be completed in about 26 hours. 
 
-[Examtopics](https://www.examtopics.com/exams/microsoft/ai-100/view/) – It website contain over 100 practices questions, every question have a solution , link to why the solution is right and a discussion section. Please read through each link and explore the discuss sections because some solution may be wrong and they are corrected with reasons in the discussion section. 
+[Examtopics](https://www.examtopics.com/exams/microsoft/ai-100/view/) –  this website contains over 100 practice questions, every question has a solution, link to why the solution is right and a discussion section. Please read through each link and explore the discussion sections because some solutions may be wrong and they are corrected with reasons in the discussion section. 
 
-I read about 6 - 8  hours for 2 weeks( 10 days), I spent about 2 days on Microsoft Learn Platform tutorial, 5 days on Pluralsight, 3 days on Examtopics website. 
+I read about 6–8 hours for 2 weeks( 10 days), I spent about 2 days on Microsoft Learn Platform tutorial, 5 days on Pluralsight, 3 days on Examtopics website.
 
 ## Important terms for AI-100 
-
-The following definitions explain important terms in azure used by AI engineers, each term is linked to documentation, explore the tutorials and how-to pages in the documentation, they really help to drive home the concepts.
+The following definitions explain important terms in azure used by AI engineers, each term is linked to documentation. Explore the tutorials and how-to pages in the documentation, they really help to drive home the concepts.
 
 ![CPU GPU FPGA ASIC](/assets/img/uploads/cpu_gpu_fpga_asic.png)
 source - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-fpga-web-service#fpgas-vs-cpu-gpu-and-asic
@@ -141,7 +140,7 @@ Decision - build apps that surface recommendations for informed and efficient de
 
 Bing Search API – let you build web-connected apps and services that find webpages, image, news, locations and more without advertisements.
 
-[Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0) -  provide tools to build, test, deploy, and manage intelligent bots, all in one place. Through the use of modular and extensible framework provided by the SDK, tools, templates, and AI services developers can create bots that use speech, understand natural language, handle questions and answers, and more.
+[Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0) -  provide tools to build, test, deploy, and manage intelligent bots, all in one place. Through the use of modular and extensible framework provided by the SDK, tools, templates, and AI services, developers can create bots that use speech, understand natural language, handle questions and answers, and more.
 
 [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) -  a feature of Azure Monitor  is an extensible Application Performance Management (APM) service for developers and DevOps professionals. Use it to monitor your live applications.
 
@@ -191,7 +190,7 @@ David das Neves GitHub page (https://github.com/ddneves/awesome-azure-learning/b
 
 
 
-I also taught Microsoft Azure Fundamentals for Data Science at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=15s). I also wrote articles on [Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) and [Microsoft Azure DP-100 Exam for Data Scientist Associate](https://medium.com/@trojrobert/becoming-an-azure-data-scientist-associate-how-to-pass-dp-100-exam-804b51a21c2a). I wish you the best in your exam. Happy Learning!!!
+I also taught Microsoft Azure Fundamentals for Data Science at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=15s), I wrote articles on [Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) and [Microsoft Azure DP-100 Exam for Data Scientist Associate](https://medium.com/@trojrobert/becoming-an-azure-data-scientist-associate-how-to-pass-dp-100-exam-804b51a21c2a). I wish you the best in your exam. Happy Learning!!!
 
 
 
