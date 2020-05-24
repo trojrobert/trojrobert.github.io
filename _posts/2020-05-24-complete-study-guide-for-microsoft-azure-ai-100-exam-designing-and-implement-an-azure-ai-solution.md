@@ -190,7 +190,7 @@ David das Neves GitHub page (https://github.com/ddneves/awesome-azure-learning/b
 
 
 
-I also taught Microsoft Azure Fundamentals for Data Science at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=15s), I wrote articles on [Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) and [Microsoft Azure DP-100 Exam for Data Scientist Associate](https://medium.com/@trojrobert/becoming-an-azure-data-scientist-associate-how-to-pass-dp-100-exam-804b51a21c2a). I wish you the best in your exam. Happy Learning!!!
+I also taught Microsoft Azure Fundamentals for Data Science at the [5-days AI everyday Virtual Bootcamp](https://www.youtube.com/watch?v=J-zmJ05sG3Y&t=15s) and equally wrote articles on [Passing Microsoft Azure AZ-900 Exam with free Azure Account and Tutorials](https://trojrobert.github.io/passing-microsoft-azure-az-900-exam-with-free-azure-account-and-tutorials/) and [Microsoft Azure DP-100 Exam for Data Scientist Associate](https://medium.com/@trojrobert/becoming-an-azure-data-scientist-associate-how-to-pass-dp-100-exam-804b51a21c2a). I wish you the best in your exam. Happy Learning!!!
 
 
 
