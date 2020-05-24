@@ -3,7 +3,7 @@ date: 2020-05-24 12:10:46
 layout: post
 title: "Complete Study Guide for Microsoft Azure AI-100 Exam: Designing and Implement an Azure AI Solution"
 subtitle:
-description:The purpose of this article is to share with you what the Microsoft Azure AI-100 certification on Designing and Implementing an Azure AI Solution is all about, what I did to pass the exam, and the structure of the exam.
+description:
 image: 
 optimized_image: 
 category:
