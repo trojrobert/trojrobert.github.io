@@ -4,8 +4,8 @@ layout: post
 title: "From Competition to Production: Deploying Machine Learning Model using Ugandan Air Quality Forecast Challenge on Azure"
 subtitle:
 description:
-image:
-optimized_image:
+image: /assets/img/uploads/air-quality-workflow.png
+optimized_image: /assets/img/uploads/air-quality-workflow.png
 category:
 tags:
 author:
@@ -51,6 +51,9 @@ To understand this section very well, we need to understand some terms in Azure
 In the diagram, the data ingestion part involves the section in the red dotted box. For the project, we will connect our sensors to the IoT edge device through a gateway. Azure IoT runtime in the IoT also manage a secure connection to our sensors, install and update workloads on the sensors, remote monitoring the sensors and other communication to our sensors. We also register each sensor on the IoT hub to identify each sensor. Then we get an image that triggers some computation on the data
 from the azure container registry and deploys it in an IoT edge module. This is just a high-level view of the workflow between a sensor, an Azure IoT edge device, and an Azure IoT Hub. We could also deploy [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) or [Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) and Azure Machine Learning as a module to the Azure IoT edge device.
 The data in Azure IoT Hub is routed to Azure storage. Azure has several storage types depending on our use case. In our case, we will use a [blob storage container]( https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) for storing massive unstructured data coming from our sensor. There is also Azure Cosmos DB use for multi-model database services like Mongo DB and Cassandra, etc.
+
+![Life cycle of ML project]( /assets/img/uploads/ml-project-lifecycle.png "source - https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/")
+ml-project-lifecycle.png
 
 ## Labeling
 In the section, we add labels to the data we will use in training our model. Most time this is done manually, the quality and accuracy of the label affect the accuracy of our model so we need to pay a lot of attention to it.  
