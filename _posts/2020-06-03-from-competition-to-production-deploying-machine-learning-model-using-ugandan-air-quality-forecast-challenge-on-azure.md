@@ -17,7 +17,7 @@ A lot of attention has been put into getting the best accuracy while building Ma
 This article describes all the steps involved in the lifecycle of a ML project using the competition as a use case. I used [Microsoft Azure](https://azure.microsoft.com/en-gb/overview/what-is-azure/) cloud services for deploying the model.You can find the detail of the implementation on [github](https://github.com/trojrobert/uganda-air-quality-challenge)
 
 ## Defining Project Goals
-The goal of the [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data) on [Zindi](https://zindi.africa/) is to predict the air quality level of cities in Uganda(https://en.wikipedia.org/wiki/Uganda) a country in Africa at exactly 24 hours after a 5 day series of hourly weather data readings . To measure the air quality level, we need to know the mass of PM2.5(particulate matter smaller than 2.5 micrometers in diameter or around 1/30th the thickness of a human hair) in a volume of air given by micrograms per cubic meters(m/m3). These particles are not visible to human eye because they are exceedingly small, they are generated from vehicle exhaust, machines in industries, burning of fossil fuels, and others. Bad air quality causes respiratory diseases, heart diseases, and stroke.
+The goal of the [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data) on [Zindi](https://zindi.africa/) is to predict the air quality level of cities in [Uganda](https://en.wikipedia.org/wiki/Uganda) a country in Africa at exactly 24 hours after a 5 day series of hourly weather data readings . To measure the air quality level, we need to know the mass of PM2.5(particulate matter smaller than 2.5 micrometers in diameter or around 1/30th the thickness of a human hair) in a volume of air given by micrograms per cubic meters(m/m3). These particles are not visible to human eye because they are exceedingly small, they are generated from vehicle exhaust, machines in industries, burning of fossil fuels, and others. Bad air quality causes respiratory diseases, heart diseases, and stroke.
 
 ## Choose the project task 
 From the goal of the project, I can formulate the project for different tasks.
@@ -68,8 +68,8 @@ At this point, we have our data stored in our storage account blob container, an
 * Register the model
 To perform the above steps, you need to understand the following Azure terms used in Machine learning
 
-**[Azure ML Workspace]**( https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio) is a dedicated platform for data scientist for managing data science workflow, it coordinates all resources and steps in building, testing and deploying a machine learning model.
-**[Compute target]**(https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target) – is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
+**[Azure ML Workspace]( https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio)** is a dedicated platform for data scientist for managing data science workflow, it coordinates all resources and steps in building, testing and deploying a machine learning model.
+**[Compute target](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target)** – is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
 **Estimator** – it is used for managing a machine leaning experiment, it contains all the package dependencies required to run an experiment. 
 
 ### Create a workspace
