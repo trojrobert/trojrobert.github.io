@@ -4,8 +4,8 @@ layout: post
 title: "From Competition to Production: Deploying Machine Learning Model using Ugandan Air Quality Forecast Challenge on Azure"
 subtitle:
 description:
-image: /assets/img/uploads/air-quality-workflow.png
-optimized_image: /assets/img/uploads/air-quality-workflow.png
+image: /assets/img/uploads/air-quality-workflow.PNG
+optimized_image: /assets/img/uploads/air-quality-workflow.PNG
 category:
 tags:
 author:
