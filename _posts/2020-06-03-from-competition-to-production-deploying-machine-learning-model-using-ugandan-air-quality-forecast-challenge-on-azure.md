@@ -40,7 +40,7 @@ For each of these 5 sensors used for gathering the data, they collected the feat
 ## Data Ingest
 Data ingestion is a process of moving data from one or more sources to a destination for instance a database where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and stored them in a data storage. We will be using Azure data storage container to store the data. 
 To understand this section very well, we need to understand some terms in Azure
-* [Azure IoT Edge]( https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge) this is used to move cloud analytics and custom business logic to devices so that you can focus on business insights instead of data management. It consists of IoT Edge modules, IoT Edge runtime, and cloud-based interface.
+* [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge) this is used to move cloud analytics and custom business logic to devices so that you can focus on business insights instead of data management. It consists of IoT Edge modules, IoT Edge runtime, and cloud-based interface.
 * IoT Edge modules are containers that run Azure services, third-party services, or our own code. Modules are deployed to IoT Edge devices and execute locally on those devices.
 * IoT Edge runtime runs on each IoT Edge device and manages the modules deployed to each device. It also performs management and communication operations. 
 * Cloud-based interface enables you to remotely monitor and manage IoT Edge devices.
