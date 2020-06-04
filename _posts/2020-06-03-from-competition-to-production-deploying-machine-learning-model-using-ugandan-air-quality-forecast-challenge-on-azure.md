@@ -69,7 +69,9 @@ At this point, we have our data stored in our storage account blob container, an
 To perform the above steps, you need to understand the following Azure terms used in Machine learning
 
 **[Azure ML Workspace]( https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio)** is a dedicated platform for data scientist for managing data science workflow, it coordinates all resources and steps in building, testing and deploying a machine learning model.
+
 **[Compute target](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target)** – is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
+
 **Estimator** – it is used for managing a machine leaning experiment, it contains all the package dependencies required to run an experiment. 
 
 ### Create a workspace
