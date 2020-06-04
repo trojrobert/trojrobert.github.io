@@ -52,7 +52,7 @@ In the diagram, the data ingestion part involves the section in the red dotted b
 from the azure container registry and deploys it in an IoT edge module. This is just a high-level view of the workflow between a sensor, an Azure IoT edge device, and an Azure IoT Hub. We could also deploy [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) or [Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) and Azure Machine Learning as a module to the Azure IoT edge device.
 The data in Azure IoT Hub is routed to Azure storage. Azure has several storage types depending on our use case. In our case, we will use a [blob storage container]( https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) for storing massive unstructured data coming from our sensor. There is also Azure Cosmos DB use for multi-model database services like Mongo DB and Cassandra, etc.
 
-![Life cycle of ML project]( /assets/img/uploads/ml-project-lifecycle.png "source - https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/")
+![Life cycle of ML project]( /assets/img/uploads/ml-project-lifecycle.PNG "source - https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/")
 ml-project-lifecycle.png
 
 ## Labeling
