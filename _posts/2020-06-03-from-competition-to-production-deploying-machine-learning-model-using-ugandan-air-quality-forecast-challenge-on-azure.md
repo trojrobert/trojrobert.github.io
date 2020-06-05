@@ -41,9 +41,9 @@ Measuring PM2.5 which affects the air quality level of place requires gathering 
 For each of these sensors used, metadata containing the featuresof the sensors (location, height above sea level...) was collected. You can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
 
 ## Data Ingest
-Data ingestion is a process of moving data from one or more sources to a destination for instance a database where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and stored them in a data storage. We will be using Azure data storage container to store the data. 
-To understand this section very well, we need to understand some terms in Azure
-* [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge) this is used to move cloud analytics and custom business logic to devices so that you can focus on business insights instead of data management. It consists of IoT Edge modules, IoT Edge runtime, and cloud-based interface.
+Data ingestion is a process of moving data from one or more sources to a destination where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and store them in a data storage. We will be use Azure data storage container to store the data. 
+To understand this section well, we need to understand some terms in Azure
+* [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge): this is used to move cloud analytics and custom business logic to devices so that you can focus on business insights instead of data management. It consists of IoT Edge modules, IoT Edge runtime, and cloud-based interface.
 * IoT Edge modules are containers that run Azure services, third-party services, or our own code. Modules are deployed to IoT Edge devices and execute locally on those devices.
 * IoT Edge runtime runs on each IoT Edge device and manages the modules deployed to each device. It also performs management and communication operations. 
 * Cloud-based interface enables you to remotely monitor and manage IoT Edge devices.
