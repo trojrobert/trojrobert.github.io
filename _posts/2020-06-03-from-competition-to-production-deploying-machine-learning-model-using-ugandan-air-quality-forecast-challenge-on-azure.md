@@ -18,19 +18,20 @@ While building Machine Learning models, a lot of attention is put into getting t
 This article describes all the steps involved in the lifecycle of a ML project using the competition as a use case. I used [Microsoft Azure](https://azure.microsoft.com/en-gb/overview/what-is-azure/) cloud services for deploying the model.You can find the details of the implementation on [github](https://github.com/trojrobert/uganda-air-quality-challenge).
 
 ## Defining Project Goals
-The goal of the [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data) on [Zindi](https://zindi.africa/) is to predict the air quality level of cities in [Uganda](https://en.wikipedia.org/wiki/Uganda) at exactly 24 hours after a 5 day series of hourly weather data readings . To measure the air quality level, we need to know the mass of PM2.5 (particulate matter smaller than 2.5 micrometers in diameter or around 1/30th the thickness of a human hair strand) in a volume of air given by micrograms per cubic meters(m/m3). These particles are not visible to human eye because they are exceedingly small; they are generated from vehicle exhaust, machines in industries, burning of fossil fuels, and others. Bad air quality causes respiratory diseases, heart diseases, and stroke.
+The goal of the [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data) on [Zindi](https://zindi.africa/) is to predict the air quality level of cities in [Uganda](https://en.wikipedia.org/wiki/Uganda) at exactly 24 hours after a 5 day series of hourly weather data readings . To measure the air quality level, we need to know the mass of PM2.5 (particulate matter smaller than 2.5 micrometers in diameter or around 1/30th the thickness of a human hair strand) in a volume of air given by micrograms per cubic meters(&mu/m3). These particles are not visible to human eye because they are exceedingly small. Tey are generated from vehicle exhaust, machines in industries, burning of fossil fuels, and others. Bad air quality causes respiratory diseases, heart diseases, and stroke.
 
 ## Choose the project task 
-From the goal of the project, I can formulate the project for different tasks.
-* **Classification**: If the level of air quality has been divided into different classes for instance good, moderate, unhealthy for sensitive groups, unhealthy, very unhealthy, and hazardous. The task could be to predict the class of a place. 
-* **Regression**: If the task is to predict the PM2.5 a continuous variable.
+The project can be formulated as solving any of the following tasks.
+* **Classification**: If the level of air quality has been divided into different classes for instance good, moderate, unhealthy for sensitive groups, unhealthy, very unhealthy, and hazardous,  the task could be to assign a task to a location. 
+* **Regression**: If the task is to predict the PM2.5(a continuous variable).
 * **Clustering**: If the task is to cluster cities with similar air quality levels.
 * **Anomaly detection**: If the task is to monitor sudden changes in the air quality level.
 * **Forecasting**: If the task is to predict the air quality level for the future.
-In this challenge/project, the best choice is a forecasting task since we are asked to predict the air quality level at exactly 24 hours after a 5-day series of hourly weather data readings.
+
+Formulating this challenge as a forecasting task since we are asked to predict the air quality level at exactly 24 hours after a 5-day series of hourly weather data readings is the best choice.
 
 ## Data Collection 
-Measuring PM2.5 which affects the air quality level of place require gathering data from several sensors. For the Ugandan Air Quality challenge, they used 5 sensors to get the following data every hour:
+Measuring PM2.5 which affects the air quality level of place requires gathering data from several sensors. For the Ugandan Air Quality challenge, they used 5 sensors to get the following data every hour:
 1.	**Temperature(temp)**: mean temperature recorded at the site over an hour, measured in degrees Celsius.
 2.	**Precipitation(precip)**: total rainfall recorded over an hour, measured in millimeter.
 3.	**Wind Direction(wind_dir)**: mean direction of wind over an hour, measured in degrees.
