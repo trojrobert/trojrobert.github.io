@@ -142,13 +142,13 @@ except ComputeTargetException:
 This is also a common process in machine learning. I created a script to handle the nan values, remove and add other features. We will import this script while building the model. This script will also be used for cleaning and transforming the raw data during training and inferencing.  
 
 ### Build model 
-In this project we will use the CatBooostRegressor model. Using 20 folds cross validation, 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
+In this project we will use the CatBooostRegressor model, 20-fold cross validation, 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
 
 ### Create an environment and train a model in it  
-We create an environment using the estimator class then we install some packages like catboost, joblib, and scikit-learn. These packages are important to run our models. Thereafter we run our training script in the environment. We can make some changes in our model and do hyperparameter tuning then run the experiment again. We can have several runs in an experiment, we will register the best model which will be deployed later. We can also register several models then decide the version of the registered model to deploy.
+We create an environment using the estimator class then we install some packages like catboost, joblib, and scikit-learn. These packages are important to run our models. Thereafter we run our training script in the environment. We can make some changes in our model, do hyperparameter tuning then run the experiment again. We can have several runs in an experiment. We will register the best model which will be deployed later. We can also register several models then decide the version of the registered model to deploy.
 
 ## Testing and deploying
-At this point, we have a trained model. We need to test the model with the test set to check how accurate our model is, then deploy the model to test on real-life data. We will go through the following steps;
+At this point, we have a trained model. We need to test the model with the test set to check how accurate our model is, then deploy the model to test on real-life data. We will go through the following steps:
 
 *	Make predictions with register model
 *	Create a scoring script
@@ -160,7 +160,7 @@ At this point, we have a trained model. We need to test the model with the test 
 We make predictions with our saved model using the predict method. But we need to remember to run the feature engineering script to clean the data before calling the predict method to test our test data..
 
 ### Create a scoring script
-The scoring script is used for inferencing, after deploying the model as a service, the script loads the model and returns the predictions for the submitted data.  The script contains two major methods. First, is the init() method which is called when the service is initialized. The second method is the run(raw_data) which takes the data we want to predict as an argument. This script can be run inside a container which can then be deployed as a web service or Azure IoT Edge module. 
+The scoring script is used for inferencing. After deploying the model as a service, the script loads the model and returns the predictions for the submitted data.  The script contains two major methods. First, is the init() method which is called when the service is initialized. The second method is the run(raw_data) which takes the data we want to predict as an argument. This script can be run inside a container which can then be deployed as a web service or Azure IoT Edge module. 
 
 
 ```python
@@ -189,16 +189,16 @@ def run(raw_data):
 
 
 ### Create inference environment
-Previously we created an environment to train the model, we also need to create an environment to deploy the model. This environment will be created as a YAML file, it contains all the dependencies required to run the model at production.
+Previously we created an environment to train the model, we also need to create an environment to deploy the model. This environment will be created as a YAML file, it contains all the dependencies required to run the model in production.
 
 ### Create a docker image
-Create a docker image using the azure core image class, this image contains the scoring script and the inference environment YAML file. While creating the image, we also include the model in the image.
+Create a docker image using the Azure core image class, this image contains the scoring script and the inference environment YAML file. While creating the image, we also include the model in the image.
 
 ### Deploy the model
-This involves the green dotted section in the diagram, we have three modules in the Azure IoT device
-* **Air quality model module** – This IoT edge module contains the image of the model, it received a clean / processed data from the Router module and output prediction from the model. The output prediction is sent to the router module.
-* **Router Module** – This module receives the raw data from the device, processes the data using the feature engineering scripts, the processed data is sent to the Air quality to get predictions. It also receives the prediction from the air quality model module. The prediction and the raw data are sent to the writer module.
-**Writer Module** – This module stores the prediction and the raw data gotten from the router module in the azure storage.
+This involves the green dotted section in the diagram(Figure 1). We have three modules in the Azure IoT device
+* **Air quality model module** – This IoT edge module contains the image of the model. It received a clean / processed data from the Router module and predictions from the model. The predictions is sent to the router module.
+* **Router Module** – This module receives the raw data from the device, processes the data using the feature engineering scripts, the processed data is sent to the Air quality model module to get predictions. It also receives back the prediction from the Air Quality model module. The prediction and the raw data are sent to the writer module.
+* **Writer Module** – This module stores the prediction and the raw data gotten from the router module in the Azure storage.
 
 ## Conclusion
-Deploying a machine learning model is a critical aspect of a machine learning model that has always been overlooked. From this article, we went through each step in building an ML project using the Air quality challenge on Zindi and we were able to deploy our model on an IoT device for real-life prediction.
+Deploying a machine learning model is a critical aspect of a machine learning project that has always been overlooked. From this article, we went through each step in building an ML project using the Air quality challenge on Zindi and we were able to deploy our model on an IoT device for real-life prediction.
