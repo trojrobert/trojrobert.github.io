@@ -58,8 +58,8 @@ from the azure container registry and deploy it in an IoT edge module. This is j
 
 The data in Azure IoT Hub is routed to Azure storage. Azure has several storage types depending on our use case. In our case, we will use a [blob storage container]( https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) for storing massive unstructured data coming from our sensor. There is also Azure Cosmos DB use for multi-model database services like Mongo DB and Cassandra, etc.
 
-![Life cycle of ML project](https://res.cloudinary.com/dbzzslryr/image/upload/v1591375495/ml-project-lifecycle_b5rnel.png "[Lifecycle of a ML project] https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/")
-
+![Life cycle of ML project](https://res.cloudinary.com/dbzzslryr/image/upload/v1591375495/ml-project-lifecycle_b5rnel.png "[Lifecycle of a ML project](https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/)")
+[Lifecycle of a ML project](https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/)
 
 ## Labeling
 In the section, we add labels to the data we will use in training our model. Most of the time this is done manually, the quality and accuracy of the label affects the accuracy of our model so we need to pay a lot of attention to it.  
