@@ -36,7 +36,7 @@ Measuring PM2.5 which affects the air quality level of place requires gathering 
 2.	**Precipitation(precip)**: total rainfall recorded over an hour, measured in millimeter.
 3.	**Wind Direction(wind_dir)**: mean direction of wind over an hour, measured in degrees.
 4.	**Wind Speed(wind-spd)**: mean of the speed of wind over an hour, measured in meters per second.
-5.	**Atmospheric Pressure(atmos_press)**: mean of Atmospheric pressure over an hour, measured in atm.
+5.	**Atmospheric Pressure(atmos_press)**: mean of atmospheric pressure over an hour, measured in atm.
 
 For each of these 5 sensors used for gathering the data, they collected the features(location, height above sea level...) of the sensor, these could be called the Metadata, you can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
 
