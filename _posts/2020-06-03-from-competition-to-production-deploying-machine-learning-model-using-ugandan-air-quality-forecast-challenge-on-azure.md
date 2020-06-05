@@ -139,10 +139,10 @@ except ComputeTargetException:
 ```
 
 ### Create feature engineering script 
-This is also a common process in machine learning. I created a script to handle the nan values, remove and add other features. We will import this script while building the model. This script will also be used for cleaning and transforming the raw data during training and inferencing so the model can interpret the data.  
+This is also a common process in machine learning. I created a script to handle the nan values, remove and add other features. We will import this script while building the model. This script will also be used for cleaning and transforming the raw data during training and inferencing.  
 
 ### Build model 
-In this project we will use the CatBooostRegressor model, the training data was divided into training and validation set using 20 folds, using 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
+In this project we will use the CatBooostRegressor model. Using 20 folds cross validation, 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
 
 ### Create an environment and train a model in it  
 We create an environment using the estimator class then we install some packages like catboost, joblib, and scikit-learn. These packages are important to run our models. Thereafter we run our training script in the environment. We can make some changes in our model and do hyperparameter tuning then run the experiment again. We can have several runs in an experiment, we will register the best model which will be deployed later. We can also register several models then decide the version of the registered model to deploy.
