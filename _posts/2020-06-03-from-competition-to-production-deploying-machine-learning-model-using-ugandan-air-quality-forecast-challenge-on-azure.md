@@ -18,7 +18,7 @@ While building Machine Learning models, a lot of attention is put into getting t
 This article describes all the steps involved in the lifecycle of a ML project using the competition as a use case. I used [Microsoft Azure](https://azure.microsoft.com/en-gb/overview/what-is-azure/) cloud services for deploying the model.You can find the details of the implementation on [github](https://github.com/trojrobert/uganda-air-quality-challenge).
 
 ## Defining Project Goals
-The goal of the [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data) on [Zindi](https://zindi.africa/) is to predict the air quality level of cities in [Uganda](https://en.wikipedia.org/wiki/Uganda) at exactly 24 hours after a 5 day series of hourly weather data readings . To measure the air quality level, we need to know the mass of PM2.5 (particulate matter smaller than 2.5 micrometers in diameter or around 1/30th the thickness of a human hair strand) in a volume of air given by micrograms per cubic meters( $&mu/m^3$). These particles are not visible to human eye because they are exceedingly small. Tey are generated from vehicle exhaust, machines in industries, burning of fossil fuels, and others. Bad air quality causes respiratory diseases, heart diseases, and stroke.
+The goal of the [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data) on [Zindi](https://zindi.africa/) is to predict the air quality level of cities in [Uganda](https://en.wikipedia.org/wiki/Uganda) at exactly 24 hours after a 5 day series of hourly weather data readings . To measure the air quality level, we need to know the mass of PM2.5 (particulate matter smaller than 2.5 micrometers in diameter or around 1/30th the thickness of a human hair strand) in a volume of air given by micrograms per cubic meters. These particles are not visible to human eye because they are exceedingly small. Tey are generated from vehicle exhaust, machines in industries, burning of fossil fuels, and others. Bad air quality causes respiratory diseases, heart diseases, and stroke.
 
 ## Choose the project task 
 The project can be formulated as solving any of the following tasks.
@@ -42,6 +42,7 @@ For each of these sensors used, metadata containing the featuresof the sensors (
 
 ## Data Ingest
 This section refer to the red dotted box in the image above.
+
 Data ingestion is a process of moving data from one or more sources to a destination where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and store them in a data storage. We will be use Azure data storage container to store the data. 
 To understand this section well, we need to understand some terms in Azure
 * [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge): this is used to move cloud analytics and custom business logic to devices so that you can focus on business insights instead of data management. It consists of IoT Edge modules, IoT Edge runtime, and cloud-based interface.
@@ -61,10 +62,11 @@ The data in Azure IoT Hub is routed to Azure storage. Azure has several storage 
 ml-project-lifecycle.png
 
 ## Labeling
-In the section, we add labels to the data we will use in training our model. Most time this is done manually, the quality and accuracy of the label affect the accuracy of our model so we need to pay a lot of attention to it.  
+In the section, we add labels to the data we will use in training our model. Most of the time this is done manually, the quality and accuracy of the label affects the accuracy of our model so we need to pay a lot of attention to it.  
 
 ## Building and Training Model  
-At this point, we have our data stored in our storage account blob container, and they are well labeled. We need to query the storage account to provide 5-day series of the hourly data sent from the sensors. We are to follow the following steps, most of which are common in data science life cycle, I also added other steps specific to Azure Machine Learning lifecycle
+At this point, we should have our labeled data stored in our storage account blob container, and they are well labeled. We need to query the storage account to provide 5-day series of the hourly data sent from the sensors. We are to follow the following steps, most of which are common in the data science life cycle, I also added other steps specific to Azure Machine Learning lifecycle.
+
 * Create a workspace
 * Download data from storage account
 * Load and explore data
@@ -74,9 +76,10 @@ At this point, we have our data stored in our storage account blob container, an
 * Create an environment and train a model   
 * Build and train a model
 * Register the model
+
 To perform the above steps, you need to understand the following Azure terms used in Machine learning
 
-**[Azure ML Workspace]( https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio)** is a dedicated platform for data scientist to managing data science workflow, it coordinates all resources and steps in building, testing and deploying a machine learning model.
+**[Azure ML Workspace]( https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio)** is a dedicated platform for data scientists to manage data science workflow. It coordinates all resources and steps in building, testing and deploying a machine learning model.
 
 **[Compute target](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target)** – is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
 
