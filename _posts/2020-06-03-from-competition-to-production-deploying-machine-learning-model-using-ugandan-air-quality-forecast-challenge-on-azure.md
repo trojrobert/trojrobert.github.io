@@ -11,7 +11,7 @@ tags:
 author:
 paginate: false
 ---
-
+ *Architecture for deploying Model on Azure* 
 
 While building Machine Learning models, a lot of attention is put into getting the best accuracy. These supposed accurate models are not valuable until they are deployed into reality to solve problems. Most competitions [Kaggle]( https://www.kaggle.com/) and [Zindi]( https://zindi.africa/) platforms are focused on competing to get the best accuracy. I competed in [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge) to predict future air quality level in cities in Uganda. My model’s was one the top 100, and I decided to add more value to the competition by deployed it on Azure. This can help to extend the competition to solving a real-life problem.
 
@@ -41,7 +41,7 @@ Measuring PM2.5 which affects the air quality level of place requires gathering 
 For each of these sensors used, metadata containing the featuresof the sensors (location, height above sea level...) was collected. You can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
 
 ## Data Ingest
-This section refer to the red dotted box in the image above.
+This section refers to the red dotted box in the "architecture for deploying model on Azure" image above.
 
 Data ingestion is a process of moving data from one or more sources to a destination where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and store them in a data storage. We will be use Azure data storage container to store the data. 
 To understand this section well, we need to understand some terms in Azure
@@ -195,7 +195,7 @@ Previously we created an environment to train the model, we also need to create 
 Create a docker image using the Azure core image class, this image contains the scoring script and the inference environment YAML file. While creating the image, we also include the model in the image.
 
 ### Deploy the model
-This involves the green dotted section in the diagram(Figure 1). We have three modules in the Azure IoT device
+This involves the green dotted section in the "architecture for deploying model on Azure" image above. We have three modules in the Azure IoT device
 * **Air quality model module** – This IoT edge module contains the image of the model. It received a clean / processed data from the Router module and predictions from the model. The predictions is sent to the router module.
 * **Router Module** – This module receives the raw data from the device, processes the data using the feature engineering scripts, the processed data is sent to the Air quality model module to get predictions. It also receives back the prediction from the Air Quality model module. The prediction and the raw data are sent to the writer module.
 * **Writer Module** – This module stores the prediction and the raw data gotten from the router module in the Azure storage.
