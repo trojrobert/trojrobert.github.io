@@ -1,7 +1,7 @@
 ---
 date: 2020-06-03 23:18:10
 layout: post
-title: "From Competition to Production: Deploying Machine Learning Model using Ugandan Air Quality Forecast Challenge on Azure"
+title: "From Competition to Production: Deploying a Machine Learning Model on Azure"
 subtitle:
 description:
 image: /assets/img/uploads/air-quality-workflow.PNG
