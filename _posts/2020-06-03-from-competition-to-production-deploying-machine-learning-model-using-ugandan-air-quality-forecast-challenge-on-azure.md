@@ -86,7 +86,7 @@ To perform the above steps, you need to understand the following Azure terms use
 **Estimator** is used for managing a machine leaning experiment, it contains all the package dependencies required to run an experiment. 
 
 ### Create a workspace
-There are several ways of creating a workspace on Azure, we can use the command line, Azure SDK or the Azure Portal. In my case I used Azure SDK, the code snippet is written below
+There are several ways of creating a workspace on Azure. We can use the command line, Azure SDK or the Azure Portal. In my case I used Azure SDK, the code snippet is written below
 ```python
 from azureml.core import Workspace
     
@@ -98,7 +98,7 @@ ws = Workspace.create(name=workspace_name,
 ```
 
 ### Download data from storage account
-In the case of the competition, the dataset was already provided, all we needed to do was to create a storage account then upload the train and test data to the storage account container. In reality, our data will already be in the storage container which was routed from the IoT hub. We used the code below to retrieve the data from the storage account and download it into our workspace for easy access to the model.
+In the case of this competition, the dataset was already provided. All we needed to do was to create a storage account then upload the train and test data to the storage account container. In reality, our data will already be in the storage container which was routed from the IoT hub. We used the code below to retrieve the data from the storage account and download it into our workspace for easy access to the model.
 
 ```python
 from azureml.core import Datastore
@@ -112,7 +112,7 @@ ds = Datastore.register_azure_blob_container(workspace=ws,
 ```
 
 ### Load and explore data
-As we know in machine learning, raw data are always very messy.  We need to understand the correlation between features in the dataset, visualize the data to get some insight from the data, and understand the distribution of the data. I will not go in-depth into that since it is a popular concept in Machine learning and there are lots of [resources](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/) that have done a comprehensive explanation.
+As we know in machine learning, raw data are always very messy.  We need to understand the correlation between features in the dataset, visualize the data to get some insight from the data, and understand the distribution of the data. I will not go in-depth into that since it is a popular concept in Machine learning and there are a lot of [resources](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/) that have done a comprehensive explanation.
 
 ```python
 from azureml.core.compute import ComputeTarget, AmlCompute
@@ -139,7 +139,7 @@ except ComputeTargetException:
 ```
 
 ### Create feature engineering script 
-This is also a common process in machine learning, I created a script to handle the nan values, remove features, and other features. We will import this script while building the model, also this script will be used for cleaning and transforming the raw data and doing inferencing so the model can interpret the data.  
+This is also a common process in machine learning. I created a script to handle the nan values, remove and add other features. We will import this script while building the model. This script will also be used for cleaning and transforming the raw data during training and inferencing so the model can interpret the data.  
 
 ### Build model 
 In this project we will use the CatBooostRegressor model, the training data was divided into training and validation set using 20 folds, using 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
