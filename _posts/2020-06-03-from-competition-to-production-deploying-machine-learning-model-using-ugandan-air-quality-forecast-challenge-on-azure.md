@@ -44,8 +44,8 @@ For each of these sensors used, metadata containing the featuresof the sensors (
 Data ingestion is a process of moving data from one or more sources to a destination where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and store them in a data storage. We will be use Azure data storage container to store the data. 
 To understand this section well, we need to understand some terms in Azure
 * [Azure IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge): this is used to move cloud analytics and custom business logic to devices so that you can focus on business insights instead of data management. It consists of IoT Edge modules, IoT Edge runtime, and cloud-based interface.
-* IoT Edge modules are containers that run Azure services, third-party services, or our own code. Modules are deployed to IoT Edge devices and execute locally on those devices.
-* IoT Edge runtime runs on each IoT Edge device and manages the modules deployed to each device. It also performs management and communication operations. 
+    * IoT Edge modules are containers that run Azure services, third-party services, or our own code. Modules are deployed to IoT Edge devices and execute locally on those devices.
+    * IoT Edge runtime runs on each IoT Edge device and manages the modules deployed to each device. It also performs management and communication operations. 
 * Cloud-based interface enables you to remotely monitor and manage IoT Edge devices.
 * [IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub) is a managed service hosted in the cloud that acts as a central message hub for bi-directional communication between our IoT application and the devices it manages. 
 * [Time Series Insight(preview)](https://docs.microsoft.com/en-us/azure/time-series-insights/time-series-insights-update-overview)  is used to collect, process, store, analyze, and query data from Internet of Things (IoT), scale data that's highly contextualized and optimized for time series.
