@@ -11,7 +11,7 @@ tags:
 author:
 paginate: false
 ---
- *Architecture for deploying Model on Azure* 
+ *Architecture for deploying model on Azure* 
 
 While building Machine Learning models, a lot of attention is put into getting the best accuracy. These supposed accurate models are not valuable until they are deployed into reality to solve problems. Most competitions [Kaggle]( https://www.kaggle.com/) and [Zindi]( https://zindi.africa/) platforms are focused on competing to get the best accuracy. I competed in [AirQo Ugandan Air Quality Forecast Challenge]( https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge) to predict future air quality level in cities in Uganda. My model’s was one the top 100, and I decided to add more value to the competition by deployed it on Azure. This can help to extend the competition to solving a real-life problem.
 
