@@ -38,7 +38,7 @@ Measuring PM2.5 which affects the air quality level of place requires gathering 
 4.	**Wind Speed(wind-spd)**: mean of the speed of wind over an hour, measured in meters per second.
 5.	**Atmospheric Pressure(atmos_press)**: mean of atmospheric pressure over an hour, measured in atm.
 
-For each of these sensors used, metadata containing the featuresof the sensors (location, height above sea level...) was collected, you can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
+For each of these sensors used, metadata containing the featuresof the sensors (location, height above sea level...) was collected. You can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
 
 ## Data Ingest
 Data ingestion is a process of moving data from one or more sources to a destination for instance a database where it can be stored and further analyzed. In this use case, we need to collect the data from the sensors and stored them in a data storage. We will be using Azure data storage container to store the data. 
