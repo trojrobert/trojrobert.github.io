@@ -81,9 +81,9 @@ To perform the above steps, you need to understand the following Azure terms use
 
 **[Azure ML Workspace]( https://docs.microsoft.com/en-us/azure/machine-learning/studio/what-is-ml-studio)** is a dedicated platform for data scientists to manage data science workflow. It coordinates all resources and steps in building, testing and deploying a machine learning model.
 
-**[Compute target](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target)** – is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
+**[Compute target](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target)** is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
 
-**Estimator** – it is used for managing a machine leaning experiment, it contains all the package dependencies required to run an experiment. 
+**Estimator** is used for managing a machine leaning experiment, it contains all the package dependencies required to run an experiment. 
 
 ### Create a workspace
 There are several ways of creating a workspace on Azure, we can use the command line, Azure SDK or the Azure Portal. In my case I used Azure SDK, the code snippet is written below
