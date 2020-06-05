@@ -4,8 +4,8 @@ layout: post
 title: "From Competition to Production: Deploying a Machine Learning Model on Azure"
 subtitle:
 description:
-image: /assets/img/uploads/air-quality-workflow.PNG
-optimized_image: /assets/img/uploads/air-quality-workflow.PNG
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1591375495/air-quality-workflow_ipkrev.png
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1591375495/air-quality-workflow_ipkrev.png
 category:
 tags:
 author:
