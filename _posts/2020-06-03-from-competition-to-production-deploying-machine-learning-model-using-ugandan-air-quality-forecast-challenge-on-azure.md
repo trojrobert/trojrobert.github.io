@@ -38,7 +38,7 @@ Measuring PM2.5 which affects the air quality level of place requires gathering 
 4.	**Wind Speed(wind-spd)**: mean of the speed of wind over an hour, measured in meters per second.
 5.	**Atmospheric Pressure(atmos_press)**: mean of atmospheric pressure over an hour, measured in atm.
 
-For each of these sensors used, metadata containing the featuresof the sensors (location, height above sea level...) was collected. You can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
+For each of these sensors used, metadata containing the features of the sensors (location, height above sea level...) was collected. You can find the details [here]( zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data).
 
 ## Data Ingest
 This section refers to the red dotted box in the "architecture for deploying model on Azure" image above.
@@ -62,7 +62,7 @@ The data in Azure IoT Hub is routed to Azure storage. Azure has several storage 
 [Lifecycle of a ML project](https://mlinproduction.com/what-does-it-mean-to-deploy-a-machine-learning-model-deployment-series-01/)
 
 ## Labeling
-In the section, we add labels to the data we will use in training our model. Most of the time this is done manually, the quality and accuracy of the label affects the accuracy of our model so we need to pay a lot of attention to it.  
+In the section, we add labels to the data we will use in training our model. Most of the time this is done manually, the quality and accuracy of the label affect the accuracy of our model so we need to pay a lot of attention to it.  
 
 ## Building and Training Model  
 At this point, we should have our labeled data stored in our storage account blob container, and they are well labeled. We need to query the storage account to provide 5-day series of the hourly data sent from the sensors. We are to follow the following steps, most of which are common in the data science life cycle, I also added other steps specific to Azure Machine Learning lifecycle.
@@ -83,7 +83,7 @@ To perform the above steps, you need to understand the following Azure terms use
 
 **[Compute target](https://docs.microsoft.com/en-us/azure/machine-learning/concept-compute-target)** is a computing resource used for training machine learning models, it helps in creating environments for training your model. It could be your local machine or a cloud-based resource.
 
-**Estimator** is used for managing a machine leaning experiment, it contains all the package dependencies required to run an experiment. 
+**Estimator** is used for managing a machine learning experiment, it contains all the package dependencies required to run an experiment. 
 
 ### Create a workspace
 There are several ways of creating a workspace on Azure. We can use the command line, Azure SDK or the Azure Portal. In my case I used Azure SDK, the code snippet is written below
@@ -142,7 +142,7 @@ except ComputeTargetException:
 This is also a common process in machine learning. I created a script to handle the nan values, remove and add other features. We will import this script while building the model. This script will also be used for cleaning and transforming the raw data during training and inferencing.  
 
 ### Build model 
-In this project we will use the CatBooostRegressor model, 20-fold cross validation, 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
+In this project, we will use the CatBooostRegressor model, 20-fold cross-validation, 2500 estimators, learning rate of 0.3, and root mean square error as a metric to evaluate the model.  
 
 ### Create an environment and train a model in it  
 We create an environment using the estimator class then we install some packages like catboost, joblib, and scikit-learn. These packages are important to run our models. Thereafter we run our training script in the environment. We can make some changes in our model, do hyperparameter tuning then run the experiment again. We can have several runs in an experiment. We will register the best model which will be deployed later. We can also register several models then decide the version of the registered model to deploy.
