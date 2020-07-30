@@ -26,3 +26,10 @@ Operating System(OS) manages communication between computer software and hardwar
 [Framework](https://en.wikipedia.org/wiki/Software_framework) in computer programming, a software framework is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software. Software frameworks may include support programs, compilers, code libraries, tool sets, and application programming interfaces(APIs) that bring together all the different components to enable the development of a project or system. Examples are Django, Laravel, Tensorflow, Flutter, etc 
 
 Robot Operating System(ROS) is not a full flesh operating system, it is a “meta operating system”, it is built on top of a full operating system. It is called an OS because it also provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It is a series of packages that can be installed on a full operating system like Ubuntu. 
+
+## ROS level of concepts 
+<b>Filesystem level</b> - these are resources located on the disk, for example, packages, package manifests (package.xml), repositories, messages types, service types, etc.
+
+<b>Computation level</b>  - these involve the communications between peer to peer networks of ROS, examples are nodes, master, parameter server, messages, topics, services, bags.
+ 
+<b>Community level</b>  - these involve the exchange of software and knowledge between members of the community. Examples are [distributions]( http://wiki.ros.org/Distributions), [repositories](http://wiki.ros.org/Repositories), [ROS wiki](http://wiki.ros.org/).
