@@ -33,3 +33,10 @@ Robot Operating System(ROS) is not a full flesh operating system, it is a “met
 <b>Computation level</b>  - these involve the communications between peer to peer networks of ROS, examples are nodes, master, parameter server, messages, topics, services, bags.
  
 <b>Community level</b>  - these involve the exchange of software and knowledge between members of the community. Examples are [distributions]( http://wiki.ros.org/Distributions), [repositories](http://wiki.ros.org/Repositories), [ROS wiki](http://wiki.ros.org/).
+
+[Catkin vs Rosbuild](http://wiki.ros.org/catkin/conceptual_overview)
+Catkin is the new build system(generate executable files from source files) for ROS while rosbuild was the build system used in the past. Catkin uses CMake more cleanly and only enhances CMake where it falls short on features, while rosbuild uses CMake but invokes it from Makefiles and builds each package separately and in-source. Catkin was designed to be more conventional than rosbuild, allowing for better distribution of packages, better cross-compiling support, and better portability.
+
+
+
+
