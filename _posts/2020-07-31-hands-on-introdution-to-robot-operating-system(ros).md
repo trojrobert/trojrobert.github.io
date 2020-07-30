@@ -120,7 +120,58 @@ source devel/setup.bash
 This command creates a  package called “bio_data_package” with dependencies std_msgs, rospy,  and roscpp. This command automatically creates a folder named the package name, this folder contains the package.xml, CMakeLists.txt, “include” folder and “src” folder. The “src” folder in the workspace folder is different from the src folder created in the package folder.
 Ensure the run catkin_make after creating a new package, then source the devel/setup.bash file,   so you can build the new package which updates the “devel” and “build” folder. 
 
+### ROS Package command-line tool - rospack
 
-ROS Package command-line tool - rospack
 rospack provides  get information about packages
 Note: Tab completion, press the tab key once to complete a command, and twice to show you suggestions. For instance, you press tab twice after rospack
+
+![rospack](https://placehold.it/800x400 "Large example image")
+
+*rospack list* - list all the ROS packages in your workspace
+*rospack  find bio_data_package* - toutput the path of package “bio_data_package” 
+
+## [Understanding the Package.xml file](http://wiki.ros.org/catkin/package.xml)
+
+The package.xml contains tags that describe the package. The required tags are name, version, description, maintainer and license. 
+<name> - the name of the package 
+<version> - the version of the package, usually it should be  three integers separated by dots.
+<description> - a description of the package 
+<maintainer> -  information about the maintainer that is someone you can contact if you need more information about the package   
+<license> - the license to the package 
+<buildtool_depend>(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild 
+<build_depend>(build dependency) - the dependencies of the package, each dependency is enclosed in a build_depend tag.
+<build_export_depend>(build export dependency) - a  dependency that is  included in the headers in public headers in the package.  
+<exec_depend>(Execution Dependency) - a dependency that is among the shared libraries. 
+<test_depend>(Test Dependency) - a dependency required for unit test 
+<doc depend>(Documentation Tool Dependency) - a dependency required to generate documentation.
+
+
+
+## [ROS Node](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
+A ROS node is an executable that uses ROS to communicate with other nodes. The concept of ros node helps in fault tolerance as each node does not depend on another node. 
+
+**[ROS Master](http://wiki.ros.org/Master)** - provides naming and registration services to the rest of the nodes in the ROS system. Publishers and Subscribers register to the master, then ROS Master tracks ROS topics being published by the publisher and ROS Topics being subscribed to by the subscribers. It also provides the Parameter Server.
+**[rosout](http://wiki.ros.org/rosout)** - rosout is the name of the console log reporting mechanism in ROS. rosout subscribes to /rosout topic.
+**[Parameter Server](http://wiki.ros.org/Parameter%20Server)** - is a shared, multi-variate dictionary that is accessible via network APIs. Nodes use this server to store and retrieve parameters at runtime. 
+**[roscore](http://wiki.ros.org/roscore)** - master + rosout + parameter server, it controls all the ROS system, it must be running to enable ROS nodes to communicate. It is a collection of nodes and programs that are pre-requisites of a ROS-based system.
+
+
+![roscore](https://placehold.it/800x400 "Large example image")
+
+Once the roscore, you can open a new terminal to run other ros nodes. 
+
+### ROS node command line tool - rosnode
+
+
+![rosnode](https://placehold.it/800x400 "Large example image")
+
+
+## ROS Run
+Rosrun - this is used to run a node in a package 
+```
+rosrun [package_name] [node_name] 
+```
+```
+rosrun  turtlesim turtlesim_node 
+```
+turtlesim_node create a GUI with a turtle 
