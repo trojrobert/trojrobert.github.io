@@ -34,7 +34,7 @@ Robot Operating System(ROS) is not a full flesh operating system, it is a “met
  
 **Community level**  - these involve the exchange of software and knowledge between members of the community. Examples are [distributions]( http://wiki.ros.org/Distributions), [repositories](http://wiki.ros.org/Repositories), [ROS wiki](http://wiki.ros.org/).
 
-[Catkin vs Rosbuild](http://wiki.ros.org/catkin/conceptual_overview)
+## [Catkin vs Rosbuild](http://wiki.ros.org/catkin/conceptual_overview)
 Catkin is the new build system(generate executable files from source files) for ROS while rosbuild was the build system used in the past. Catkin uses CMake more cleanly and only enhances CMake where it falls short on features, while rosbuild uses CMake but invokes it from Makefiles and builds each package separately and in-source. Catkin was designed to be more conventional than rosbuild, allowing for better distribution of packages, better cross-compiling support, and better portability.
 
 ## ROS Distributions, Installation and Folder Structure 
@@ -77,3 +77,50 @@ Check for proper installation
 rosversion -d
 ```
 This command output your ROS distribution
+
+**Folder structure** 
+
+ROS packages are saved in a catkin workspace folder. The package folders are saved in the src folder in the catkin_workspace.
+
+
+![file_structure](https://placehold.it/800x400 "Large example image")
+
+```
+mkdir -p catkin_ws/src
+cd catkin_ws/
+catkin_make
+```
+The [catkin_make](http://wiki.ros.org/catkin/commands/catkin_make) command build all packages located in “catkin_ws/src” folder. After running catkin_make command, two new folders “build” and “devel” will be created. Note, you should run catkin_make command when you are in the “catkin_ws” directory. The “build” folder is where CMake and make are invoked, and the devel folder contains any generated files and targets, plus setup.*sh files so that you can use it like it is installed. A CMackeLists.txt file is also created in the src folder( I will explain the function of this file later). 
+
+[ROS PACKAGES](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+
+**Ros Package** - contains libraries, executables, scripts, and other artifacts for a specific ROS program. Packages are used for structuring specific programs, files in a package also have a specific structure. A ROS package folder could contain:
+
+**launch folder** - it contains the launch files(launch files are used to run multiple nodes) 
+**src folder** - it contains the source files for instance python or c++ files. 
+**package.xml** - also called manifest file, contains package metadata, dependencies, and other metadata related to the package.
+**CMakeLists.txt** -it contains executables, libraries, etc. it is catkin metapackage. 
+
+A ROS package must be in the parent  “catkin_ws/src” folder, have its folder, and must contain package.xml and  CmakeList.txt.
+
+### Creating a ros package 
+```
+catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+```
+```
+catkin_create_pkg bio_data_package std_msgs rospy roscpp
+```
+```
+cd catkin/src 
+catkin_make 
+source devel/setup.bash
+```
+![create package](https://placehold.it/800x400 "Large example image")
+
+This command creates a  package called “bio_data_package” with dependencies std_msgs, rospy,  and roscpp. This command automatically creates a folder named the package name, this folder contains the package.xml, CMakeLists.txt, “include” folder and “src” folder. The “src” folder in the workspace folder is different from the src folder created in the package folder.
+Ensure the run catkin_make after creating a new package, then source the devel/setup.bash file,   so you can build the new package which updates the “devel” and “build” folder. 
+
+
+ROS Package command-line tool - rospack
+rospack provides  get information about packages
+Note: Tab completion, press the tab key once to complete a command, and twice to show you suggestions. For instance, you press tab twice after rospack
