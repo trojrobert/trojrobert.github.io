@@ -213,59 +213,50 @@ cd catkin_ws/src/bio_data_package/msg
 touch name.msg 
 ```
 #### Step 1 
-
 Copy the following command into the “name.msg” file. You can also check on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/msg/name.msg)
-
 ```txt
  string first_name
  string last_name
 ```
-
 #### Step 2
 **Open the package.xml** for the bio_data_package package in a text editor, then modify the <build_depend> tag and the <exec_depend> tag by adding. You can also check on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/sample_package.xml)
-
 ```txt
  <build_depend>message_generation</build_depend>
  <exec_depend>message_runtime</exec_depend>
 ```
-
 Now you should have something like this, please don’t modify other lines.
-
 ![package_xml](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/package.xml_byglmo.png "package_xml")
 
 #### Step 3 
-**Open the CmakeList.txt file** for the bio_data_package package in a text editor
-Modify find_package call by adding “message generation” to its components. Now you should have something similar to this.
+**Open the CmakeList.txt file** for the bio_data_package package in a text editor. This is need for step 3 to 6. Check a sample file on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/sample_CMakeLists.txt)
 
+Modify *find_package* call by adding *message generation* to its components. Now you should have something similar to this.
 ![find_package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/find_package_tmh1c4.png "find_package")
 
 #### Step 4
-Modify the catkin_package by adding message_runtine
-
+Modify the *catkin_package* by adding *message_runtine*
 ![catkin_package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/catkin_package_a0iwdk.png "catkin_package")
 
 #### Step 5
-Modify add_message_files by adding the name.msg, this enable CMake to reconfigure the project with the new msg file. 
-
+Modify *add_message_files* by adding the *name.msg*, this enable CMake to reconfigure the project with the new msg file. 
 ![add_message_files](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/add_message_files_jdgrhb.png "add message files")
 
 #### Step 6
-Modify generate_message by removing the # symbols to uncomment it.
-
+Modify *generate_message* by removing the # symbols to uncomment it.
 ![generate_message](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/generate_message_tj10q6.png "generate_message")
 
 #### Step 7
-```
+```bash
 cd  catkin_ws
 catkin_make
 source devel/setup.bash
 ```
-### ROS Message command line tool - rosmsg
+### ROS message command-line tool - rosmsg
 
 ![rosmsg](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rosmsg_h_fj7om6.png "rosmsg")
 
 Show the description of the new message created 
-```
+```bash
 rosmsg show bio_data_package/name
 ```
 ![rosmsg show](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rosmsg_show_mwvu9y.png "rosmsg show")
@@ -278,15 +269,15 @@ ROS services are one to one two way transport, it is suitable for request/reply 
 
 Create a srv folder in your package folder, you created a new package call bio_data_package in the example above, inside this newly created “srv” folder, create a srv file called full_name.srv. A srv file is used to describe a service, srv files are stored in the “srv” folder.
 
-```
+```bash
 mkdir catkin_ws/src/bio_data_package/srv
 cd catkin_ws/src/bio_data_package/srv
 touch full_name.srv
 ```
  
-Copy the following command into the “full_name.srv” file 
+Copy the following command into the “full_name.srv” file. A sample is on [github](https://github.com/trojrobert/introduction-to-ROS/tree/master/srv)
 
-```
+```txt
 string first_name
 string last_name
 ---
@@ -298,15 +289,15 @@ A srv file has two parts separated by ---, the first part is the request while t
 Do the steps required in *creating a ROS message*, but instead of Step 5, do this. Please don’t repeat all the steps if you have done them before. 
 
 #### Step 5(specific for ROS service)
-Modify add_service_files by adding the full_name.srv, this enables CMake to reconfigure the project with the new srv file.
+Modify *add_service_files* by adding the "full_name.srv", this enables CMake to reconfigure the project with the new srv file.
 
 ![add_service_files](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/add_service_files_i1xqf0.png "Add service files")
 
-### ROS Service command line tool - rossrv
+### ROS service command-line tool - rossrv
 ![rossrv h](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rossrv_h_olli4l.png "rossrv_h")
 
 Show the description of the new service created 
-```
+```bash
 rossrv show bio_data_package/name
 ```
 
@@ -346,16 +337,16 @@ Publisher and subscriber are many to many but one way transport. A node sends ou
 
 A publisher is a node that publishes messages into a topic. Create a scripts folder in your package folder, we created a new package call bio_data_package in the example above, inside this newly created “script” created folder, create a python file called writer_pub.py
 
-```
+```bash
 mkdir catkin_ws/src/bio_data_package/scripts
 cd catkin_ws/src/bio_data_package/scripts
 touch writer_pub.py 
 chmod +x writer_pub.py
 ```
 
-Copy the following commands into the “writer_pub.py” file 
+Copy the following code into the “writer_pub.py” file. Sample is on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/scripts/writer_pub.py)
 
-```
+```python
 #!/usr/bin/env python
 
 import rospy # This module is used to write ROS node in python
@@ -399,18 +390,54 @@ if __name__ == '__main__':
 
 ### Creating a Subscriber
 
-A subscriber is a node that gets messages from a topic. Create a python file called reader_sub.py in the scripts folder 
+A subscriber is a node that gets messages from a topic. Create a python file called reader_sub.py in the "scripts" folder.
 
-```
+```bash
 touch reader_sub.py 
 chmod +x reader_sub.py 
 ```
 
-Copy the following commands into the “reader_sub.py” file
+Copy the following code into the “reader_sub.py” file. A sample is on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/scripts/reader_sub.py)
 
-Modify the caktin_install_python() call in CMameLists.txt
+```python
+#!/usr/bin/env python
 
+import rospy  #This module is used to write ROS node in python
+from std_msgs.msg import String # This module is responsible for the message type
+
+def callback(message):
+
+    """Print message received from the subscriber
+    
+    args:
+        message(str): The message received by the subscriber        
+    """
+    # Print message to screen, write message to node log file
+    # write message to rosout
+    rospy.loginfo("Caller - "+ rospy.get_caller_id() + " I received - %s", message.data)
+  
+def reader():
+    """Create a subscriber and receive message from a topic"""
+
+    # initiate a subscriber node called "reader_node"
+    # anonymous=True ensure every node is unique by adding random numbers to end
+    rospy.init_node('reader_node', anonymous=True)
+
+    # ensures  the subscriber subscribes to topic "/print_topic" with message type "String"
+    # the subscriber subscribe to topic "/print_topic" which is same as the topic that 
+    # the Publisher publish to, with the same message type “string”, then call the callback function
+    rospy.Subscriber('/print_topic', String, callback)
+
+    # ensure the python program does not exit, that is it keeps it in execution mode
+    rospy.spin()
+    
+if __name__ == '__main__':
+    reader()
 ```
+
+Modify the *caktin_install_python()* call in CMameLists.txt
+
+```txt
 catkin_install_python(PROGRAMS 
     scripts/writer_pub.py
     scripts/reader_sub.py
@@ -420,7 +447,7 @@ catkin_install_python(PROGRAMS
 
 Build the created publisher and subscriber 
 
-```
+```bash
 cd  catkin_ws
 catkin_make
 source devel/setup.bash
@@ -447,7 +474,7 @@ Test the Publisher and Subscriber
 ### [Roswtf](http://wiki.ros.org/roswtf)
 roswtf is a tool for diagnosing issues with a running ROS file system, it evaluate ROS setup
 like environment variables, packages , stacks, launch files and configuration issues. 
-```
+```bash
 cd catkin_ws/src/bio_data_package
 roswtf
 ```
@@ -485,6 +512,7 @@ Display the scrolling time plot of data published on a topic
 
 
 ## rqt 
+rqt contain most ROS GUI tools, you can select the on you want in the *Plugib* tab.
 ![rqt](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rqt_k3nix8.png "rqt")
 
 ## Other  ROS concepts 
@@ -497,7 +525,7 @@ Display the scrolling time plot of data published on a topic
 
 **[rviz](http://wiki.ros.org/rviz)** - 3D visualization tool for ROS 
 
-```
+```bash 
 rosrun rviz rviz
 ```
 ![rviz](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rviz_yemdpw.png "rviz")
