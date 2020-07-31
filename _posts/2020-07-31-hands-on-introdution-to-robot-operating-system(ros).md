@@ -503,7 +503,9 @@ Display the scrolling time plot of data published on a topic
 **[ROS Launch](http://wiki.ros.org/roslaunch)** - is used for starting and  stopping multiple ros nodes, it is used to execute a ros program which is a .launch file.
 
 **ROS Stack** - this contain several package
+
 **[rosbag](http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data)** - published  topics are saved as .bag file, rosbag command line tool is used to work with bag files. 
+
 **[rviz](http://wiki.ros.org/rviz)** - 3D visualization tool for ROS 
 
 ```
