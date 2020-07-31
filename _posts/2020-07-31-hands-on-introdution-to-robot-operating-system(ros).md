@@ -5,7 +5,7 @@ title: "Hands-On Introdution to Robot Operating System(ROS)"
 subtitle:
 description: This article describes how to install and explains ROS Packages, ROS Nodes, ROS Topics, ROS Messages, ROS service, ROS Publishers and Subscribers, and Basic ROS GUI tools. The programming language used in this article is Python. 
 image:
-optimized_image:
+optimized_image:https://res.cloudinary.com/dbzzslryr/image/upload/v1596181676/ros_master_communication_znqheg.png
 category:
 tags:
 author:
@@ -83,7 +83,7 @@ This command output your ROS distribution
 ROS packages are saved in a catkin workspace folder. The package folders are saved in the src folder in the catkin_workspace.
 
 
-![file_structure](https://placehold.it/800x400 "Large example image")
+![ros_file_structure](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/file_structure_vh6wry.png "ROS file Structure")
 
 ```
 mkdir -p catkin_ws/src
@@ -118,7 +118,7 @@ cd catkin/src
 catkin_make 
 source devel/setup.bash
 ```
-![create package](https://placehold.it/800x400 "Large example image")
+![create package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/create_package_qoqys3.png "Create ROS Package")
 
 This command creates a  package called “bio_data_package” with dependencies std_msgs, rospy,  and roscpp. This command automatically creates a folder named the package name, this folder contains the package.xml, CMakeLists.txt, “include” folder and “src” folder. The “src” folder in the workspace folder is different from the src folder created in the package folder.
 Ensure the run catkin_make after creating a new package, then source the devel/setup.bash file,   so you can build the new package which updates the “devel” and “build” folder. 
