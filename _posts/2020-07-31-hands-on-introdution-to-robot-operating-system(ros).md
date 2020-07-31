@@ -519,7 +519,7 @@ rqt contain most ROS GUI tools, you can select the on you want in the *Plugib* t
 
 **[ROS Launch](http://wiki.ros.org/roslaunch)** - is used for starting and  stopping multiple ros nodes, it is used to execute a ros program which is a .launch file.
 
-**ROS Stack** - this contain several package
+**ROS Stack** - this contain several packages.
 
 **[rosbag](http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data)** - published  topics are saved as .bag file, rosbag command line tool is used to work with bag files. 
 
