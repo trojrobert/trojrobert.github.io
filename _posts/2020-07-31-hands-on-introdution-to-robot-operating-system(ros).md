@@ -52,45 +52,45 @@ sudo apt update && sudo apt install ros-melodic-ros-base
 ```
 This installation does not contain the GUI tools. 
 
-After proper installation, you need to source the ROS setup script. source command reads and executes commands from the file specified as its argument in the current shell environment.
+After proper installation, you need to source the ROS setup script. *source* command reads and executes commands from the file specified as its argument in the current shell environment.
 
-```
+```bash
 source /opt/ros/melodic/setup.bash 
 ```
-To avoid sourcing the setup file when a new terminal is opened, you can add the command to the .bashrc file. it will automatically run when you open a new terminal.
+To avoid sourcing the setup file every time a new terminal is opened, you can add the command to the *.bashrc* file. It will automatically run when you open a new terminal.
 
-```
+```bash
 echo "/opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
 **[Initialize ROS Dependencies](http://wiki.ros.org/rosdep)**
 
-```
+```bash
 sudo rosdep init 
 rosdep update
 ```
 
 Check for proper installation 
 
-```
+```bash
 rosversion -d
 ```
 This command output your ROS distribution
 
-**Folder structure** 
+**File System** 
 
-ROS packages are saved in a catkin workspace folder. The package folders are saved in the src folder in the catkin_workspace.
+ROS packages are saved in a catkin "workspace" folder. The package folders are saved in the "src" folder in the catkin "workspace".
 
 
-![ros_file_structure](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/file_structure_vh6wry.png "ROS file Structure")
+![ros_file_system](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/file_structure_vh6wry.png "ROS file system")
 
-```
+```bash
 mkdir -p catkin_ws/src
 cd catkin_ws/
 catkin_make
 ```
-The [catkin_make](http://wiki.ros.org/catkin/commands/catkin_make) command build all packages located in “catkin_ws/src” folder. After running catkin_make command, two new folders “build” and “devel” will be created. Note, you should run catkin_make command when you are in the “catkin_ws” directory. The “build” folder is where CMake and make are invoked, and the devel folder contains any generated files and targets, plus setup.*sh files so that you can use it like it is installed. A CMackeLists.txt file is also created in the src folder( I will explain the function of this file later). 
+The *[catkin_make](http://wiki.ros.org/catkin/commands/catkin_make)* command build all packages located in “catkin_ws/src” folder. After running *catkin_make* command, two new folders “build” and “devel” will be created. Note, you should always run *catkin_make* command when you are in the “catkin_ws” directory. The “build” folder is where CMake and make are invoked, while the "devel" folder contains any generated files and targets, plus setup.sh files so that you can use it like it is installed. A "CMackeLists.txt" file is also created in the src folder(I explained more about this file below). 
 
 [ROS PACKAGES](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 
@@ -98,9 +98,7 @@ The [catkin_make](http://wiki.ros.org/catkin/commands/catkin_make) command build
 
 * **launch folder** - it contains the launch files(launch files are used to run multiple nodes).
 * **src folder** - it contains the source files for instance python or c++ files. 
-
 * **package.xml** - also called manifest file, contains package metadata, dependencies, and other metadata related to the package.
-
 * **CMakeLists.txt** -it contains executables, libraries, etc. it is catkin metapackage. 
 
 A ROS package must be in the parent  “catkin_ws/src” folder, have its folder, and must contain package.xml and  CmakeList.txt.
