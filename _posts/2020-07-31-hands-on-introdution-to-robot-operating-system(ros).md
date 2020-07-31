@@ -96,9 +96,12 @@ The [catkin_make](http://wiki.ros.org/catkin/commands/catkin_make) command build
 
 **Ros Package** - contains libraries, executables, scripts, and other artifacts for a specific ROS program. Packages are used for structuring specific programs, files in a package also have a specific structure. A ROS package folder could contain:
 
-**launch folder** - it contains the launch files(launch files are used to run multiple nodes) 
+**launch folder** - it contains the launch files(launch files are used to run multiple nodes).
+
 **src folder** - it contains the source files for instance python or c++ files. 
+
 **package.xml** - also called manifest file, contains package metadata, dependencies, and other metadata related to the package.
+
 **CMakeLists.txt** -it contains executables, libraries, etc. it is catkin metapackage. 
 
 A ROS package must be in the parent  “catkin_ws/src” folder, have its folder, and must contain package.xml and  CmakeList.txt.
@@ -135,13 +138,9 @@ Note: Tab completion, press the tab key once to complete a command, and twice to
 The package.xml contains tags that describe the package. The required tags are name, version, description, maintainer and license. 
 
 `<name>` - the name of the package.
-
 `<version>` - the version of the package, usually it should be  three integers separated by dots.
-
 `<description>` - a description of the package.
-
 `<maintainer>` -  information about the maintainer that is someone you can contact if you need more information about the package.  
-
 `<license>` - the license to the package.
 
 `<buildtool_depend>`(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild.
