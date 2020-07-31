@@ -128,7 +128,7 @@ Ensure the run catkin_make after creating a new package, then source the devel/s
 rospack provides  get information about packages
 Note: Tab completion, press the tab key once to complete a command, and twice to show you suggestions. For instance, you press tab twice after rospack
 
-![rospack](https://placehold.it/800x400 "Large example image")
+![rospack](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rospack_fps0md.png "rospack")
 
 *rospack list* - list all the ROS packages in your workspace
 *rospack  find bio_data_package* - toutput the path of package “bio_data_package” 
@@ -163,13 +163,13 @@ A ROS node is an executable that uses ROS to communicate with other nodes. The c
 **[roscore](http://wiki.ros.org/roscore)** - master + rosout + parameter server, it controls all the ROS system, it must be running to enable ROS nodes to communicate. It is a collection of nodes and programs that are pre-requisites of a ROS-based system.
 
 
-![roscore](https://placehold.it/800x400 "Large example image")
+![roscore](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/roscore_djm9sh.png "rocore")
 
 Once the roscore, you can open a new terminal to run other ros nodes. 
 
 
 ### ROS node command line tool - rosnode
-![rosnode](https://placehold.it/800x400 "Large example image")
+![rosnode](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rosnode_h_t61eve.png "rosnode")
 
 
 ## ROS Run
@@ -182,7 +182,7 @@ rosrun  turtlesim turtlesim_node
 ```
 turtlesim_node create a GUI with a turtle 
 
-![rosrun turtlesim](https://placehold.it/800x400 "Large example image")
+![rosrun turtlesim](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/turtlesim_fifpzi.png "turtlesim")
 
 Run the command on a different terminal 
 ```
@@ -196,12 +196,12 @@ Ros Topics are the buses used by ROS nodes to exchange messages. Imagine a ROS T
 In the example above, the turtle_teleop_key node publishes the key pressed to the /turtle/cmd_vel topic and the turtlesim node subscribes to that same topic.  
 
 ### ROS Topic command line tool - rostopic
-![rostopic](https://placehold.it/800x400 "Large example image")
+![rostopic](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rostopic_h_azpp5v.png "rostopic")
 
 ```
 rostopic list -v
 ```
-![rostopic list](https://placehold.it/800x400 "Large example image")
+![rostopic list](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rostopic_list_zoucwc.png "rostopic_list")
 
 > rostopic hz [topic] (shows how fast the messages are publishing) 
 > rostopic hz /turtle/cmd_vel 
@@ -238,23 +238,23 @@ Copy the following command into the “name.msg” file
 
 Now you should have something like this, please don’t modify other lines.
 
-![step 2](https://placehold.it/800x400 "Large example image")
+![package_xml](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/package.xml_byglmo.png "package_xml")
 
 #### Step 3 
 **Open the CmakeList.txt file** for the bio_data_package package in a text editor
 Modify find_package call by adding “message generation” to its components. Now you should have something similar to this.
 
-![step 3](https://placehold.it/800x400 "Large example image")
+![find_package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/find_package_tmh1c4.png "find_package")
 
 #### Step 4
 Modify the catkin_package by adding message_runtine
 
-![step 4](https://placehold.it/800x400 "Large example image")
+![catkin_package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/catkin_package_a0iwdk.png "catkin_package")
 
 #### Step 5
 Modify add_message_files by adding the name.msg, this enable CMake to reconfigure the project with the new msg file. 
 
-![step 5](https://placehold.it/800x400 "Large example image")
+![add_message_files](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/add_message_files_jdgrhb.png "add message files")
 
 #### Step 6
 Modify generate_message by removing the # symbols to uncomment it.
