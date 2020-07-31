@@ -208,7 +208,7 @@ rostopic list -v
 
 ## [ROS message](http://wiki.ros.org/Messages)
 Nodes communicate by sending ROS messages to each other using ROS Topic. A message can be of primitive type integer, floating-point, boolean, etc. A publisher and subscriber should communicate using the same topic type, the topic type is determined by the message type  
-Command-line tool for ROS message is [rosmsg](http://wiki.ros.org/rosmsg)
+
 
 ### Creating a ROS message 
 
@@ -221,8 +221,265 @@ touch name.msg
 ```
 #### Step 1 
 
-Copy the following command into the “name.msg” file 
->
+Copy the following command into the “name.msg” file
+
+```
  string first_name
  string last_name
->
+```
+
+#### Step 2
+**Open the package.xml** for the bio_data_package package in a text editor, then modify the <build_depend> tag and the <exec_depend> tag by adding 
+
+```
+ <build_depend>message_generation</build_depend>
+ <exec_depend>message_runtime</exec_depend>
+```
+
+Now you should have something like this, please don’t modify other lines.
+
+![step 2](https://placehold.it/800x400 "Large example image")
+
+#### Step 3 
+**Open the CmakeList.txt file** for the bio_data_package package in a text editor
+Modify find_package call by adding “message generation” to its components. Now you should have something similar to this.
+
+![step 3](https://placehold.it/800x400 "Large example image")
+
+#### Step 4
+Modify the catkin_package by adding message_runtine
+
+![step 4](https://placehold.it/800x400 "Large example image")
+
+#### Step 5
+Modify add_message_files by adding the name.msg, this enable CMake to reconfigure the project with the new msg file. 
+
+![step 5](https://placehold.it/800x400 "Large example image")
+
+#### Step 6
+Modify generate_message by removing the # symbols to uncomment it.
+
+![step 6](https://placehold.it/800x400 "Large example image")
+
+#### Step 7
+```
+cd  catkin_ws
+catkin_make
+source devel/setup.bash
+```
+### ROS Message command line tool - rosmsg
+
+![rosmsg](https://placehold.it/800x400 "Large example image")
+
+Show the description of the new message created 
+```
+rosmsg show bio_data_package/name
+```
+![rosmsg show](https://placehold.it/800x400 "Large example image")
+
+## [ROS Service](http://wiki.ros.org/Services)
+
+ROS services are one to one two way transport, it is suitable for request/reply interactions. A ROS node(server) offers a service, while another ROS node(client) requests for the service.  The server sends a response back to the client. Services are defined using srv files. srv files are just like msg files, except they contain two parts: a request and a response. Services also have types like topics.
+
+### Creating a ROS Service 
+
+Create a srv folder in your package folder, you created a new package call bio_data_package in the example above, inside this newly created “srv” folder, create a srv file called full_name.srv. A srv file is used to describe a service, srv files are stored in the “srv” folder.
+
+```
+mkdir catkin_ws/src/bio_data_package/srv
+cd catkin_ws/src/bio_data_package/srv
+touch full_name.srv
+```
+ 
+Copy the following command into the “full_name.srv” file 
+
+```
+string first_name
+string last_name
+---
+string full_name 
+```
+
+A srv file has two parts separated by ---, the first part is the request while the second part is the response.
+
+Do the steps required in *creating a ROS message*, but instead of Step 5, do this. Please don’t repeat all the steps if you have done them before. 
+
+#### Step 5(specific for ROS service)
+Modify add_service_files by adding the full_name.srv, this enables CMake to reconfigure the project with the new srv file.
+
+![step 5 srv](https://placehold.it/800x400 "Large example image")
+
+### ROS Service command line tool - rossrv
+![rossrv h](https://placehold.it/800x400 "Large example image")
+
+Show the description of the new service created 
+```
+rossrv show bio_data_package/name
+```
+
+### ROS Services vs ROS Topic
+<table>
+  <thead>
+    <tr>
+      <th>ROS Service</th>
+      <th>ROS Topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Involves the communication between any two nodes</td>
+      <td>Involves the communication between Publishers and  Subscribers</td>
+    </tr>
+    <tr>
+      <td>It is a two way transport</td>
+      <td>It is a one way transport </td>
+    </tr>
+    <tr>
+      <td>It is one to one </td>
+      <td>It is many to many </td>
+    </tr>
+    <tr>
+      <td>Involves a request/ reply pattern  </td>
+      <td>Does not involves a Request/reply pattern </td>
+    </tr>
+  </tbody>
+</table>
+
+### ROS Publisher and Subscriber 
+Publisher and subscriber are many to many but one way transport. A node sends out a message by publishing it to a given topic. The topic is a name that is used to identify the content of the message. A node that is interested in a certain kind of data will subscribe to the appropriate topic.
+
+
+#### Creating a Publisher
+
+A publisher is a node that publishes messages into a topic. Create a scripts folder in your package folder, we created a new package call bio_data_package in the example above, inside this newly created “script” created folder, create a python file called writer_pub.py
+
+```
+mkdir catkin_ws/src/bio_data_package/scripts
+cd catkin_ws/src/bio_data_package/scripts
+touch writer_pub.py 
+chmod +x writer_pub.py
+```
+
+Copy the following commands into the “writer_pub.py” file 
+
+```
+#!/usr/bin/env python
+
+import rospy # This module is used to write ROS node in python
+from std_msgs.msg import String # This module is responsible for the message type
+
+def writer():
+	"""Create a Publisher and send message through a topic"""
+    
+	# initiate a publisher node called "writer_node"
+	# anonymous=True ensure every node is unique by adding random numbers to end
+	rospy.init_node('writer_node', anonymous=True)
+
+	# ensures  the publisher publish to topic "/print_topic" with message type "String"
+	# queue_size is the limit to the number of messages in queued messages
+	pub = rospy.Publisher('/print_topic', String, queue_size=10)
+
+	# looping at a desired rate, the number of times per second to go through the while loop
+	rate = rospy.Rate(1)
+ 
+	# ensure the rospy is running until the program is shutdown
+	while not rospy.is_shutdown():
+   
+    	     writer_str = "Hello world, this is the message published   %s" % rospy.get_time()
+   	 
+                 # Print message to screen, write message to node log file
+                 # write message to rosout
+    	     rospy.loginfo(writer_str)
+
+                 # publish "writer_str" to topic "/print_topic"
+    	     pub.publish(writer_str)
+
+    	    # ensures the loop sleep for some seconds just like time.sleep
+    	    rate.sleep()
+
+if __name__ == '__main__':
+	try:
+    	     writer()
+	except rospy.ROSInterruptException:
+    	     pass
+```
+
+### Creating a Subscriber
+
+A subscriber is a node that gets messages from a topic. Create a python file called reader_sub.py in the scripts folder 
+
+```
+touch reader_sub.py 
+chmod +x reader_sub.py 
+```
+
+Copy the following commands into the “reader_sub.py” file
+
+Modify the caktin_install_python() call in CMameLists.txt
+
+```
+catkin_install_python(PROGRAMS 
+    scripts/writer_pub.py
+    scripts/reader_sub.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+```
+
+Build the created publisher and subscriber 
+
+```
+cd  catkin_ws
+catkin_make
+source devel/setup.bash
+``
+
+Test the Publisher and Subscriber 
+
+**Terminal 1**
+
+`roscore` 
+
+**Terminal 2** 
+
+`rosrun bio_data_package writer_pub.py`
+
+**Terminal 3** 
+
+`rosrun bio_data_package reader_sub.py`
+
+**Terminal 4** 
+
+`rosnode list -a`
+
+![publisher subscriber](https://placehold.it/800x400 "Large example image")
+
+## ROS Tools
+
+### [Roswtf](http://wiki.ros.org/roswtf)
+roswtf is a tool for diagnosing issues with a running ROS file system, it evaluate ROS setup
+like environment variables, packages , stacks, launch files and configuration issues. 
+```
+cd catkin_ws/src/bio_data_package
+roswtf
+```
+![roswtf](https://placehold.it/800x400 "Large example image")
+
+#### [rqt_console](http://wiki.ros.org/rqt_console)
+
+rqt_console is a tool that displays  messages being published to rosout. These messages have different level of severity like debug, info, warn, error, fatal.
+
+**Terminal 1** 
+`roscore` 
+
+**Terminal 2** 
+`rosrun  turtlesim turtlesim_node`
+
+**Terminal 3**
+`rosrun turtlesim turtle`
+
+**Terminal 4**
+`rqt_console` 
+
+Now move the turtle to the wall 
+
+![rqt_console](https://placehold.it/800x400 "Large example image")
