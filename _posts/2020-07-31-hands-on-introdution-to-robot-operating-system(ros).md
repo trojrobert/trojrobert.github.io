@@ -259,7 +259,7 @@ Modify add_message_files by adding the name.msg, this enable CMake to reconfigur
 #### Step 6
 Modify generate_message by removing the # symbols to uncomment it.
 
-![step 6](https://placehold.it/800x400 "Large example image")
+![generate_message](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/generate_message_tj10q6.png "generate_message")
 
 #### Step 7
 ```
@@ -269,13 +269,13 @@ source devel/setup.bash
 ```
 ### ROS Message command line tool - rosmsg
 
-![rosmsg](https://placehold.it/800x400 "Large example image")
+![rosmsg](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rosmsg_h_fj7om6.png "rosmsg")
 
 Show the description of the new message created 
 ```
 rosmsg show bio_data_package/name
 ```
-![rosmsg show](https://placehold.it/800x400 "Large example image")
+![rosmsg show](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rosmsg_show_mwvu9y.png "rosmsg show")
 
 ## [ROS Service](http://wiki.ros.org/Services)
 
@@ -307,10 +307,10 @@ Do the steps required in *creating a ROS message*, but instead of Step 5, do thi
 #### Step 5(specific for ROS service)
 Modify add_service_files by adding the full_name.srv, this enables CMake to reconfigure the project with the new srv file.
 
-![step 5 srv](https://placehold.it/800x400 "Large example image")
+![add_service_files](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/add_service_files_i1xqf0.png "Add service files")
 
 ### ROS Service command line tool - rossrv
-![rossrv h](https://placehold.it/800x400 "Large example image")
+![rossrv h](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rossrv_h_olli4l.png "rossrv_h")
 
 Show the description of the new service created 
 ```
@@ -436,22 +436,18 @@ source devel/setup.bash
 Test the Publisher and Subscriber 
 
 **Terminal 1**
-
 `roscore` 
 
 **Terminal 2** 
-
 `rosrun bio_data_package writer_pub.py`
 
 **Terminal 3** 
-
 `rosrun bio_data_package reader_sub.py`
 
 **Terminal 4** 
-
 `rosnode list -a`
 
-![publisher subscriber](https://placehold.it/800x400 "Large example image")
+![publisher subscriber](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181676/publisher_subscriber_wd9a2t.png "publisher subscriber")
 
 ## ROS Tools
 
@@ -462,7 +458,7 @@ like environment variables, packages , stacks, launch files and configuration is
 cd catkin_ws/src/bio_data_package
 roswtf
 ```
-![roswtf](https://placehold.it/800x400 "Large example image")
+![roswtf](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/roswtf_t0yihy.png "roswtf")
 
 #### [rqt_console](http://wiki.ros.org/rqt_console)
 
@@ -482,21 +478,21 @@ rqt_console is a tool that displays  messages being published to rosout. These m
 
 Now move the turtle to the wall 
 
-![rqt_console](https://placehold.it/800x400 "Large example image")
+![rqt_console](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rqt_console_n5aqfq.png "rqt_console")
 
 ## rqt _graph
 This shows nodes and the topics the nodes are communicating on. 
 
-![rqt_graph](https://placehold.it/800x400 "Large example image")
+![rqt_graph](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rqt_graph_fxiaqi.png "rqt_graph")
 
 ## rqt _plot
 Display the scrolling time plot of data published on a topic 
 
-![rqt_plot](https://placehold.it/800x400 "Large example image")
+![rqt_plot](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rqt_plot_pgesyu.png "rqt_plot")
 
 
 ## rqt 
-![rqt](https://placehold.it/800x400 "Large example image")
+![rqt](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rqt_k3nix8.png "rqt")
 
 ## Other  ROS concepts 
 
@@ -511,4 +507,4 @@ Display the scrolling time plot of data published on a topic
 ```
 rosrun rviz rviz
 ```
-![r](https://placehold.it/800x400 "Large example image")
+![rviz](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rviz_yemdpw.png "rviz")
