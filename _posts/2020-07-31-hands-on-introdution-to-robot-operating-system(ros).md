@@ -137,17 +137,17 @@ Note: Tab completion, press the tab key once to complete a command, and twice to
 
 The package.xml contains tags that describe the package. The required tags are name, version, description, maintainer and license. 
 
-*`<name>` - the name of the package.	
-*`<version>` - the version of the package, usually it should be  three integers separated by dots.	
-*`<description>` - a description of the package.	
-*`<maintainer>` -  information about the maintainer that is someone you can contact if you need more information about the package.
-*`<license>` - the license to the package.	
-*`<buildtool_depend>`(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild.	
-*`<build_depend>`(build dependency) - the dependencies of the package, each dependency is enclosed in a build_depend tag.	
-*`<build_export_depend>`(build export dependency) - a  dependency that is  included in the headers in public headers in the package.	
-*`<exec_depend>`(Execution Dependency) - a dependency that is among the shared libraries.	
-*`<test_depend>`(Test Dependency) - a dependency required for unit test.	
-*`<doc depend>`(Documentation Tool Dependency) - a dependency required to generate documentation.	
+* `<name>` - the name of the package.	
+* `<version>` - the version of the package, usually it should be  three integers separated by dots.	
+* `<description>` - a description of the package.	
+* `<maintainer>` -  information about the maintainer that is someone you can contact if you need more information about the package.
+* `<license>` - the license to the package.	
+* `<buildtool_depend>`(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild.	
+* `<build_depend>`(build dependency) - the dependencies of the package, each dependency is enclosed in a build_depend tag.	
+* `<build_export_depend>`(build export dependency) - a  dependency that is  included in the headers in public headers in the package.	
+* `<exec_depend>`(Execution Dependency) - a dependency that is among the shared libraries.	
+* `<test_depend>`(Test Dependency) - a dependency required for unit test.	
+* `<doc depend>`(Documentation Tool Dependency) - a dependency required to generate documentation.	
 
 ## [ROS Node](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
 A ROS node is an executable that uses ROS to communicate with other nodes. The concept of ros node helps in fault tolerance as each node does not depend on another node. 
