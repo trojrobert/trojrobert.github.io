@@ -92,7 +92,7 @@ catkin_make
 ```
 The *[catkin_make](http://wiki.ros.org/catkin/commands/catkin_make)* command build all packages located in “catkin_ws/src” folder. After running *catkin_make* command, two new folders “build” and “devel” will be created. Note, you should always run *catkin_make* command when you are in the “catkin_ws” directory. The “build” folder is where CMake and make are invoked, while the "devel" folder contains any generated files and targets, plus setup.sh files so that you can use it like it is installed. A "CMackeLists.txt" file is also created in the src folder(I explained more about this file below). 
 
-[ROS PACKAGES](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+## [ROS PACKAGES](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 
 **Ros Package** - contains libraries, executables, scripts, and other artifacts for a specific ROS program. Packages are used for structuring specific programs, files in a package also have a specific structure. A ROS package folder could contain:
 
@@ -104,31 +104,33 @@ The *[catkin_make](http://wiki.ros.org/catkin/commands/catkin_make)* command bui
 A ROS package must be in the parent  “catkin_ws/src” folder, have its folder, and must contain package.xml and  CmakeList.txt.
 
 ### Creating a ros package 
-```
+```bash
 catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
 ```
-```
+```bash
 catkin_create_pkg bio_data_package std_msgs rospy roscpp
 ```
-```
+ 
+
+```bash
 cd catkin/src 
 catkin_make 
 source devel/setup.bash
 ```
 ![create package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/create_package_qoqys3.png "Create ROS Package")
 
-This command creates a  package called “bio_data_package” with dependencies std_msgs, rospy,  and roscpp. This command automatically creates a folder named the package name, this folder contains the package.xml, CMakeLists.txt, “include” folder and “src” folder. The “src” folder in the workspace folder is different from the src folder created in the package folder.
-Ensure the run catkin_make after creating a new package, then source the devel/setup.bash file,   so you can build the new package which updates the “devel” and “build” folder. 
+This command creates a  package called “bio_data_package” with dependencies std_msgs, rospy,  and roscpp. This command automatically creates a folder named the package name, this package folder contains the "package.xml", "CMakeLists.txt", “include” folder and “src” folder. The “src” folder in the workspace folder is different from the "src" folder created in the package folder.
+Build all the packages in "catkin/src" by running *catkin_make*, *source* the "setup.bash" in the "devel" folder to add new environment variables. 
 
 ### ROS Package command-line tool - rospack
 
-rospack provides  get information about packages
-Note: Tab completion, press the tab key once to complete a command, and twice to show you suggestions. For instance, you press tab twice after rospack
+rospack get information about packages.
+Note: Tab completion, press the tab key once to complete a command, and twice to show you suggestions. For instance, you press tab twice after rospack.
 
 ![rospack](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rospack_fps0md.png "rospack")
 
-*rospack list* - list all the ROS packages in your workspace
-*rospack  find bio_data_package* - toutput the path of package “bio_data_package” 
+> *rospack list* - list all the ROS packages in your workspace
+> *rospack  find bio_data_package* - toutput the path of package “bio_data_package” 
 
 ## [Understanding the Package.xml file](http://wiki.ros.org/catkin/package.xml)
 
