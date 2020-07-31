@@ -222,6 +222,7 @@ touch name.msg
 #### Step 1 
 
 Copy the following command into the “name.msg” file 
-
-> string first_name
-> string last_name
+>
+ string first_name
+ string last_name
+>
