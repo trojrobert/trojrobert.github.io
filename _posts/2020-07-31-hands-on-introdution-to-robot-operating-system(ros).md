@@ -14,7 +14,7 @@ paginate: false
 
 Wikipedia defines [Robot](https://en.wikipedia.org/wiki/Robot) as a machine capable of carrying out a complex series of actions automatically. The advantages and importance of Robots are contentious, the robotics field is evolving every day and the benefits of robots are becoming inevitable. This article is not meant to discuss the advantages of robots, but to get you started with ROS(Robot Operating System).
 
-This article describes ROS installation, file system, packages, nodes, topics, messages, service, publishers, subscribers, and ROS GUI tools. The programming language used in this article is Python. 
+This article describes ROS installation, file system, packages, nodes, topics, messages, service, publishers, subscribers, and ROS GUI tools. The programming language used in this article is Python, check the files and folder edit in the article on [github](https://github.com/trojrobert/introduction-to-ROS)
 
 ## [What is Robot Operating System(ROS)](http://wiki.ros.org/ROS/Introduction)
 
@@ -130,7 +130,7 @@ Note: Tab completion, press the tab key once to complete a command, and twice to
 ![rospack](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rospack_fps0md.png "rospack")
 
 > *rospack list* - list all the ROS packages in your workspace
-> *rospack  find bio_data_package* - toutput the path of package “bio_data_package” 
+> *rospack  find bio_data_package* - to output the path of package “bio_data_package” 
 
 ## [Understanding the Package.xml file](http://wiki.ros.org/catkin/package.xml)
 
@@ -157,27 +157,27 @@ A ROS node is an executable that uses ROS to communicate with other nodes. The c
 
 ![roscore](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/roscore_djm9sh.png "rocore")
 
-Once the roscore, you can open a new terminal to run other ros nodes. 
+Once roscore is running, you can open a new terminal to run other ros nodes. 
 
 
-### ROS node command line tool - rosnode
+### ROS node command-line tool - rosnode
 ![rosnode](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rosnode_h_t61eve.png "rosnode")
 
 
 ## ROS Run
-Rosrun - this is used to run a node in a package 
-```
+rosrun - this is used to run a node in a package 
+```bash
 rosrun [package_name] [node_name] 
 ```
-```
+```bash
 rosrun  turtlesim turtlesim_node 
 ```
-turtlesim_node create a GUI with a turtle 
+turtlesim_node display a GUI with a turtle.
 
 ![rosrun turtlesim](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/turtlesim_fifpzi.png "turtlesim")
 
 Run the command on a different terminal 
-```
+```bash
 rosrun turtlesim turtle_teleop_key 
 ```
 The turtle_teleop_key node provides a way to control the turtle with a keyboard. Click on the terminated where you ran `rosrun turtlesim turtle_teleop_key`, then press the arrow keys, the turtle moves in the direction of the arrow key pressed.  
@@ -187,10 +187,10 @@ Ros Topics are the buses used by ROS nodes to exchange messages. Imagine a ROS T
 
 In the example above, the turtle_teleop_key node publishes the key pressed to the /turtle/cmd_vel topic and the turtlesim node subscribes to that same topic.  
 
-### ROS Topic command line tool - rostopic
+### ROS topic command-line tool - rostopic
 ![rostopic](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rostopic_h_azpp5v.png "rostopic")
 
-```
+```bash
 rostopic list -v
 ```
 ![rostopic list](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rostopic_list_zoucwc.png "rostopic_list")
@@ -199,23 +199,23 @@ rostopic list -v
 > rostopic hz /turtle/cmd_vel 
 
 ## [ROS message](http://wiki.ros.org/Messages)
-Nodes communicate by sending ROS messages to each other using ROS Topic. A message can be of primitive type integer, floating-point, boolean, etc. A publisher and subscriber should communicate using the same topic type, the topic type is determined by the message type  
+Nodes communicate by sending ROS messages to each other using ROS Topic. A message can be of primitive type integer, floating-point, boolean, etc. A publisher and subscriber should communicate using the same topic type, the topic type is determined by the message type.
 
 
 ### Creating a ROS message 
 
 Create a msg folder in your package folder, we created a new package call bio_data_package in the example above, inside this newly created “msg” folder, create a msg file called name.msg
 
-```
+```bash
 mkdir catkin_ws/src/bio_data_package/msg
 cd catkin_ws/src/bio_data_package/msg
 touch name.msg 
 ```
 #### Step 1 
 
-Copy the following command into the “name.msg” file
+Copy the following command into the “name.msg” file. You can also check on [github]9https://github.com/trojrobert/introduction-to-ROS/blob/master/msg/name.msg)
 
-```
+```txt
  string first_name
  string last_name
 ```
