@@ -167,9 +167,8 @@ A ROS node is an executable that uses ROS to communicate with other nodes. The c
 
 Once the roscore, you can open a new terminal to run other ros nodes. 
 
+
 ### ROS node command line tool - rosnode
-
-
 ![rosnode](https://placehold.it/800x400 "Large example image")
 
 
@@ -182,3 +181,47 @@ rosrun [package_name] [node_name]
 rosrun  turtlesim turtlesim_node 
 ```
 turtlesim_node create a GUI with a turtle 
+
+![rosrun turtlesim](https://placehold.it/800x400 "Large example image")
+
+Run the command on a different terminal 
+```
+rosrun turtlesim turtle_teleop_key 
+```
+The turtle_teleop_key node provides a way to control the turtle with a keyboard. Click on the terminated where you ran `rosrun turtlesim turtle_teleop_key`, then press the arrow keys, the turtle moves in the direction of the arrow key pressed.  
+
+## [ROS Topics](http://wiki.ros.org/Topics)
+Ros Topics are the buses used by ROS nodes to exchange messages. Imagine a ROS Topic as a water pipe and ROS Message as the water, the two ends of the pipe is where the nodes are located. Topic transport message between a publisher node and a subscriber node. Ros Topics have anonymous publish/subscribe semantics. Nodes that generate message/ data publish to a specific topic, and nodes that consume or need data subscribed to a specific topic. The relationship between publishers and subscribers is many to many.
+
+In the example above, the turtle_teleop_key node publishes the key pressed to the /turtle/cmd_vel topic and the turtlesim node subscribes to that same topic.  
+
+### ROS Topic command line tool - rostopic
+![rostopic](https://placehold.it/800x400 "Large example image")
+
+```
+rostopic list -v
+```
+![rostopic list](https://placehold.it/800x400 "Large example image")
+
+> rostopic hz [topic] (shows how fast the messages are publishing) 
+> rostopic hz /turtle/cmd_vel 
+
+## [ROS message](http://wiki.ros.org/Messages)
+Nodes communicate by sending ROS messages to each other using ROS Topic. A message can be of primitive type integer, floating-point, boolean, etc. A publisher and subscriber should communicate using the same topic type, the topic type is determined by the message type  
+Command-line tool for ROS message is [rosmsg](http://wiki.ros.org/rosmsg)
+
+### Creating a ROS message 
+
+Create a msg folder in your package folder, we created a new package call bio_data_package in the example above, inside this newly created “msg” folder, create a msg file called name.msg
+
+```
+mkdir catkin_ws/src/bio_data_package/msg
+cd catkin_ws/src/bio_data_package/msg
+touch name.msg 
+```
+#### Step 1 
+
+Copy the following command into the “name.msg” file 
+
+> string first_name
+> string last_name
