@@ -480,7 +480,7 @@ roswtf
 ```
 ![roswtf](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/roswtf_t0yihy.png "roswtf")
 
-#### [rqt_console](http://wiki.ros.org/rqt_console)
+### [rqt_console](http://wiki.ros.org/rqt_console)
 
 rqt_console is a tool that displays  messages being published to rosout. These messages have different level of severity like debug, info, warn, error, fatal.
 
@@ -500,18 +500,18 @@ Now move the turtle to the wall
 
 ![rqt_console](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rqt_console_n5aqfq.png "rqt_console")
 
-## rqt _graph
+### rqt _graph
 This shows nodes and the topics the nodes are communicating on. 
 
 ![rqt_graph](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rqt_graph_fxiaqi.png "rqt_graph")
 
-## rqt _plot
+### rqt _plot
 Display the scrolling time plot of data published on a topic 
 
 ![rqt_plot](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/rqt_plot_pgesyu.png "rqt_plot")
 
 
-## rqt 
+### rqt 
 rqt contain most ROS GUI tools, you can select the on you want in the *Plugib* tab.
 ![rqt](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rqt_k3nix8.png "rqt")
 
