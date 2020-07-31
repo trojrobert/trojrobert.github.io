@@ -431,7 +431,7 @@ Build the created publisher and subscriber
 cd  catkin_ws
 catkin_make
 source devel/setup.bash
-``
+```
 
 Test the Publisher and Subscriber 
 
@@ -483,3 +483,30 @@ rqt_console is a tool that displays  messages being published to rosout. These m
 Now move the turtle to the wall 
 
 ![rqt_console](https://placehold.it/800x400 "Large example image")
+
+## rqt _graph
+This shows nodes and the topics the nodes are communicating on. 
+
+![rqt_graph](https://placehold.it/800x400 "Large example image")
+
+## rqt _plot
+Display the scrolling time plot of data published on a topic 
+
+![rqt_plot](https://placehold.it/800x400 "Large example image")
+
+
+## rqt 
+![rqt](https://placehold.it/800x400 "Large example image")
+
+## Other  ROS concepts 
+
+**[ROS Launch](http://wiki.ros.org/roslaunch)** - is used for starting and  stopping multiple ros nodes, it is used to execute a ros program which is a .launch file.
+
+**ROS Stack** - this contain several package
+**[rosbag](http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data)** - published  topics are saved as .bag file, rosbag command line tool is used to work with bag files. 
+**[rviz](http://wiki.ros.org/rviz)** - 3D visualization tool for ROS 
+
+```
+rosrun rviz rviz
+```
+![r](https://placehold.it/800x400 "Large example image")
