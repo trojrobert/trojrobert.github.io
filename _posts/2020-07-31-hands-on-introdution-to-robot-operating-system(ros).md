@@ -137,13 +137,12 @@ Note: Tab completion, press the tab key once to complete a command, and twice to
 
 The package.xml contains tags that describe the package. The required tags are name, version, description, maintainer and license. 
 
-`<name>` - the name of the package. \n
-`<version>` - the version of the package, usually it should be  three integers separated by dots.
-`<description>` - a description of the package.
-`<maintainer>` -  information about the maintainer that is someone you can contact if you need more information about the package.  
-`<license>` - the license to the package.
-
-`<buildtool_depend>`(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild.
+`<name>` - the name of the package. 
+`<version>` - the version of the package, usually it should be  three integers separated by dots. 
+`<description>` - a description of the package. 
+`<maintainer>` -  information about the maintainer that is someone you can contact if you need more information about the package.   
+`<license>` - the license to the package.  
+`<buildtool_depend>`(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild. 
 
 `<build_depend>`(build dependency) - the dependencies of the package, each dependency is enclosed in a build_depend tag.
 
