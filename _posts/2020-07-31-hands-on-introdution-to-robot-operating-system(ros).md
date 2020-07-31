@@ -107,11 +107,11 @@ A ROS package must be in the parent  “catkin_ws/src” folder, have its folder
 ```bash
 catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
 ```
+
 ```bash
 catkin_create_pkg bio_data_package std_msgs rospy roscpp
 ```
  
-
 ```bash
 cd catkin/src 
 catkin_make 
@@ -169,6 +169,7 @@ rosrun - this is used to run a node in a package
 ```bash
 rosrun [package_name] [node_name] 
 ```
+
 ```bash
 rosrun  turtlesim turtlesim_node 
 ```
@@ -213,7 +214,7 @@ touch name.msg
 ```
 #### Step 1 
 
-Copy the following command into the “name.msg” file. You can also check on [github]9https://github.com/trojrobert/introduction-to-ROS/blob/master/msg/name.msg)
+Copy the following command into the “name.msg” file. You can also check on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/msg/name.msg)
 
 ```txt
  string first_name
@@ -221,9 +222,9 @@ Copy the following command into the “name.msg” file. You can also check on [
 ```
 
 #### Step 2
-**Open the package.xml** for the bio_data_package package in a text editor, then modify the <build_depend> tag and the <exec_depend> tag by adding 
+**Open the package.xml** for the bio_data_package package in a text editor, then modify the <build_depend> tag and the <exec_depend> tag by adding. You can also check on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/sample_package.xml)
 
-```
+```txt
  <build_depend>message_generation</build_depend>
  <exec_depend>message_runtime</exec_depend>
 ```
