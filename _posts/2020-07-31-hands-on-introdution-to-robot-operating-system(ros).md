@@ -156,11 +156,10 @@ A ROS node is an executable that uses ROS to communicate with other nodes. The c
 
 **[ROS Master](http://wiki.ros.org/Master)** - provides naming and registration services to the rest of the nodes in the ROS system. Publishers and Subscribers register to the master, then ROS Master tracks ROS topics being published by the publisher and ROS Topics being subscribed to by the subscribers. It also provides the Parameter Server.
 
-**[rosout](http://wiki.ros.org/rosout)** - rosout is the name of the console log reporting mechanism in ROS. rosout subscribes to /rosout topic.
-
+**[rosout](http://wiki.ros.org/rosout)** - rosout is the name of the console log reporting mechanism in ROS. rosout subscribes to /rosout topic. 
 **[Parameter Server](http://wiki.ros.org/Parameter%20Server)** - is a shared, multi-variate dictionary that is accessible via network APIs. Nodes use this server to store and retrieve parameters at runtime. 
-
 **[roscore](http://wiki.ros.org/roscore)** - master + rosout + parameter server, it controls all the ROS system, it must be running to enable ROS nodes to communicate. It is a collection of nodes and programs that are pre-requisites of a ROS-based system.
+
 
 ![roscore](https://placehold.it/800x400 "Large example image")
 
