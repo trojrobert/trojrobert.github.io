@@ -263,7 +263,7 @@ rosmsg show bio_data_package/name
 
 ## [ROS Service](http://wiki.ros.org/Services)
 
-ROS services are one to one two way transport, it is suitable for request/reply interactions. A ROS node(server) offers a service, while another ROS node(client) requests for the service.  The server sends a response back to the client. Services are defined using srv files. srv files are just like msg files, except they contain two parts: a request and a response. Services also have types like topics.
+ROS service is one to one two way transport, it is suitable for request/reply interactions. A ROS node(server) offers a service, while another ROS node(client) requests for the service.  The server sends a response back to the client. Services are defined using srv files. srv files are just like msg files, except they contain two parts: a request and a response. Services also have types like topics.
 
 ### Creating a ROS Service 
 
