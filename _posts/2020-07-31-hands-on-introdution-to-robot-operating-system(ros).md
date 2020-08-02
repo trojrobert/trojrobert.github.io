@@ -12,9 +12,9 @@ author:
 paginate: false
 ---
 
-Wikipedia defines [Robot](https://en.wikipedia.org/wiki/Robot) as a machine capable of carrying out a complex series of actions automatically. The advantages and importance of Robots are contentious, the robotics field is evolving every day and the benefits of robots are becoming inevitable. This article is not meant to discuss the advantages of robots, but to get you started with ROS(Robot Operating System).
+Wikipedia defines [Robot](https://en.wikipedia.org/wiki/Robot) as a machine capable of carrying out complex series of actions automatically. The advantages and importance of Robots are contentious, the robotics field is evolving every day and the benefits of robots are becoming inevitable. This article is not meant to discuss the advantages of robots, but to get you started with ROS(Robot Operating System).
 
-This article describes ROS installation, file system, packages, nodes, topics, messages, service, publishers, subscribers, and ROS GUI tools. The programming language used in this article is Python, check the files and folder edit in the article on [github](https://github.com/trojrobert/introduction-to-ROS)
+This article describes ROS installation, file system, packages, nodes, topics, messages, service, publishers, subscribers, and ROS GUI tools. The programming language used in this article is Python. Refer to this [github](https://github.com/trojrobert/introduction-to-ROS) repo for the codes in this article. 
 
 ## [What is Robot Operating System(ROS)](http://wiki.ros.org/ROS/Introduction)
 
@@ -23,9 +23,9 @@ ROS is an open-source meta operating system or a middleware used in programming 
 ## ROS vs Framework vs OS(Operating System)
 **Operating System(OS)** manages communication between computer software and hardware. In the process of managing this communication, it allocates resources like the central processing unit(CPU), memory, and storage. Examples are windows, Linux, android, mac OS, etc. 
 
-**[Framework](https://en.wikipedia.org/wiki/Software_framework)** in computer programming, a software framework is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software. Software frameworks may include support programs, compilers, code libraries, tool sets, and application programming interfaces(APIs) that bring together all the different components to enable the development of a project or system. Examples are Django, Laravel, Tensorflow, Flutter, etc.
+**[Framework](https://en.wikipedia.org/wiki/Software_framework)** in computer programming is an abstraction in which software providing generic functionality can be selectively changed by additional user-written code, thus providing application-specific software. Software frameworks may include support programs, compilers, code libraries, tool sets, and application programming interfaces(APIs) that bring together all the different components to enable the development of a project or system. Examples are Django, Laravel, Tensorflow, Flutter, etc.
 
-**Robot Operating System(ROS)** is not a full flesh operating system, it is a “meta operating system”. It is built on top of a full operating system. It is called an OS because it also provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It is a series of packages that can be installed on a full operating system like Ubuntu. 
+**Robot Operating System(ROS)** is not a full fledged operating system, it is a “meta operating system”. It is built on top of a full operating system. It is called an OS because it also provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It is a series of packages that can be installed on a full operating system like Ubuntu. 
 
 ## ROS level of concepts 
 **Filesystem level** - these are resources located on the disk. For example, packages, package manifests (package.xml), repositories, messages types, service types, etc.
@@ -34,11 +34,11 @@ ROS is an open-source meta operating system or a middleware used in programming 
  
 **Community level**  - these involve the exchange of software and knowledge between members of the community. Examples are [distributions]( http://wiki.ros.org/Distributions), [repositories](http://wiki.ros.org/Repositories), [ROS wiki](http://wiki.ros.org/).
 
-## [Catkin vs Rosbuild](http://wiki.ros.org/catkin/conceptual_overview)
-Catkin is the new build system (generate executable files from source files) for ROS while rosbuild was the build system used in the past. Catkin uses CMake more cleanly and only enhances CMake where it falls short on features, while rosbuild uses CMake but invokes it from Makefiles and builds each package separately and in-source. Catkin was designed to be more conventional than rosbuild, allowing for better distribution of packages, better cross-compiling support, and better portability.
+## [catkin vs rosbuild](http://wiki.ros.org/catkin/conceptual_overview)
+catkin is the new build system (generate executable files from source files) for ROS while rosbuild was the build system used in the past. catkin uses CMake more cleanly and only enhances CMake where it falls short on features, while rosbuild uses CMake but invokes it from Makefiles and builds each package separately and in-source. catkin was designed to be more conventional than rosbuild, allowing for better distribution of packages, better cross-compiling support, and better portability.
 
 ## ROS Distributions, Installation and File System 
-**[ROS distributions](http://wiki.ros.org/Distributions)** are alphabetical, for instance, the last 3 distributions are Lunar Loggerhead, Melodic Morenia, and Noetic Ninjemys. ROS can be officially built on Linux distributions but it also supports other operating systems. This article use ROS Melodic distribution on Ubuntu 18 Linux distribution. 
+**[ROS distributions](http://wiki.ros.org/Distributions)** are named alphabetically. For instance, the last 3 distributions are Lunar Loggerhead, Melodic Morenia, and Noetic Ninjemys. ROS can be officially built on Linux distributions but it also supports other operating systems. This article use ROS Melodic distribution on Ubuntu 18 Linux distribution. 
 
 **[Installing ROS](http://wiki.ros.org/Installation)**  
 
@@ -90,18 +90,18 @@ mkdir -p catkin_ws/src
 cd catkin_ws/
 catkin_make
 ```
-The *[catkin_make](http://wiki.ros.org/catkin/commands/catkin_make)* command build all packages located in “catkin_ws/src” folder. After running *catkin_make* command, two new folders “build” and “devel” will be created. Note, you should always run *catkin_make* command when you are in the “catkin_ws” directory. The “build” folder is where CMake and make are invoked, while the "devel" folder contains any generated files and targets, plus setup.sh files so that you can use it like it is installed. A "CMackeLists.txt" file is also created in the src folder(I explained more about this file below). 
+The *[catkin_make](http://wiki.ros.org/catkin/commands/catkin_make)* command build all packages located in “catkin_ws/src” folder. After running *catkin_make* command, two new folders “build” and “devel” will be created. Note, you should always run *catkin_make* command when you are in the “catkin_ws” directory. The “build” folder is where CMake and Make are invoked, while the "devel" folder contains any generated files and targets, including setup.sh files. A "CMackeLists.txt" file is also created in the src folder(I explained more about this file below). 
 
 ## [ROS PACKAGES](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 
-**Ros Package** - contains libraries, executables, scripts, and other artifacts for a specific ROS program. Packages are used for structuring specific programs, files in a package also have a specific structure. A ROS package folder could contain:
+**Ros Package** - contains libraries, executables, scripts, and other artifacts for a specific ROS program. Packages are used for structuring specific programs. Files in a package also have a specific structure. A ROS package folder could contain:
 
 * **launch folder** - it contains the launch files(launch files are used to run multiple nodes).
 * **src folder** - it contains the source files for instance python or c++ files. 
 * **package.xml** - also called manifest file, contains package metadata, dependencies, and other metadata related to the package.
 * **CMakeLists.txt** -it contains executables, libraries, etc. it is catkin metapackage. 
 
-A ROS package must be in the parent  “catkin_ws/src” folder, have its folder, and must contain package.xml and  CmakeList.txt.
+A ROS package must be in the parent  “catkin_ws/src” folder, its folder, and must contain package.xml and  CmakeList.txt.
 
 ### Creating a ros package 
 ```bash
@@ -124,7 +124,7 @@ Build all the packages in "catkin/src" by running *catkin_make*, *source* the "s
 
 ### ROS Package command-line tool - rospack
 
-rospack get information about packages.
+rospack is used to get information about packages.
 Note: Tab completion, press the tab key once to complete a command, and twice to show you suggestions. For instance, you press tab twice after rospack.
 
 ![rospack](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/rospack_fps0md.png "rospack")
@@ -139,7 +139,7 @@ The package.xml contains tags that describe the package. The required tags are n
 * `<name>` - the name of the package.	
 * `<version>` - the version of the package, usually it should be  three integers separated by dots.	
 * `<description>` - a description of the package.	
-* `<maintainer>` -  information about the maintainer that is someone you can contact if you need more information about the package.
+* `<maintainer>` -  information about the maintainer i.e someone you can contact if you need more information about the package.
 * `<license>` - the license to the package.	
 * `<buildtool_depend>`(build tool dependency) - the build system required to build the package, this is usually catkin or rosbuild.	
 * `<build_depend>`(build dependency) - the dependencies of the package, each dependency is enclosed in a build_depend tag.	
@@ -153,7 +153,7 @@ A ROS node is an executable that uses ROS to communicate with other nodes. The c
 * **[ROS Master](http://wiki.ros.org/Master)** - provides naming and registration services to the rest of the nodes in the ROS system. Publishers and Subscribers register to the master, then ROS Master tracks ROS topics being published by the publisher and ROS Topics being subscribed to by the subscribers. It also provides the Parameter Server. 
 * **[rosout](http://wiki.ros.org/rosout)** - rosout is the name of the console log reporting mechanism in ROS. rosout subscribes to /rosout topic. 
 * **[Parameter Server](http://wiki.ros.org/Parameter%20Server)** - is a shared, multi-variate dictionary that is accessible via network APIs. Nodes use this server to store and retrieve parameters at runtime. 
-* **[roscore](http://wiki.ros.org/roscore)** - master + rosout + parameter server, it controls all the ROS system, it must be running to enable ROS nodes to communicate. It is a collection of nodes and programs that are pre-requisites of a ROS-based system.
+* **[roscore](http://wiki.ros.org/roscore)** - master + rosout + parameter server. It controls the entire ROS system. It must be running to enable ROS nodes to communicate. It is a collection of nodes and programs that are pre-requisites of a ROS-based system.
 
 ![roscore](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181674/roscore_djm9sh.png "rocore")
 
@@ -181,10 +181,10 @@ Run the command on a different terminal
 ```bash
 rosrun turtlesim turtle_teleop_key 
 ```
-The turtle_teleop_key node provides a way to control the turtle with a keyboard. Click on the terminated where you ran `rosrun turtlesim turtle_teleop_key`, then press the arrow keys, the turtle moves in the direction of the arrow key pressed.  
+The turtle_teleop_key node provides a way to control the turtle with a keyboard. Click on the terminal where you ran `rosrun turtlesim turtle_teleop_key`, then press the arrow keys, the turtle moves in the direction of the arrow key pressed.  
 
 ## [ROS Topics](http://wiki.ros.org/Topics)
-Ros Topics are the buses used by ROS nodes to exchange messages. Imagine a ROS Topic as a water pipe and ROS Message as the water, the two ends of the pipe is where the nodes are located. Topic transport message between a publisher node and a subscriber node. Ros Topics have anonymous publish/subscribe semantics. Nodes that generate message/ data publish to a specific topic, and nodes that consume or need data subscribed to a specific topic. The relationship between publishers and subscribers is many to many.
+Ros Topics are the buses used by ROS nodes to exchange messages. Imagine a ROS Topic as a water pipe and ROS Message as the water, the two ends of the pipe are where the nodes are located. Topic transport message between a publisher node and a subscriber node. Ros Topics have anonymous publish/subscribe semantics. Nodes that generate message/ data publish to a specific topic, and nodes that consume or need data subscribed to a specific topic. The relationship between publishers and subscribers is many to many.
 
 In the example above, the turtle_teleop_key node publishes the key pressed to the /turtle/cmd_vel topic and the turtlesim node subscribes to that same topic.  
 
@@ -200,12 +200,12 @@ rostopic list -v
 > rostopic hz /turtle/cmd_vel 
 
 ## [ROS message](http://wiki.ros.org/Messages)
-Nodes communicate by sending ROS messages to each other using ROS Topic. A message can be of primitive type integer, floating-point, boolean, etc. A publisher and subscriber should communicate using the same topic type, the topic type is determined by the message type.
+Nodes communicate by sending ROS messages to each other using ROS Topic. A message can be of primitive type integer, floating-point, boolean, etc. A publisher and subscriber should communicate using the same topic type. The topic type is determined by the message type.
 
 
 ### Creating a ROS message 
 
-Create a msg folder in your package folder, we created a new package call bio_data_package in the example above, inside this newly created “msg” folder, create a msg file called name.msg
+Create a msg folder in your package folder. We created a new package call bio_data_package in the example above. Inside this newly created “msg” folder, create a msg file called name.msg
 
 ```bash
 mkdir catkin_ws/src/bio_data_package/msg
@@ -228,9 +228,9 @@ Now you should have something like this, please don’t modify other lines.
 ![package_xml](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/package.xml_byglmo.png "package_xml")
 
 #### Step 3 
-**Open the CmakeList.txt file** for the bio_data_package package in a text editor. This is need for step 3 to 6. Check a sample file on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/sample_CMakeLists.txt)
+**Open the CmakeList.txt file** for the bio_data_package package in a text editor. This is needed for steps 3 to 6. Check a sample file on [github](https://github.com/trojrobert/introduction-to-ROS/blob/master/sample_CMakeLists.txt)
 
-Modify *find_package* call by adding *message generation* to its components. Now you should have something similar to this.
+Modify the *find_package* call by adding *message generation* to its components. Now you should have something similar to this.
 ![find_package](https://res.cloudinary.com/dbzzslryr/image/upload/v1596181675/find_package_tmh1c4.png "find_package")
 
 #### Step 4
@@ -267,7 +267,7 @@ ROS services are one to one two way transport, it is suitable for request/reply 
 
 ### Creating a ROS Service 
 
-Create a srv folder in your package folder, you created a new package call bio_data_package in the example above, inside this newly created “srv” folder, create a srv file called full_name.srv. A srv file is used to describe a service, srv files are stored in the “srv” folder.
+Create a srv folder in your package folder. You created a new package call bio_data_package in the example above. Inside this newly created “srv” folder, create a srv file called full_name.srv. A srv file is used to describe a service, srv files are stored in the “srv” folder.
 
 ```bash
 mkdir catkin_ws/src/bio_data_package/srv
@@ -286,7 +286,7 @@ string full_name
 
 A srv file has two parts separated by ---, the first part is the request while the second part is the response.
 
-Do the steps required in *creating a ROS message*, but instead of Step 5, do this. Please don’t repeat all the steps if you have done them before. 
+Do the steps required in *creating a ROS message*, but instead of Step 5, do thhe following. Please don’t repeat all the steps if you have done them before. 
 
 #### Step 5(specific for ROS service)
 Modify *add_service_files* by adding the "full_name.srv", this enables CMake to reconfigure the project with the new srv file.
@@ -330,7 +330,7 @@ rossrv show bio_data_package/name
 </table>
 
 ### ROS Publisher and Subscriber 
-Publisher and subscriber are many to many but one way transport. A node sends out a message by publishing it to a given topic. The topic is a name that is used to identify the content of the message. A node that is interested in a certain kind of data will subscribe to the appropriate topic.
+Publisher and subscriber is many to many but one way transport. A node sends out a message by publishing it to a given topic. The topic is a name that is used to identify the content of the message. A node that is interested in a certain kind of data will subscribe to the appropriate topic.
 
 
 #### Creating a Publisher
@@ -472,7 +472,7 @@ Test the Publisher and Subscriber
 ## ROS Tools
 
 ### [Roswtf](http://wiki.ros.org/roswtf)
-roswtf is a tool for diagnosing issues with a running ROS file system, it evaluate ROS setup
+roswtf is a tool for diagnosing issues with a running ROS file system. It evaluates ROS setup
 like environment variables, packages , stacks, launch files and configuration issues. 
 ```bash
 cd catkin_ws/src/bio_data_package
@@ -517,7 +517,7 @@ rqt contain most ROS GUI tools, you can select the on you want in the *Plugib* t
 
 ## Other  ROS concepts 
 
-**[ROS Launch](http://wiki.ros.org/roslaunch)** - is used for starting and  stopping multiple ros nodes, it is used to execute a ros program which is a .launch file.
+**[ROS Launch](http://wiki.ros.org/roslaunch)** - is used for starting and  stopping multiple ros nodes. It is used to execute a ros program which is a .launch file.
 
 **ROS Stack** - this contain several packages.
 
