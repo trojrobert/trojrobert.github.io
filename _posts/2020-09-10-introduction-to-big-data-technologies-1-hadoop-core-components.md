@@ -4,8 +4,8 @@ layout: post
 title: "Introduction to Big Data Technologies 1: Hadoop Core Components"
 subtitle:
 description: This article focuses on introducing you to big data and to the core component of Hadoop which is the main technology behind Big Data
-image:
-optimized_image:
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/big_data.jpg
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/big_data.jpg
 category:
 tags:
 author:
@@ -18,56 +18,47 @@ Introduction to Big Data Technologies 1: Hadoop Core Components
 I am sure you use a social media platform either Facebook or Instagram or Twitter or Snapchat or Tiktok, the list is endless. One thing that is common to all these platforms is data generation. While using this platform, we generated a lot of data by commenting, uploading pictures and videos, clicks, likes, the time we spend on them, the location we are login in from, etc. In 2018, [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) stated 2.5 quintillion bytes of data was generated every day. As of January 2019, [the internet reaches 56.1% of the world population]( https://www.forbes.com/sites/nicolemartin1/2019/08/07/how-much-data-is-collected-every-minute-of-the-day/) which represents 4.49 billion people a 9% increase from January 2018. With the Pandemic in 2020, the use of the internet and the generation of data has increased tremendously. 
 
 This article focuses on introducing you to big data and to the core component of Hadoop which is the main technology behind Big Data.
-
-![Data generated every minute](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/big_data.jpg "Data generated every minute")
-
-[source](https://www.domo.com/learn/data-never-sleeps-7)
  
 Before we continue, we need to understand what Big Data really is and some concept in Big Data.
 
-What is big data?
-According to[ Wikipedia](https://en.wikipedia.org/wiki/Big_data) Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software. In lame man’s words, Big Data is a way of analyzing and processing this large amount of data generated every day. For example, Facebook processes and analyses data about us to show us personalized advertisements.
+## What is big data?
+According to [Wikipedia](https://en.wikipedia.org/wiki/Big_data) Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software. In lame man’s words, Big Data is a way of analyzing and processing this large amount of data generated every day. For example, Facebook processes and analyses data about us to show us personalized advertisements.
 
-To fully understand the importance of Big data, we need to understand the 5 Vs of big data
+To fully understand the importance of Big data, we need to understand the 5 Vs of big data.
 
-5 Vs of big data
+## 5 Vs of big data
  
-Volume is the size of data being generated. As explained earlier we generated a large amount of data every day. These data are obtained from smart(IoT) devices, social media platforms, business transactions, etc.
+**Volume** is the **size** of data being generated. As explained earlier we generated a large amount of data every day. These data are obtained from smart(IoT) devices, social media platforms, business transactions, etc.
 
-Velocity has defined in physics, is the rate of change, that is how something changes with respect to time. In Big Data, velocity is the rate at which new data is generated, in other words, the speed at which data is generated. With an increase in the population of people using the internet and the ability to do anything from the comfort of our home, the velocity at which data is generated has seen an unprecedented increase every year.  
+**Velocity** has defined in physics, is the rate of change, that is how something changes with respect to time. In Big Data, velocity is the rate at which new data is generated, in other words, the **speed** at which data is generated. With an increase in the population of people using the internet and the ability to do anything from the comfort of our home, the velocity at which data is generated has seen an unprecedented increase every year.  
 
-Variety involves the type of data. Data can be structured, semi-structured, and unstructured. Structured data are well defined, that is storing the data has some constraints. For instance, each column in the storage is well defined. An example is a relational database storing the bio of consumers. Semi-structured data have a few definitions like organization properties, examples are XML and JSON files. Unstructured data have no definitions, examples are data generated by an IoT device, social media post, etc. Another form of variety could also be the format of the data. I am sure when you save an image you have seen a format called PNG or JPG, this shows data in different formats. Data could be an image, video, text, audio, etc and each of these types also have several formats. A video could be in MP4 or 3GP and several other formats. 
+**Variety** involves the **type** of data. Data can be structured, semi-structured, and unstructured. Structured data are well defined, that is storing the data has some constraints. For instance, each column in the storage is well defined. An example is a relational database storing the bio of consumers. Semi-structured data have a few definitions like organization properties, examples are XML and JSON files. Unstructured data have no definitions, examples are data generated by an IoT device, social media post, etc. Another form of variety could also be the format of the data. I am sure when you save an image you have seen a format called PNG or JPG, this shows data in different formats. Data could be an image, video, text, audio, etc and each of these types also have several formats. A video could be in MP4 or 3GP and several other formats. 
 
-Veracity focuses on the accuracy and quality of the data. That is the inconsistency and uncertainty in the data. Since data is gotten from different sources, it is difficult to control the quality and accuracy of the data. For instance, my address on Facebook can be saved as Berlin Germany but I already moved to New York, USA.
+**Veracity** focuses on the **accuracy** and **quality** of the data. That is the inconsistency and uncertainty in the data. Since data is gotten from different sources, it is difficult to control the quality and accuracy of the data. For instance, my address on Facebook can be saved as Berlin Germany but I already moved to New York, USA.
 Gain
 
-Value focuses on what we can gain from the data. That is the insight that can be obtained from the data. The useful information that can be extracted from the data. 
+**Value** focuses on what we can **gain** from the data. That is the insight that can be obtained from the data. The useful information that can be extracted from the data. 
   
 So much about Big Data, now let us dive into the technologies behind Big Data. The major technology behind big data is Hadoop. 
  
 
+## History of Hadoop
 
+![Hadoop core components](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hadoop_core_components.png "Hadoop Core Components")
 
-
-
-
-
-https://www.oreilly.com/library/view/apache-hive-essentials/9781788995092/e846ea02-6894-45c9-983a-03875076bb5b.xhtml
-
-History of Hadoop
+[source](https://www.oreilly.com/library/view/apache-hive-essentials/9781788995092/e846ea02-6894-45c9-983a-03875076bb5b.xhtml)
 
 As the volume, velocity, and variety of data increase, the problem of storing and processing the data increase. In 2003 Google introduced the term “Google File System(GFS)” and “MapReduce”. Google File System(GFS) inspired distributed storage while MapReduce inspired distributed processing. GFS provides efficient and reliable access to data. GFS divides a large file to small chunks, each chunk is stored and processed by different computers, then the result from each computer is accumulated together to give a final result.
 Hadoop was inspired by GFS, it started as a project called “Nutch” in Yahoo by Doug Cutting and Tom White in 2006. The name “Hadoop” was derived from Doug Cutting kid’s toy, a stuffed yellow elephant.
 
 Hadoop is an open-source software platform for distributed storage and distributed processing of very large datasets on computer clusters built from commodity hardware - Hortonworks 
 
-
 Two major words in this definition are distributed storage and distributed processing. Hadoop File System(HTFS) manages the distributed storage while MapReduce manages the distributed processing.
 
 
-Hadoop Core Components
+## Hadoop Core Components
 
-Data storage
+### Data storage
 https://www.pinterest.com/pin/296393219208794661/
 [Hadoop File System(HDFS)](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html) is an advancement from Google File System(GFS). It is the storage layer of Hadoop that stores data in smaller chunks on multiple data nodes in a distributed manner. It also maintains redundant copies of files to avoid complete loss of files. HDFS is similar to other distributed systems but its advantage is its high tolerance and use of low-cost hardware. It contains NameNode and DataNodes.
 
