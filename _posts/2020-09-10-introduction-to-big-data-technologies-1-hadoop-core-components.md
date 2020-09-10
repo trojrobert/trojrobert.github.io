@@ -19,8 +19,8 @@ I am sure you use a social media platform either Facebook or Instagram or Twitte
 
 This article focuses on introducing you to big data and to the core component of Hadoop which is the main technology behind Big Data.
 
-
-Image of big data - https://www.domo.com/learn/data-never-sleeps-7
+![Data generated every minute](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/big_data.jpg "Data generated every minute")
+[source](https://www.domo.com/learn/data-never-sleeps-7)
  
 Before we continue, we need to understand what Big Data really is and some concept in Big Data.
 
