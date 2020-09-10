@@ -130,42 +130,52 @@ Two major words in this definition are distributed storage and distributed proce
 
 ### Data Ingestion
 ![nifi](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/nifi.png "nifi")
+
 [**Nifi**](https://nifi.apache.org/docs.html) is used for automating the movement of data between disparate data sources.
 
 ![sqoop](https://res.cloudinary.com/dbzzslryr/image/upload/v1599748099/intro_big_data/Sqoop.png "sqoop")
+
 [**Sqoop**](https://sqoop.apache.org/) is used for transferring data between Hadoop systems and a relational database. It is a connector between Hadoop and legacy databases.
 http://new.skytekservices.com/sqoop
 
 ![Flume](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/flume.png "Flume")
+
 [**Flume**](https://flume.apache.org/) is used for data ingestion in HDFS, it is used to collect, aggregate and transport large amounts of streaming data to HDFS.
 https://flume.apache.org/
 
 
 ### Coordination 
 ![Zookeeper](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/zookeeper.png "Zokeeper")
+
 [**Zookeeper**](https://zookeeper.apache.org/) is used for coordinating and managing services in a distributed environment, it is used for tracking nodes.
 
 
 ### Management and Monitoring 
+
 ![Ambari](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/ambari.png "Ambari")
+
 [**Ambari**](https://ambari.apache.org/)shows an overview of a cluster. It gives a visualization of what is running on the clusters, the resources used on the clusters, and a UI to execute queries.
 
 
 ### Machine Learning
 ![Madlib](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/madlib.png "Madlib")
+
 [**Madlib**](https://madlib.apache.org/) used for scaling in database analytics, it is used to provide parallel implementation to run machine learning and deep learning workloads.
 
 ![Mahout](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mahout.jpg "Mahout")
+
 [**Mahout**](https://mahout.apache.org/) is a distributed linear algebra framework and mathematically expressive Scala DSL design to quickly implement algorithms. It integrates scalable machine learning algorithms to big data.
  
  
 ![Spark MLLib](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mahout.jpg "Spark MLLib")
+
 [**Spark MLLiB**](https://spark.apache.org/docs/latest/ml-guide.html) solves the complexities surrounding distributed data used in machine learning. It simplifies the development and deployment of scalable machine learning pipelines 
 https://intellipaat.com/blog/tutorial/machine-learning-tutorial/mllib-cheat-sheet/
 
 
 ### Security 
 ![Ranger](https://res.cloudinary.com/dbzzslryr/image/upload/v1599748595/intro_big_data/ranger.png "Ranger")
+
 [**Ranger**](https://ranger.apache.org/)- is used for monitoring and managing data security across Hadoop platforms. It provides a centralized security administration, access control, and detailed auditing for user access with Hadoop systems. 
 https://blog.privacera.com/apache-ranger-vision-of-centralized-data-security-and-governance-9de115ea18c6
 
