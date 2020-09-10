@@ -69,7 +69,7 @@ Two major words in this definition are distributed storage and distributed proce
 ### Cluster Resource Management 
 ![YARN](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/yarn.png "YARN")
 
-[**Yet Another Resource Negotiator (YARN)**](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) - is used for managing resources of clusters of computers. This is the major difference between Hadoop 1.0 and Hadoop 2.0, it is the cluster manager for Hadoop 2.0. It's advantage is separating MapReduce from resource management and job scheduling.  
+[**Yet Another Resource Negotiator (YARN)**](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) is used for managing resources of clusters of computers. This is the major difference between Hadoop 1.0 and Hadoop 2.0, it is the cluster manager for Hadoop 2.0. It's advantage is separating MapReduce from resource management and job scheduling.  
 
 ![Mesos](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/mesos.png "Mesos")
 
@@ -171,7 +171,7 @@ https://flume.apache.org/
 
 ![Ambari](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/ambari.png "Ambari")
 
-[**Ambari**](https://ambari.apache.org/)shows an overview of a cluster. It gives a visualization of what is running on the clusters, the resources used on the clusters, and a UI to execute queries.
+[**Ambari**](https://ambari.apache.org/) shows an overview of a cluster. It gives a visualization of what is running on the clusters, the resources used on the clusters, and a UI to execute queries.
 
 
 ### Machine Learning
@@ -193,9 +193,7 @@ https://intellipaat.com/blog/tutorial/machine-learning-tutorial/mllib-cheat-shee
 ### Security 
 ![Ranger](https://res.cloudinary.com/dbzzslryr/image/upload/v1599748595/intro_big_data/ranger.png "Ranger")
 
-[**Ranger**](https://ranger.apache.org/)- is used for monitoring and managing data security across Hadoop platforms. It provides a centralized security administration, access control, and detailed auditing for user access with Hadoop systems. 
-https://blog.privacera.com/apache-ranger-vision-of-centralized-data-security-and-governance-9de115ea18c6
-
+[**Ranger**](https://ranger.apache.org/) is used for monitoring and managing data security across Hadoop platforms. It provides a centralized security administration, access control, and detailed auditing for user access with Hadoop systems. 
 
 
 Whoa, a lot of names, concepts, and technologies. 
