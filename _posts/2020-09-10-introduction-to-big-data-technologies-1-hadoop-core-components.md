@@ -13,8 +13,6 @@ paginate: false
 ---
 
 
-Introduction to Big Data Technologies 1: Hadoop Core Components
-
 I am sure you use a social media platform either Facebook or Instagram or Twitter or Snapchat or Tiktok, the list is endless. One thing that is common to all these platforms is data generation. While using this platform, we generated a lot of data by commenting, uploading pictures and videos, clicks, likes, the time we spend on them, the location we are login in from, etc. In 2018, [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) stated 2.5 quintillion bytes of data was generated every day. As of January 2019, [the internet reaches 56.1% of the world population]( https://www.forbes.com/sites/nicolemartin1/2019/08/07/how-much-data-is-collected-every-minute-of-the-day/) which represents 4.49 billion people a 9% increase from January 2018. With the Pandemic in 2020, the use of the internet and the generation of data has increased tremendously. 
 
 This article focuses on introducing you to big data and to the core component of Hadoop which is the main technology behind Big Data.
@@ -46,7 +44,7 @@ So much about Big Data, now let us dive into the technologies behind Big Data. T
 
 ![Hadoop core components](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hadoop_core_components.png "Hadoop Core Components")
 
-[source](https://www.oreilly.com/library/view/apache-hive-essentials/9781788995092/e846ea02-6894-45c9-983a-03875076bb5b.xhtml)
+**Hadoop core components** [source](https://www.oreilly.com/library/view/apache-hive-essentials/9781788995092/e846ea02-6894-45c9-983a-03875076bb5b.xhtml)
 
 As the volume, velocity, and variety of data increase, the problem of storing and processing the data increase. In 2003 Google introduced the term “Google File System(GFS)” and “MapReduce”. Google File System(GFS) inspired distributed storage while MapReduce inspired distributed processing. GFS provides efficient and reliable access to data. GFS divides a large file to small chunks, each chunk is stored and processed by different computers, then the result from each computer is accumulated together to give a final result.
 Hadoop was inspired by GFS, it started as a project called “Nutch” in Yahoo by Doug Cutting and Tom White in 2006. The name “Hadoop” was derived from Doug Cutting kid’s toy, a stuffed yellow elephant.
@@ -59,34 +57,33 @@ Two major words in this definition are distributed storage and distributed proce
 ## Hadoop Core Components
 
 ### Data storage
-https://www.pinterest.com/pin/296393219208794661/
-[Hadoop File System(HDFS)](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html) is an advancement from Google File System(GFS). It is the storage layer of Hadoop that stores data in smaller chunks on multiple data nodes in a distributed manner. It also maintains redundant copies of files to avoid complete loss of files. HDFS is similar to other distributed systems but its advantage is its high tolerance and use of low-cost hardware. It contains NameNode and DataNodes.
+![Hadoop File System](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hdfs.png "Hadoop File System")
+[**Hadoop File System(HDFS)**](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html) is an advancement from Google File System(GFS). It is the storage layer of Hadoop that stores data in smaller chunks on multiple data nodes in a distributed manner. It also maintains redundant copies of files to avoid complete loss of files. HDFS is similar to other distributed systems but its advantage is its high tolerance and use of low-cost hardware. It contains NameNode and DataNodes.
 
-Data Processing 
-https://www.pinterest.com/pin/428686458280062209/
-[Mapreduce](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html) is a programming technique in Hadoop used for processing large amounts of data in parallel. MapReduce is divided into two phases, first is the map phase where Mappers transform data across computing clusters and second is the reduce phase where reducers aggregate the data together.
+### Data Processing 
+![MapReduce](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mapreduce.png "MapReduce")
+[**Mapreduce**](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html) is a programming technique in Hadoop used for processing large amounts of data in parallel. MapReduce is divided into two phases, first is the map phase where Mappers transform data across computing clusters and second is the reduce phase where reducers aggregate the data together.
 
-Cluster Resource Management 
+### Cluster Resource Management 
+![YARN](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/yarn.png "YARN")
+[**Yet Another Resource Negotiator (YARN)**](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) - is used for managing resources of clusters of computers. This is the major difference between Hadoop 1.0 and Hadoop 2.0, it is the cluster manager for Hadoop 2.0. It's advantage is separating MapReduce from resource management and job scheduling.  
 
-https://www.pinterest.com/pin/612982199270844170/
-[Yet Another Resource Negotiator (YARN)](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) - is used for managing resources of clusters of computers. This is the major difference between Hadoop 1.0 and Hadoop 2.0, it is the cluster manager for Hadoop 2.0. It's advantage is separating MapReduce from resource management and job scheduling.  
-
-https://en.wikipedia.org/wiki/Apache_Mesos
-[Mesos](http://mesos.apache.org/) is used for handling workload in a distributed environment through dynamic resource sharing and isolation. It is used for managing the entire data center.  
-
+![Mesos](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/mesos.png "Mesos")
+[**Mesos**](http://mesos.apache.org/) is used for handling workload in a distributed environment through dynamic resource sharing and isolation. It is used for managing the entire data center.  
 
 
-http://ganesansenthilvel.blogspot.com/2014/10/apache-tez.html
-[Tez](https://tez.apache.org/) is used for building high-performance batch and interactive data processing applications coordinated by YARN in Hadoop. It allows complex Directed Acyclic Graph(DAG). It can be used to run Hives queries and Pig Latin scripts. 
+![Tez](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/tez.jpg "Tez")
+[**Tez**](https://tez.apache.org/) is used for building high-performance batch and interactive data processing applications coordinated by YARN in Hadoop. It allows complex Directed Acyclic Graph(DAG). It can be used to run Hives queries and Pig Latin scripts. 
 
 
-Scripting 
-https://en.wikipedia.org/wiki/Apache_Pig
+### Scripting 
+![**Pig**](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/pig.jpg "Pig")
 [Pig](https://pig.apache.org/) is a high-level API that is used for writing simple scripts that looks like SQL instead of writing in python or Java. It runs on Apache Hadoop and executes Hadoop jobs in Map Reduce, Apache Tez, or Apache Spark. Pig contains a Pig Latin script language and runtime engine.
 
 
-Query
-[Hive](https://hive.apache.org/index.html) is a data warehouse software built on Apache Hadoop, this is similar to PIG. It helps in reading, writing, and managing large datasets in a distributed storage using SQL like queries called HQL(Hive Query Language). It is not designed for online transaction processing(OLTP), it is only used for Online Analytical.
+### Query
+![Hive](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hive.jpg "Hive")
+[**Hive**](https://hive.apache.org/index.html) is a data warehouse software built on Apache Hadoop, this is similar to PIG. It helps in reading, writing, and managing large datasets in a distributed storage using SQL like queries called HQL(Hive Query Language). It is not designed for online transaction processing(OLTP), it is only used for Online Analytical.
 
 [Drill](http://drill.apache.org/docs/drill-introduction/) is a distributed interactive SQL query engine for Big data exploration. It queries any kind of structured and unstructured data in any file system. The core component of Drill is Drillbit.
 
