@@ -42,7 +42,7 @@ So much about Big Data, now let us dive into the technologies behind Big Data. T
 
 ## History of Hadoop
 
-![Hadoop core components](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hadoop_core_components.png "Hadoop Core Components")
+![hadoop_core_components](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hadoop_core_components.png "Hadoop Core Components")
 
 **Hadoop core components** [source](https://www.oreilly.com/library/view/apache-hive-essentials/9781788995092/e846ea02-6894-45c9-983a-03875076bb5b.xhtml)
 
@@ -57,74 +57,91 @@ Two major words in this definition are distributed storage and distributed proce
 ## Hadoop Core Components
 
 ### Data storage
-![Hadoop File System](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hdfs.png "Hadoop File System")
+![hadoop_file_system](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hdfs.png "Hadoop File System")
+
 [**Hadoop File System(HDFS)**](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html) is an advancement from Google File System(GFS). It is the storage layer of Hadoop that stores data in smaller chunks on multiple data nodes in a distributed manner. It also maintains redundant copies of files to avoid complete loss of files. HDFS is similar to other distributed systems but its advantage is its high tolerance and use of low-cost hardware. It contains NameNode and DataNodes.
 
 ### Data Processing 
 ![MapReduce](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mapreduce.png "MapReduce")
+
 [**Mapreduce**](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html) is a programming technique in Hadoop used for processing large amounts of data in parallel. MapReduce is divided into two phases, first is the map phase where Mappers transform data across computing clusters and second is the reduce phase where reducers aggregate the data together.
 
 ### Cluster Resource Management 
 ![YARN](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/yarn.png "YARN")
+
 [**Yet Another Resource Negotiator (YARN)**](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html) - is used for managing resources of clusters of computers. This is the major difference between Hadoop 1.0 and Hadoop 2.0, it is the cluster manager for Hadoop 2.0. It's advantage is separating MapReduce from resource management and job scheduling.  
 
 ![Mesos](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/mesos.png "Mesos")
+
 [**Mesos**](http://mesos.apache.org/) is used for handling workload in a distributed environment through dynamic resource sharing and isolation. It is used for managing the entire data center.  
 
 
 ![Tez](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/tez.jpg "Tez")
+
 [**Tez**](https://tez.apache.org/) is used for building high-performance batch and interactive data processing applications coordinated by YARN in Hadoop. It allows complex Directed Acyclic Graph(DAG). It can be used to run Hives queries and Pig Latin scripts. 
 
 
 ### Scripting 
 ![**Pig**](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/pig.jpg "Pig")
+
 [Pig](https://pig.apache.org/) is a high-level API that is used for writing simple scripts that looks like SQL instead of writing in python or Java. It runs on Apache Hadoop and executes Hadoop jobs in Map Reduce, Apache Tez, or Apache Spark. Pig contains a Pig Latin script language and runtime engine.
 
 
 ### Query
 ![Hive](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hive.jpg "Hive")
+
 [**Hive**](https://hive.apache.org/index.html) is a data warehouse software built on Apache Hadoop, this is similar to PIG. It helps in reading, writing, and managing large datasets in a distributed storage using SQL like queries called HQL(Hive Query Language). It is not designed for online transaction processing(OLTP), it is only used for Online Analytical.
 
 ![**Drill**](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/drill.png "Drill")
+
 [Drill](http://drill.apache.org/docs/drill-introduction/) is a distributed interactive SQL query engine for Big data exploration. It queries any kind of structured and unstructured data in any file system. The core component of Drill is Drillbit.
 
 ![Impala](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/impala.png "Impala")
 [**Impala**](https://impala.apache.org/overview.html) is an MPP(Massive Parallel Processing) SQL query engine for processing large amounts of data. It provides high performance and low latency compared to other SQL engines for Hadoop.
 
 ![Hue](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hue.png "Hue")
+
 [**Hue**](https://gethue.com/) is an interactive query editor then provides a platform to interact with data warehouses. 
 
 
 ### NoSQL
 ![HBase](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hbase.png "HBase")
+
 [**HBase**](https://hbase.apache.org/) is an open-source column-oriented non-relational distributed(NoSQL) database modeled for real-time read/write access to big data. It is based on top of HDFS, it is used for exposing data on clusters to transactional platforms.
 
 
 ### Streaming 
 ![flink](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/flink.png "flink")
+
 [**Flink**](https://flink.apache.org/flink-architecture.html) is an open-source stream processing framework, it is a distributed streaming dataflow engine. It is a stateful computation over data streams. It integrated query optimization, concepts from database systems, and efficient parallel in-memory and out of core algorithms with the MapReduce framework.
 
 ![storm](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/storm.jpg "storm")
+
 [**Storm**](https://storm.apache.org/releases/current/Tutorial.html) is a system for processing streaming data in real-time. It has the capability of high ingestion rate. It is very fast and processes over a million records per second per node on a cluster of modest size. It contains core components called spout and bolt. 
 
 
 ![kafka](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/kafka.png "kafka")
+
 [**Kafka**](https://kafka.apache.org/) is also a real-time streaming data architecture that provides real-time analytics. It is a public-subscribe messaging system that allows the exchange of data between applications. It is also called a distributed event log.
 
 
 ### In-memory processing 
 ![ignite](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/ignite.png "ignite")
+
 [**Ignite**](https://apacheignite.readme.io/docs/what-is-ignite) is a horizontally scalable, fault-tolerant distributed in-memory computing platform for building real-time applications that can process terabytes of data with in-memory speed. Ignite distribute and cache data across multiple servers in RAM to provide unprecedented processing speed and massive application scalability.
 
 ![spark](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/spark.png "spark")
+
 [**Spark**](https://spark.apache.org/) - is an analytics engine for large -scale data processing.It creates a Resilient Distributed Dataset(RDD) which helps it to process data fast. RRDs are fault tolerance collections of elements that can be distributed and processed in parallel across multiple nodes in a cluster. 
 
 
 ### Workflow and Schedulers
 ![Oozie](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/oozie.png "Oozie")
+
 [**Oozie**](https://oozie.apache.org/) is a workflow scheduler for Hadoop, it is used for managing Hadoop jobs in parallel. Its major components are workflow engine for creating Directed Acyclic Graphs(DAG) for workflow jobs and coordinator engine used for running workflow jobs.
 
 ![airflow](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/airflow.gif "Airflow")
+
 [**Airflow**](https://airflow.readthedocs.io/en/stable/) is a workflow management platform, it is used to create, manage, and monitor workflow. It also uses a Directed Acyclic Graph(DAG).
 
 
