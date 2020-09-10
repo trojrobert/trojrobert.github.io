@@ -85,74 +85,88 @@ Two major words in this definition are distributed storage and distributed proce
 ![Hive](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hive.jpg "Hive")
 [**Hive**](https://hive.apache.org/index.html) is a data warehouse software built on Apache Hadoop, this is similar to PIG. It helps in reading, writing, and managing large datasets in a distributed storage using SQL like queries called HQL(Hive Query Language). It is not designed for online transaction processing(OLTP), it is only used for Online Analytical.
 
+![**Drill**](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/drill.png "Drill")
 [Drill](http://drill.apache.org/docs/drill-introduction/) is a distributed interactive SQL query engine for Big data exploration. It queries any kind of structured and unstructured data in any file system. The core component of Drill is Drillbit.
 
-[Impala](https://impala.apache.org/overview.html) is an MPP(Massive Parallel Processing) SQL query engine for processing large amounts of data. It provides high performance and low latency compared to other SQL engines for Hadoop.
+![Impala](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/impala.png "Impala")
+[**Impala**](https://impala.apache.org/overview.html) is an MPP(Massive Parallel Processing) SQL query engine for processing large amounts of data. It provides high performance and low latency compared to other SQL engines for Hadoop.
 
-[Hue](https://gethue.com/) is an interactive query editor then provides a platform to interact with data warehouses. 
-
-
-NoSQL
-[HBase](https://hbase.apache.org/) is an open-source column-oriented non-relational distributed(NoSQL) database modeled for real-time read/write access to big data. It is based on top of HDFS, it is used for exposing data on clusters to transactional platforms.
+![Hue](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hue.png "Hue")
+[**Hue**](https://gethue.com/) is an interactive query editor then provides a platform to interact with data warehouses. 
 
 
-Streaming 
-[Flink](https://flink.apache.org/flink-architecture.html) is an open-source stream processing framework, it is a distributed streaming dataflow engine. It is a stateful computation over data streams. It integrated query optimization, concepts from database systems, and efficient parallel in-memory and out of core algorithms with the MapReduce framework.
+### NoSQL
+![HBase](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/hbase.png "HBase")
+[**HBase**](https://hbase.apache.org/) is an open-source column-oriented non-relational distributed(NoSQL) database modeled for real-time read/write access to big data. It is based on top of HDFS, it is used for exposing data on clusters to transactional platforms.
 
 
+### Streaming 
+![flink](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/flink.png "flink")
+[**Flink**](https://flink.apache.org/flink-architecture.html) is an open-source stream processing framework, it is a distributed streaming dataflow engine. It is a stateful computation over data streams. It integrated query optimization, concepts from database systems, and efficient parallel in-memory and out of core algorithms with the MapReduce framework.
+
+![storm](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/storm.jpg "storm")
+[**Storm**](https://storm.apache.org/releases/current/Tutorial.html) is a system for processing streaming data in real-time. It has the capability of high ingestion rate. It is very fast and processes over a million records per second per node on a cluster of modest size. It contains core components called spout and bolt. 
 
 
-[Storm](https://storm.apache.org/releases/current/Tutorial.html) is a system for processing streaming data in real-time. It has the capability of high ingestion rate. It is very fast and processes over a million records per second per node on a cluster of modest size. It contains core components called spout and bolt. 
+![kafka](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/kafka.png "kafka")
+[**Kafka**](https://kafka.apache.org/) is also a real-time streaming data architecture that provides real-time analytics. It is a public-subscribe messaging system that allows the exchange of data between applications. It is also called a distributed event log.
 
 
-[Kafka](https://kafka.apache.org/) is also a real-time streaming data architecture that provides real-time analytics. It is a public-subscribe messaging system that allows the exchange of data between applications. It is also called a distributed event log.
+### In-memory processing 
+![ignite](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/ignite.png "ignite")
+[**Ignite**](https://apacheignite.readme.io/docs/what-is-ignite) is a horizontally scalable, fault-tolerant distributed in-memory computing platform for building real-time applications that can process terabytes of data with in-memory speed. Ignite distribute and cache data across multiple servers in RAM to provide unprecedented processing speed and massive application scalability.
+
+![spark](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/spark.png "spark")
+[**Spark**](https://spark.apache.org/) - is an analytics engine for large -scale data processing.It creates a Resilient Distributed Dataset(RDD) which helps it to process data fast. RRDs are fault tolerance collections of elements that can be distributed and processed in parallel across multiple nodes in a cluster. 
 
 
-In-memory processing 
-[Ignite](https://apacheignite.readme.io/docs/what-is-ignite) is a horizontally scalable, fault-tolerant distributed in-memory computing platform for building real-time applications that can process terabytes of data with in-memory speed. Ignite distribute and cache data across multiple servers in RAM to provide unprecedented processing speed and massive application scalability.
+### Workflow and Schedulers
+![Oozie](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/oozie.png "Oozie")
+[**Oozie**](https://oozie.apache.org/) is a workflow scheduler for Hadoop, it is used for managing Hadoop jobs in parallel. Its major components are workflow engine for creating Directed Acyclic Graphs(DAG) for workflow jobs and coordinator engine used for running workflow jobs.
 
-[Spark](https://spark.apache.org/) - is an analytics engine for large -scale data processing.It creates a Resilient Distributed Dataset(RDD) which helps it to process data fast. RRDs are fault tolerance collections of elements that can be distributed and processed in parallel across multiple nodes in a cluster. 
-
-
-Workflow and Schedulers
-[Oozie](https://oozie.apache.org/) is a workflow scheduler for Hadoop, it is used for managing Hadoop jobs in parallel. Its major components are workflow engine for creating Directed Acyclic Graphs(DAG) for workflow jobs and coordinator engine used for running workflow jobs.
-https://www.edureka.co/blog/brief-introduction-to-oozie/
-
-[Airflow](https://airflow.readthedocs.io/en/stable/) is a workflow management platform, it is used to create, manage, and monitor workflow. It also uses a Directed Acyclic Graph(DAG).
-https://airflow.apache.org/blog/airflow-1.10.10/
+![airflow](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/airflow.gif "Airflow")
+[**Airflow**](https://airflow.readthedocs.io/en/stable/) is a workflow management platform, it is used to create, manage, and monitor workflow. It also uses a Directed Acyclic Graph(DAG).
 
 
-Data Ingestion
-[Nifi](https://nifi.apache.org/docs.html) is used for automating the movement of data between disparate data sources.
-https://nifi.apache.org/
+### Data Ingestion
+![nifi](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/nifi.png "nifi")
+[**Nifi**](https://nifi.apache.org/docs.html) is used for automating the movement of data between disparate data sources.
 
-[Sqoop](https://sqoop.apache.org/) is used for transferring data between Hadoop systems and a relational database. It is a connector between Hadoop and legacy databases.
+![sqoop](https://res.cloudinary.com/dbzzslryr/image/upload/v1599748099/intro_big_data/Sqoop.png "sqoop")
+[**Sqoop**](https://sqoop.apache.org/) is used for transferring data between Hadoop systems and a relational database. It is a connector between Hadoop and legacy databases.
 http://new.skytekservices.com/sqoop
 
-[Flume](https://flume.apache.org/) is used for data ingestion in HDFS, it is used to collect, aggregate and transport large amounts of streaming data to HDFS.
+![Flume](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745168/intro_big_data/flume.png "Flume")
+[**Flume**](https://flume.apache.org/) is used for data ingestion in HDFS, it is used to collect, aggregate and transport large amounts of streaming data to HDFS.
 https://flume.apache.org/
 
-Coordination 
-[Zookeeper](https://zookeeper.apache.org/) is used for coordinating and managing services in a distributed environment, it is used for tracking nodes.
 
-Management and Monitoring 
-[Apache Ambari](https://ambari.apache.org/)shows an overview of a cluster. It gives a visualization of what is running on the clusters, the resources used on the clusters, and a UI to execute queries.
-https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-changing-configs-via-ambari
+### Coordination 
+![Zookeeper](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/zookeeper.png "Zokeeper")
+[**Zookeeper**](https://zookeeper.apache.org/) is used for coordinating and managing services in a distributed environment, it is used for tracking nodes.
 
 
-Machine Learning 
-[Madlib](https://madlib.apache.org/) used for scaling in database analytics, it is used to provide parallel implementation to run machine learning and deep learning workloads.
+### Management and Monitoring 
+![Ambari](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/ambari.png "Ambari")
+[**Ambari**](https://ambari.apache.org/)shows an overview of a cluster. It gives a visualization of what is running on the clusters, the resources used on the clusters, and a UI to execute queries.
 
-[Mahout](https://mahout.apache.org/) is a distributed linear algebra framework and mathematically expressive Scala DSL design to quickly implement algorithms. It integrates scalable machine learning algorithms to big data.
-https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781783554997/5/ch05lvl1sec42/apache-mahout-with-hadoop
+
+### Machine Learning
+![Madlib](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/madlib.png "Madlib")
+[**Madlib**](https://madlib.apache.org/) used for scaling in database analytics, it is used to provide parallel implementation to run machine learning and deep learning workloads.
+
+![Mahout](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mahout.jpg "Mahout")
+[**Mahout**](https://mahout.apache.org/) is a distributed linear algebra framework and mathematically expressive Scala DSL design to quickly implement algorithms. It integrates scalable machine learning algorithms to big data.
  
-
-[Spark MLLIB](https://spark.apache.org/docs/latest/ml-guide.html) solves the complexities surrounding distributed data used in machine learning. It simplifies the development and deployment of scalable machine learning pipelines 
+ 
+![Spark MLLib](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mahout.jpg "Spark MLLib")
+[**Spark MLLiB**](https://spark.apache.org/docs/latest/ml-guide.html) solves the complexities surrounding distributed data used in machine learning. It simplifies the development and deployment of scalable machine learning pipelines 
 https://intellipaat.com/blog/tutorial/machine-learning-tutorial/mllib-cheat-sheet/
 
 
-Security 
-[Ranger](https://ranger.apache.org/)- is used for monitoring and managing data security across Hadoop platforms. It provides a centralized security administration, access control, and detailed auditing for user access with Hadoop systems. 
+### Security 
+![Ranger](https://res.cloudinary.com/dbzzslryr/image/upload/v1599748595/intro_big_data/ranger.png "Ranger")
+[**Ranger**](https://ranger.apache.org/)- is used for monitoring and managing data security across Hadoop platforms. It provides a centralized security administration, access control, and detailed auditing for user access with Hadoop systems. 
 https://blog.privacera.com/apache-ranger-vision-of-centralized-data-security-and-governance-9de115ea18c6
 
 
