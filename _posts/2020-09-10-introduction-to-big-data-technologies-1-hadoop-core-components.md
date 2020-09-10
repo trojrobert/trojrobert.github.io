@@ -13,13 +13,14 @@ paginate: false
 ---
 
 
-Introduction to Big Data Technologies 1: Hadoop Core Components
+**Introduction to Big Data Technologies 1: Hadoop Core Components
 
 I am sure you use a social media platform either Facebook or Instagram or Twitter or Snapchat or Tiktok, the list is endless. One thing that is common to all these platforms is data generation. While using this platform, we generated a lot of data by commenting, uploading pictures and videos, clicks, likes, the time we spend on them, the location we are login in from, etc. In 2018, [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) stated 2.5 quintillion bytes of data was generated every day. As of January 2019, [the internet reaches 56.1% of the world population]( https://www.forbes.com/sites/nicolemartin1/2019/08/07/how-much-data-is-collected-every-minute-of-the-day/) which represents 4.49 billion people a 9% increase from January 2018. With the Pandemic in 2020, the use of the internet and the generation of data has increased tremendously. 
 
 This article focuses on introducing you to big data and to the core component of Hadoop which is the main technology behind Big Data.
 
 ![Data generated every minute](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745171/intro_big_data/big_data.jpg "Data generated every minute")
+
 [source](https://www.domo.com/learn/data-never-sleeps-7)
  
 Before we continue, we need to understand what Big Data really is and some concept in Big Data.
