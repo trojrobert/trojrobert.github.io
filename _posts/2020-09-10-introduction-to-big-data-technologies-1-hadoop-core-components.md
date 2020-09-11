@@ -184,10 +184,10 @@ https://flume.apache.org/
 [**Mahout**](https://mahout.apache.org/) is a distributed linear algebra framework and mathematically expressive Scala DSL design to quickly implement algorithms. It integrates scalable machine learning algorithms to big data.
  
  
-![Spark MLLib](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745169/intro_big_data/mahout.jpg "Spark MLLib")
+![Spark MLLib](https://res.cloudinary.com/dbzzslryr/image/upload/v1599745170/intro_big_data/sparkMLlib.png "Spark MLLib")
 
 [**Spark MLLiB**](https://spark.apache.org/docs/latest/ml-guide.html) solves the complexities surrounding distributed data used in machine learning. It simplifies the development and deployment of scalable machine learning pipelines 
-https://intellipaat.com/blog/tutorial/machine-learning-tutorial/mllib-cheat-sheet/
+
 
 
 ### Security 
