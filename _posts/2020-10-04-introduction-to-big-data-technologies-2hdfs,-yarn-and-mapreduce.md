@@ -48,10 +48,10 @@ HDFS is the storage layer in Hadoop. It stores large files by splitting them int
 ### HDFS Command 
 HDFS commands are similar to normal Linux commands, the only addition is that you have to put “hadoop fs” before each command.
 List file and directories in a directory
-![ls]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/list_files.png “ls”)
+![ls](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/list_files.png “ls”)
 
 Make new directory
-![mkdir]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png “mkdir”)
+![mkdir](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png “mkdir”)
 
 Copy file from local device to HDFS
 ![Copy File From Local Devicehttps](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/copy_from_local.png “copy_from_local”)
@@ -60,7 +60,8 @@ Copy file from local device to HDFS
 ## YARN – Yet Another Resource Negotiator 
 It is the resource manager used in Hadoop 2.X. It supports multiple processing model It manages how processes are done in Hadoop. It contains Resource Manager and Node Manager.
 
-![YARN Acrhitecture]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/Hadoop-YARN-Architecture.png “YARN Architecture”)
+![YARN Acrhitecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/Hadoop-YARN-Architecture.png “YARN Architecture”)
+
 
 ### Resource Manager
 It manages the resources in the NodeManger. It contains the scheduler and the Application Manager.
@@ -81,53 +82,56 @@ Let us use the instance of the 6 players and 4 columns.
 
 **Splitting** - The data is divided into blocks.
 **Block 1**
-![split 1]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b1.png “split 1”)
+![split 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b1.png “split 1”)
 **Block 2**
-![split 2]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b2.png “split 2”)
+![split 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b2.png “split 2”)
 **Block 3**
-![split 3]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b3.png “split 3”)
+![split 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b3.png “split 3”)
 
 
 **Mapper** - takes a set key-value pairs as input, transforms them, and returns another set of key-value pairs. Mappers focus on transforming input. In this example select the Age column and create another column that represents the count of a single player which is always 1.
 
 
-![mapper 1]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b1.png “mapper 1”)
+![mapper 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b1.png “mapper 1”)
 
-![mapper 2]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b2.png “mapper 2”)
+![mapper 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b2.png “mapper 2”)
 
-![mapper 3]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b3.png “mapper 3”)
+![mapper 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b3.png “mapper 3”)
 
 **Shuffling and Sorting** – this is done automatically by MapReduce, it shuffles and sorts the output of the mapper based on keys.
 
-![sort 1]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b1.png “sort 1”)
+![sort 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b1.png “sort 1”)
 
-![sort 2]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b2.png “sort 2”)
+![sort 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b2.png “sort 2”)
 
-![sort 3]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b3.png “sort 3”)
+![sort 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b3.png “sort 3”)
 
-![sort 4]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b4.png “sort 4”)
+![sort 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b4.png “sort 4”)
 
-![sort 5]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b5.png “sort 5”)
+![sort 5](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b5.png “sort 5”)
 
 **Reducer** – takes in a set of key-value pairs as input, performs some operation on them like sum, count, average, etc, then return reduced data. Reduce focus on aggregating input.
 
-**Block 1**
-![mkdir]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png “mkdir”)
-**Block 2**
-![mkdir]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png “mkdir”)
-**Block 3**
-![mkdir]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png “mkdir”)
+![reducer 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b1.png “reducer 1”)
+
+![reducer 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b2.png “reducer 2”)
+
+![reducer 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b3.png “reducer 3”)
+
+![reducer 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b4.png “reducer 4”)
 
 Final output
 **Block 3**
-![mkdir]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png “mkdir”)
+![final result](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775835/intro_big_data_2/final_output.png “final result”)
 
-Code Example 
+### Code Example 
 
 * Download and install [Virtual Machine Oracle VirtualBox](https://www.virtualbox.org/)
 * Download [Hortonworks HDP Sandbox](https://www.cloudera.com/downloads/hortonworks-sandbox.html)
 * Import and start your Hortonworks on your Virtual Machine, it installs cent OS and Hadoop dependencies on the virtual machine.
-* On windows, [download Putt]y(https://www.putty.org/) to create a terminal you can use in connecting to your virtual machine. You can connect directly from the terminal on Mac and Linux.
+![install dependencies](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780258/intro_big_data_2/install_dependencies.png “install dependencies”)
+
+* On windows, [download Putty](https://www.putty.org/) to create a terminal you can use in connecting to your virtual machine. You can connect directly from the terminal on Mac and Linux.
 Host Name – *maria_dev@127.0.0.1*
 Port - *2222*
 * Login on the terminal using 
@@ -135,15 +139,17 @@ Username – *maria_dev*
 Password – *maria_dev*
 
 * Install dependencies
-Install pip,  mrjob and editor like VS Code, nano, vim, sublime
-                                             
-Download [European Football Market Value](https://www.kaggle.com/aricht1995/european-football-market-values/version/6) from Kaggle. You can upload the data on Google Drive or a server because you cannot automatically use wget to download data from Kaggle
-Download data to the Virtual machine
-Image
-Create a python file with your editor
-Run the Python file using virtual machine resources  
-Python path_to_python_file 
-path_to_data
+* Install pip,  mrjob and editor like VS Code, nano, vim, sublime                                          
+* Download [European Football Market Value](https://www.kaggle.com/aricht1995/european-football-market-values/version/6) from Kaggle. You can upload the data on Google Drive or a server because you cannot automatically use wget to download data from Kaggle.
 
-Run-on Python file using Hadoop cluster
-Python path_to_python_file -r hadoop –hadoop-streaming-jar usr/hdp/current/hadoop-mapreduce-client/Hadoop-streaming.jar path_data   
+* Download data to the Virtual machine
+![wget](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/wget.png “wget”)
+
+* Create a python file with your editor
+![python file](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/player_age.png “python file”)
+
+* Run the python file using virtual machine resources 
+![run python file locally](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780257/intro_big_data_2/run_locally.png “run python file locally”)
+
+* Run-on Python file using Hadoop cluster
+![run python file on cluster](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780257/intro_big_data_2/run_locally.png “run python file on cluster”) 
