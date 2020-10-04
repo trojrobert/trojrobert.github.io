@@ -4,8 +4,8 @@ layout: post
 title: "Introduction to Big Data Technologies 2:HDFS, YARN and MapReduce"
 subtitle:
 description:
-image:https://res.cloudinary.com/dbzzslryr/image/upload/v1601762689/intro_big_data_2/hdfs_architecture.png
-optimized_image:https://res.cloudinary.com/dbzzslryr/image/upload/v1601762689/intro_big_data_2/hdfs_architecture.png
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1601762689/intro_big_data_2/hdfs_architecture.png
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1601762689/intro_big_data_2/hdfs_architecture.png
 category:
 tags:
 author:
