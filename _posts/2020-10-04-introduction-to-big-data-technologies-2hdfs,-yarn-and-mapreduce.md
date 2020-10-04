@@ -138,10 +138,12 @@ Final output
 * On windows, [download Putty](https://www.putty.org/) to create a terminal you can use in connecting to your virtual machine. You can connect directly from the terminal on Mac and Linux.
 
 Host Name – *maria_dev@127.0.0.1*
+
 Port - *2222*
 * Login on the terminal using 
 
 Username – *maria_dev*
+
 Password – *maria_dev*
 
 * Install dependencies
