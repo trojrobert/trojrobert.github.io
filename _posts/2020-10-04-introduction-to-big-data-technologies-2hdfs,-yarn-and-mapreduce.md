@@ -126,7 +126,6 @@ Let us use the instance of the 6 players and 4 columns.
 ![reducer 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b4.png "reducer 4")
 
 Final output
-**Block 3**
 ![final result](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775835/intro_big_data_2/final_output.png "final result")
 
 ### Code Example 
