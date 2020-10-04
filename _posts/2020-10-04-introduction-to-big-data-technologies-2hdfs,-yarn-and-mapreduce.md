@@ -65,8 +65,7 @@ HDFS commands are similar to normal Linux commands, the only addition is that yo
 ## YARN – Yet Another Resource Negotiator 
 It is the resource manager used in Hadoop 2.X. It supports multiple processing model It manages how processes are done in Hadoop. It contains Resource Manager and Node Manager.
 
-![YARN Acrhitecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/Hadoop-YARN-Architecture.png “YARN Architecture”)
-
+![YARN Architecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/Hadoop-YARN-Architecture.png "YARN Architecture")
 
 ### Resource Manager
 It manages the resources in the NodeManger. It contains the scheduler and the Application Manager.
@@ -83,15 +82,16 @@ MapReduce is a model used for processing large data distributedly and parallelly
 Using the [European Football Market values Dataset on Kaggle]( https://www.kaggle.com/aricht1995/european-football-market-values/version/6), Contains web scrapped Market Value information and other related data on Players from the top 9 European leagues including Premier League, La Liga, Liga NOS, Ligue 1, Bundesliga, Seria A, Premier Liga, Eredivisie, and Jupiler Pro League. The dataset contains 35 columns and over 4200(rows) player details but we will focus on the 6th column which contains the age of the players.
 Let us use the instance of the 6 players and 4 columns.
 
-![Initial Input File]( https://res.cloudinary.com/dbzzslryr/image/upload/v1601778904/intro_big_data_2/Input.png “Initial Input File”)
+![Initial Input File](https://res.cloudinary.com/dbzzslryr/image/upload/v1601778904/intro_big_data_2/Input.png"Initial Input File")
 
 **Splitting** - The data is divided into blocks.
 **Block 1**
-![split 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b1.png “split 1”)
+![split 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b1.png "split 1")
+
 **Block 2**
-![split 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b2.png “split 2”)
+![split 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b2.png "split 2")
 **Block 3**
-![split 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b3.png “split 3”)
+![split 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775837/intro_big_data_2/split_b3.png "split 3")
 
 
 **Mapper** - takes a set key-value pairs as input, transforms them, and returns another set of key-value pairs. Mappers focus on transforming input. In this example select the Age column and create another column that represents the count of a single player which is always 1.
