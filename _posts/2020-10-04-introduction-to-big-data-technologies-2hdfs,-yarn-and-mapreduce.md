@@ -50,7 +50,7 @@ HDFS commands are similar to normal Linux commands, the only addition is that yo
 
 List file and directories in a directory
 
-![ls](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/list_files.png "ls")
+![ls](https://res.cloudinary.com/dbzzslryr/image/upload/v1601781950/intro_big_data_2/ls2.png "ls")
 
 Make new directory
 ![mkdir](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png "mkdir")
