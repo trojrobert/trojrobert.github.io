@@ -82,7 +82,7 @@ MapReduce is a model used for processing large data distributedly and parallelly
 Using the [European Football Market values Dataset on Kaggle]( https://www.kaggle.com/aricht1995/european-football-market-values/version/6), Contains web scrapped Market Value information and other related data on Players from the top 9 European leagues including Premier League, La Liga, Liga NOS, Ligue 1, Bundesliga, Seria A, Premier Liga, Eredivisie, and Jupiler Pro League. The dataset contains 35 columns and over 4200(rows) player details but we will focus on the 6th column which contains the age of the players.
 Let us use the instance of the 6 players and 4 columns.
 
-![Initial Input File](https://res.cloudinary.com/dbzzslryr/image/upload/v1601778904/intro_big_data_2/Input.png"Initial Input File")
+![Initial Input File](https://res.cloudinary.com/dbzzslryr/image/upload/v1601778904/intro_big_data_2/Input.png "Initial Input File")
 
 **Splitting** - The data is divided into blocks.
 **Block 1**
@@ -97,44 +97,44 @@ Let us use the instance of the 6 players and 4 columns.
 **Mapper** - takes a set key-value pairs as input, transforms them, and returns another set of key-value pairs. Mappers focus on transforming input. In this example select the Age column and create another column that represents the count of a single player which is always 1.
 
 
-![mapper 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b1.png “mapper 1”)
+![mapper 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b1.png "mapper 1")
 
-![mapper 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b2.png “mapper 2”)
+![mapper 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b2.png "mapper 2")
 
-![mapper 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b3.png “mapper 3”)
+![mapper 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/mapper_b3.png "mapper 3")
 
 **Shuffling and Sorting** – this is done automatically by MapReduce, it shuffles and sorts the output of the mapper based on keys.
 
-![sort 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b1.png “sort 1”)
+![sort 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b1.png "sort 1")
 
-![sort 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b2.png “sort 2”)
+![sort 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b2.png "sort 2")
 
-![sort 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b3.png “sort 3”)
+![sort 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b3.png "sort 3")
 
-![sort 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b4.png “sort 4”)
+![sort 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b4.png "sort 4")
 
-![sort 5](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b5.png “sort 5”)
+![sort 5](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/sort_b5.png "sort 5")
 
 **Reducer** – takes in a set of key-value pairs as input, performs some operation on them like sum, count, average, etc, then return reduced data. Reduce focus on aggregating input.
 
-![reducer 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b1.png “reducer 1”)
+![reducer 1](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b1.png "reducer 1")
 
-![reducer 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b2.png “reducer 2”)
+![reducer 2](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b2.png "reducer 2")
 
-![reducer 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b3.png “reducer 3”)
+![reducer 3](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b3.png "reducer 3")
 
-![reducer 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b4.png “reducer 4”)
+![reducer 4](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775836/intro_big_data_2/reducer_b4.png "reducer 4")
 
 Final output
 **Block 3**
-![final result](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775835/intro_big_data_2/final_output.png “final result”)
+![final result](https://res.cloudinary.com/dbzzslryr/image/upload/v1601775835/intro_big_data_2/final_output.png "final result")
 
 ### Code Example 
 
 * Download and install [Virtual Machine Oracle VirtualBox](https://www.virtualbox.org/)
 * Download [Hortonworks HDP Sandbox](https://www.cloudera.com/downloads/hortonworks-sandbox.html)
 * Import and start your Hortonworks on your Virtual Machine, it installs cent OS and Hadoop dependencies on the virtual machine.
-![install dependencies](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780258/intro_big_data_2/install_dependencies.png “install dependencies”)
+![install dependencies](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780258/intro_big_data_2/install_dependencies.png "install dependencies")
 
 * On windows, [download Putty](https://www.putty.org/) to create a terminal you can use in connecting to your virtual machine. You can connect directly from the terminal on Mac and Linux.
 Host Name – *maria_dev@127.0.0.1*
@@ -148,13 +148,13 @@ Password – *maria_dev*
 * Download [European Football Market Value](https://www.kaggle.com/aricht1995/european-football-market-values/version/6) from Kaggle. You can upload the data on Google Drive or a server because you cannot automatically use wget to download data from Kaggle.
 
 * Download data to the Virtual machine
-![wget](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/wget.png “wget”)
+![wget](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/wget.png "wget")
 
 * Create a python file with your editor
-![python file](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/player_age.png “python file”)
+![python file](https://res.cloudinary.com/dbzzslryr/image/upload/v1601774913/intro_big_data_2/player_age.png "python file")
 
 * Run the python file using virtual machine resources 
-![run python file locally](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780257/intro_big_data_2/run_locally.png “run python file locally”)
+![run python file locally](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780257/intro_big_data_2/run_locally.png "run python file locally")
 
 * Run-on Python file using Hadoop cluster
-![run python file on cluster](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780257/intro_big_data_2/run_locally.png “run python file on cluster”) 
+![run python file on cluster](https://res.cloudinary.com/dbzzslryr/image/upload/v1601780257/intro_big_data_2/run_locally.png "run python file on cluster") 
