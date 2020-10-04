@@ -47,6 +47,7 @@ HDFS is the storage layer in Hadoop. It stores large files by splitting them int
 
 ### HDFS Command 
 HDFS commands are similar to normal Linux commands, the only addition is that you have to put “hadoop fs” before each command.
+
 List file and directories in a directory
 ![ls](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/list_files.png “ls”)
 
