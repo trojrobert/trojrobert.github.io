@@ -48,14 +48,16 @@ HDFS is the storage layer in Hadoop. It stores large files by splitting them int
 ### HDFS Command 
 HDFS commands are similar to normal Linux commands, the only addition is that you have to put “hadoop fs” before each command.
 
-List file and directories in a directory
+#### List file and directories in a directory
 
-![ls](https://res.cloudinary.com/dbzzslryr/image/upload/v1601781950/intro_big_data_2/ls2.png "ls")
+![ls](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/list_files.png "ls")
 
-Make new directory
+#### Make new directory
+
 ![mkdir](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/make_directory.png "mkdir")
 
-Copy file from local device to HDFS
+#### Copy file from local device to HDFS
+
 ![copy_from_local](https://res.cloudinary.com/dbzzslryr/image/upload/v1601768151/intro_big_data_2/copy_from_local.png "copy_from_local")
 
 
