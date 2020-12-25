@@ -1,4 +1,5 @@
 # Site Settings
+<<<<<<< HEAD
 
 name: trojrobert
 title: trojrobert | trojrobert
@@ -12,6 +13,18 @@ tags:
 email: youremail@xyz.com
 disqus_username: disqus_username
 
+=======
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by
+  Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+>>>>>>> a6113abe12248d2431748b6dc3cbedec5be063dc
 show_hero: true
 menu:
   - title: Home
