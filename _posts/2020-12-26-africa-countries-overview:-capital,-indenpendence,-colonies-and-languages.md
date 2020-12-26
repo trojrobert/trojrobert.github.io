@@ -32,7 +32,7 @@ paginate: false
       <td>Spain</td>
       <td>Arabic, Berber</td>
       <td>38</td>
-      <td>2</td>
+      <td></td>
     </tr>
   </tfoot>
   <tbody>
@@ -43,7 +43,7 @@ paginate: false
       <td>Spain</td>
       <td>Arabic*, French, Berber dialects, Spanish</td>
       <td>38</td>
-      <td>2</td>
+      <td></td>
     </tr>
     <tr>
       <td>Algeria</td>
@@ -52,7 +52,7 @@ paginate: false
       <td>France</td>
       <td>Arabic*, French</td>
       <td>44</td>
-      <td>2</td>
+      <td></td>
     </tr>
     <tr>
       <td>Tunisia</td>
@@ -61,7 +61,7 @@ paginate: false
       <td>France</td>
       <td>Arabic*, French</td>
       <td>12</td>
-      <td>2</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
