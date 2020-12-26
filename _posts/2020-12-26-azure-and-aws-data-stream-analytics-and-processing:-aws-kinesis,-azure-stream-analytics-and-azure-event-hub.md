@@ -74,10 +74,12 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 
 ### Code Examples 
 [Generating streams of weather data](https://github.com/amazon-archives/aws-weathergen)
+
 [Kinesis Data Generator](https://github.com/awslabs/amazon-kinesis-data-generator)
 
 ### Official Resources
 [Amazon Kinesis](https://aws.amazon.com/kinesis/) 
+
 [Amazon Kinesis Blog](https://aws.amazon.com/blogs/big-data/category/analytics/amazon-kinesis/)
 
 
@@ -117,12 +119,16 @@ Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?v
 [Azure Event Hubs samples](https://github.com/Azure/azure-event-hubs/tree/master/samples)
 
 ### Official Resources
+[Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/)
+
+[Azure Event Hubs documentation](https://docs.microsoft.com/en-us/azure/event-hubs/)
 
 ### Other Resources
-[Azure Event Hub Tutorial | Big data message streaming service](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
-[Azure Event Hubs for Apache Kafka | Azure Friday](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
-[How to perform data ingestion with Azure Event Hubs | Azure Makers Series](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
-[https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
+[Azure Event Hub Tutorial | Big data message streaming service(video)](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
+
+[Azure Event Hubs for Apache Kafka | Azure Friday(video)](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
+[How to perform data ingestion with Azure Event Hubs | Azure Makers Series(video)](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
+[https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET(video)](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
 
 
 ## Azure Stream Analytics 
@@ -150,18 +156,24 @@ Source - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytic
 
 ### Official Resources
 [Azure Stream Analytics documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/)
+
 [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
 
 
 ### Other Resources
 [Azure Stream Analytics Tutorial | Processing stream data with SQL(video)](https://www.youtube.com/watch?v=NbGmyjgY0pU&t=582s)
+
 [Anomaly detection using machine learning in Azure Stream Analytics | Azure Friday(video)](https://www.youtube.com/watch?v=Ra8HhBLdzHE)
+
 [Azure Stream Analytics(video)](https://www.youtube.com/watch?v=rrODKaB7XSY)
 
 ## Comparing Amazon Kinesis, Azure Event Hub and Azure Stream Analytics 
 [Comparing Apache Kafka, Amazon Kinesis, Microsoft Event Hubs and Google Pub/Sub](https://blog.scottlogic.com/2018/04/17/comparing-big-data-messaging)
+
 [A closer look at data streaming capabilities of Amazon Kinesis and Azure Event Hubs](https://christofer.lof.io/2018/03/17/aws-kinesis-and-azure-eventhubs.html)
+
 [An Introduction to stream processing systems: Kafka, AWS Kinesis and Azure Event Hubs](https://blog.container-solutions.com/introduction-stream-processing-systems-kafka-aws-kinesis-azure-event-hubs)
+
 [Apache Kafka VS AWS Kinesis](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
 
 
