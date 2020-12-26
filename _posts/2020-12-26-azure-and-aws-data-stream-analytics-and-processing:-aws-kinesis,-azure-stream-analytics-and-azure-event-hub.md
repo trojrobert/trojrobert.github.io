@@ -86,8 +86,11 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 ### Other Resources 
 
 [High Performance Data Streaming with Amazon Kinesis: Best Practices and Common Pitfalls(video)](https://www.youtube.com/watch?v=MELPeni0p04&ab_channel=AmazonWebServices)
+
 [AWS Streaming Data Solution for Amazon Kinesis(article)](https://aws.amazon.com/solutions/implementations/aws-streaming-data-solution-for-amazon-kinesis/)
+
 [Streaming Data Solutions on AWS with Amazon Kinesis(pdf)](https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf)
+
 [AWS Kinesis Tutorial for Beginners | Introduction to Amazon Kinesis | AWS Training | Edureka(video)](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
 
 ## Azure Event Hub
@@ -127,7 +130,9 @@ Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?v
 [Azure Event Hub Tutorial | Big data message streaming service(video)](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
 
 [Azure Event Hubs for Apache Kafka | Azure Friday(video)](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
+
 [How to perform data ingestion with Azure Event Hubs | Azure Makers Series(video)](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
+
 [https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET(video)](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
 
 
