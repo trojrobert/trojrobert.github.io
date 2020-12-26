@@ -18,9 +18,9 @@ paginate: false
       <th>Country</th>
       <th>Capital</th>
       <th>Indenpendence</th>
-      <th>Colonied By</th>
+      <th>Colonized By</th>
       <th>Languages</th>
-      <th>Peculiarity</th>
+      <th>Facts</th>
     </tr>
   </thead>
   <tfoot>
@@ -40,7 +40,6 @@ paginate: false
       <td>1956</td>
       <td>Spain</td>
       <td>Arabic*, French, Berber dialects, Spanish</td>
-      <td>38</td>
       <td></td>
     </tr>
     <tr>
