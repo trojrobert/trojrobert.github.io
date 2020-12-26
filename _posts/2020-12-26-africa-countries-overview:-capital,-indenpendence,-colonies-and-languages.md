@@ -20,7 +20,6 @@ paginate: false
       <th>Indenpendence</th>
       <th>Colonied By</th>
       <th>Languages</th>
-      <th>Population</th>
       <th>Peculiarity</th>
     </tr>
   </thead>
@@ -31,7 +30,6 @@ paginate: false
       <td>1956</td>
       <td>Spain</td>
       <td>Arabic, Berber</td>
-      <td>38</td>
       <td></td>
     </tr>
   </tfoot>
@@ -51,7 +49,6 @@ paginate: false
       <td>1962</td>
       <td>France</td>
       <td>Arabic*, French</td>
-      <td>44</td>
       <td></td>
     </tr>
     <tr>
@@ -60,7 +57,6 @@ paginate: false
       <td>1956</td>
       <td>France</td>
       <td>Arabic*, French</td>
-      <td>12</td>
       <td></td>
     </tr>
   </tbody>
