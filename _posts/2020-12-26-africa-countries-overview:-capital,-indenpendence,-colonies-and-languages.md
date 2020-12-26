@@ -11,3 +11,57 @@ tags:
 author:
 paginate: false
 ---
+
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Capital</th>
+      <th>Indenpendence</th>
+      <th>Colonied By</th>
+      <th>Languages</th>
+      <th>Population</th>
+      <th>Peculiarity</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Morocco</td>
+      <td>Rabat</td>
+      <td>1956</td>
+      <td>Spain</td>
+      <td>Arabic, Berber</td>
+      <td>38</td>
+      <td>2</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Morocco</td>
+      <td>Rabat</td>
+      <td>1956</td>
+      <td>Spain</td>
+      <td>Arabic*, French, Berber dialects, Spanish</td>
+      <td>38</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Algeria</td>
+      <td>Algiers</td>
+      <td>1962</td>
+      <td>France</td>
+      <td>Arabic*, French</td>
+      <td>44</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Tunisia</td>
+      <td>Tunis</td>
+      <td>1956</td>
+      <td>France</td>
+      <td>Arabic*, French</td>
+      <td>12</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
