@@ -3,12 +3,12 @@ date: 2020-12-26 10:38:36
 layout: post
 title: "Azure and Amazon Data Stream Analytics and Processing: Amazon Kinesis, Azure Stream Analytics and  Azure Event Hub"
 subtitle:
-description:This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
-image:https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/streams.png
-optimized_image:https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/streams.png
+description: This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/streams.png
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/streams.png
 category: Cloud
 tags:
-author:
+author: John Robert
 paginate: false
 ---
 
