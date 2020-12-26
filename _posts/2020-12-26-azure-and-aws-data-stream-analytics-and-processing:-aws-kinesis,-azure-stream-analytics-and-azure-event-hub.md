@@ -4,8 +4,8 @@ layout: post
 title: "Azure and Amazon Data Stream Analytics and Processing: Amazon Kinesis, Azure Stream Analytics and  Azure Event Hub"
 subtitle:
 description: This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
-image: https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/streams.png
-optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/streams.png
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/data_streams.png
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1608985915/stream%20analytics/data_streams.png
 category: Cloud
 tags:
 author: John Robert
@@ -42,16 +42,22 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 
 ### Types of Amazon Kinesis
 [Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html) - capture, process and store video streams.
+
 [Kinesis Data Streams](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)- capture, process and store data streams. 
+
 [Kinesis Data Firehose](https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html) - capture, transform, and load data streams into AWS data stores.
+
 [Kinesis Data Analytics](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html) - process data streams in real time with SQL or Apache Flink.   
 
 
 
 ### Pricing
 [Amazon Kinesis Data Streams Pricing](https://aws.amazon.com/kinesis/data-streams/pricing/) is based on Shared Hour and PUT Payload Unit.
+
 [Amazon Kinesis Video Streams Pricing](https://aws.amazon.com/kinesis/video-streams/pricing/) is volume of data you ingest, store, and consume in your video streams.
+
 [Amazon Kinesis Data Firehose Pricing](https://aws.amazon.com/kinesis/data-firehose/pricing/) is based on the volume of data ingested into Kinesis Data Firehose.
+
 [Amazon Kinesis Data Analytics Pricing](https://aws.amazon.com/kinesis/data-analytics/pricing/) is based on the average number of Kinesis Processing Units (or KPUs) used to run your stream processing application which is charged per hour.
 
 
