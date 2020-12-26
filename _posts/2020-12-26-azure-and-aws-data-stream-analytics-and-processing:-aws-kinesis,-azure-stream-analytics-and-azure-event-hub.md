@@ -61,7 +61,7 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 [Amazon Kinesis Data Analytics Pricing](https://aws.amazon.com/kinesis/data-analytics/pricing/) is based on the average number of Kinesis Processing Units (or KPUs) used to run your stream processing application which is charged per hour.
 
 
-### Hand-On Examples
+### Hand-On Tutorials 
 [Building a log Analytics Solution](https://aws.amazon.com/getting-started/hands-on/build-log-analytics-solution/)
 * Set up a kinesis Agent
 * Create an end to end data delivery stream using kinesis Data Firehose 
@@ -95,10 +95,10 @@ Event Hub is a real time ingestion service. The streamed data can be store in Bl
 Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?view=azs-2008
 
 
-**Other Azure services commonly used with Azure Event Hub** :- Azure Stream Analytics, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics
+**Other Azure services commonly used with Azure Event Hub** :- Azure Stream Analytics, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics, Azure Event Gird
 
 ### Pricing
-[Azure Event Hub](https://azure.microsoft.com/en-us/pricing/details/event-hubs/) is based on throughput unit, ingress events and capture. 
+[Azure Event Hub Pricing](https://azure.microsoft.com/en-us/pricing/details/event-hubs/) is based on throughput unit, ingress events and capture. 
 
 ### Hands on Tutorials 
 [Migrate captured Event Hubs data to Azure Synapse Analytics using Event Grid and Azure Functions](https://docs.microsoft.com/en-us/azure/event-hubs/store-captured-data-data-warehouse)
@@ -116,6 +116,8 @@ Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?v
 ### Code Samples 
 [Azure Event Hubs samples](https://github.com/Azure/azure-event-hubs/tree/master/samples)
 
+### Official Resources
+
 ### Other Resources
 [Azure Event Hub Tutorial | Big data message streaming service](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
 [Azure Event Hubs for Apache Kafka | Azure Friday](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
@@ -123,8 +125,44 @@ Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?v
 [https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
 
 
+## Azure Stream Analytics 
+Azure Stream Analytics is a serverless real time analytics service. It uses SQL which can be extensible with custom code and built in machine learning capabilities.
 
-Good resources 
-https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78
+![Azure Stream Analytics](https://res.cloudinary.com/dbzzslryr/image/upload/v1608999419/stream%20analytics/stream-analytics-pipeline.png "Azure Stream Analytics ")
+Source - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction
+
+**Other Azure services commonly used with Azure Stream Analytics** :- Azure Event Hub, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics
+
+### Pricing 
+[Azure Stream Anakytics Pricing](https://azure.microsoft.com/en-us/pricing/details/stream-analytics/) is based on the number of streaming Units Provisioned. A Streaming Unit represents the amount of memory and compute allocated to your resources.
+
+### Hands on Tutorials 
+[Analyze fraudulent call data with Stream Analytics and visualize results in Power BI dashboard](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-real-time-fraud-detection)
+* Create event hubs. 
+* Start event generator application.
+* Create Stream Analytics Job and configure job input using event Hub. 
+* Visualize transformed data on Power BI. 
+
+[Monitor GeoFences in real-time using Azure SQL and Stream Analytics](https://docs.microsoft.com/en-us/samples/azure-samples/azure-sql-db-serverless-geospatial-stream-analytics/azure-sql-db-serverless-geospatial-stream-analytics/)
+
+### Code examples 
+[Real-Time Serverless GeoSpatial Public Transportation GeoFencing Solution](https://github.com/Azure-Samples/azure-sql-db-serverless-geospatial)
+
+### Official Resources
+[Azure Stream Analytics documentation](https://docs.microsoft.com/en-us/azure/stream-analytics/)
+[Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/)
+
+
+### Other Resources
+[Azure Stream Analytics Tutorial | Processing stream data with SQL(video)](https://www.youtube.com/watch?v=NbGmyjgY0pU&t=582s)
+[Anomaly detection using machine learning in Azure Stream Analytics | Azure Friday(video)](https://www.youtube.com/watch?v=Ra8HhBLdzHE)
+[Azure Stream Analytics(video)](https://www.youtube.com/watch?v=rrODKaB7XSY)
+
+## Comparing Amazon Kinesis, Azure Event Hub and Azure Stream Analytics 
+[Comparing Apache Kafka, Amazon Kinesis, Microsoft Event Hubs and Google Pub/Sub](https://blog.scottlogic.com/2018/04/17/comparing-big-data-messaging)
+[A closer look at data streaming capabilities of Amazon Kinesis and Azure Event Hubs](https://christofer.lof.io/2018/03/17/aws-kinesis-and-azure-eventhubs.html)
+[An Introduction to stream processing systems: Kafka, AWS Kinesis and Azure Event Hubs](https://blog.container-solutions.com/introduction-stream-processing-systems-kafka-aws-kinesis-azure-event-hubs)
+[Apache Kafka VS AWS Kinesis](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
+
 
 
