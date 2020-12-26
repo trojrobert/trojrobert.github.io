@@ -88,6 +88,41 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 [Streaming Data Solutions on AWS with Amazon Kinesis(pdf)](https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf)
 [AWS Kinesis Tutorial for Beginners | Introduction to Amazon Kinesis | AWS Training | Edureka(video)](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
 
+## Azure Event Hub
+Event Hub is a real time ingestion service. The streamed data can be store in Blob storage, Data Lake and other storage. It can be connected to Azure Stream Analytics to analyze the data.Data can be sent to Event Hub, analysed with Azure Stream Analytics at real time, then visualized with Power BI. 
+
+![Azure Event Hub](https://res.cloudinary.com/dbzzslryr/image/upload/v1608997849/stream%20analytics/event-hub-architecture.png "Azure Event Hub ")
+Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?view=azs-2008
+
+
+**Other Azure services commonly used with Azure Event Hub** :- Azure Stream Analytics, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics
+
+### Pricing
+[Azure Event Hub](https://azure.microsoft.com/en-us/pricing/details/event-hubs/) is based on throughput unit, ingress events and capture. 
+
+### Hands on Tutorials 
+[Migrate captured Event Hubs data to Azure Synapse Analytics using Event Grid and Azure Functions](https://docs.microsoft.com/en-us/azure/event-hubs/store-captured-data-data-warehouse)
+* Data sent to an Azure event hub is captured in an Azure blob storage.
+* When the data capture is complete, an event is generated and sent to an Azure event grid.
+* The event grid forwards this event data to an Azure function app.
+* The function app uses the blob URL in the event data to retrieve the blob from the storage.
+* The function app migrates the blob data to an Azure Synapse Analytics.
+
+[Visualize data anomalies in real-time events sent to Azure Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-tutorial-visualize-anomalies)
+
+[Stream Twitter data into Azure Databricks using Event Hubs](https://docs.microsoft.com/en-us/azure/databricks/scenarios/databricks-stream-from-eventhubs)
+
+
+### Code Samples 
+[Azure Event Hubs samples](https://github.com/Azure/azure-event-hubs/tree/master/samples)
+
+### Other Resources
+[Azure Event Hub Tutorial | Big data message streaming service](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
+[Azure Event Hubs for Apache Kafka | Azure Friday](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
+[How to perform data ingestion with Azure Event Hubs | Azure Makers Series](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
+[https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
+
+
 
 Good resources 
 https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78
