@@ -14,7 +14,7 @@ paginate: false
 [source](https://flink.apache.org/news/2017/04/04/dynamic-tables.html)
 
 
-Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data. These [streaming data](https://aws.amazon.com/streaming-data/#:~:text=Streaming%20data%20includes%20a%20wide,devices%20or%20instrumentation%20in%20data) could be transaction data from an e-commerce website, financial trading floors, telemetry from IoT devices and social media data.   
+Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data. These [streaming data](https://aws.amazon.com/streaming-data/#:~:text=Streaming%20data%20includes%20a%20wide,devices%20or%20instrumentation%20in%20data) could be transaction data from an e-commerce website, financial trading floors, telemetry from IoT devices, and social media data.   
 
 This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
 
@@ -43,20 +43,20 @@ Amazon Kinesis Data Stream Architecture [source](https://docs.aws.amazon.com/str
 **Other Amazon Web Services used with Amazon Kinesis** : Kinesis Video Streams, Kinesis Data Streams, Kinesis Data Firehose, Kinesis Data Analytics, Amazon EC2, Amazon S3, Amazon Redshift, DynamoDB, Amazon EMR, Amazon Elasticsearch Service, Amazon Lambda. 
 
 ### Types of Amazon Kinesis
-[Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html) - capture, process and store video streams.
+[Kinesis Video Streams](https://docs.aws.amazon.com/kinesisvideostreams/latest/dg/what-is-kinesis-video.html) - capture, process, and store video streams.
 
-[Kinesis Data Streams](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)- capture, process and store data streams. 
+[Kinesis Data Streams](https://docs.aws.amazon.com/streams/latest/dev/introduction.html)- capture, process, and store data streams. 
 
 [Kinesis Data Firehose](https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html) - capture, transform, and load data streams into AWS data stores.
 
-[Kinesis Data Analytics](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html) - process data streams in real time with SQL or Apache Flink.   
+[Kinesis Data Analytics](https://docs.aws.amazon.com/kinesisanalytics/latest/dev/what-is.html) - process data streams in real-time with SQL or Apache Flink.   
 
 
 
 ### Pricing
 [Amazon Kinesis Data Streams Pricing](https://aws.amazon.com/kinesis/data-streams/pricing/) is based on Shared Hour and PUT Payload Unit.
 
-[Amazon Kinesis Video Streams Pricing](https://aws.amazon.com/kinesis/video-streams/pricing/) is volume of data you ingest, store, and consume in your video streams.
+[Amazon Kinesis Video Streams Pricing](https://aws.amazon.com/kinesis/video-streams/pricing/) is based on the volume of data you ingest, store, and consume in your video streams.
 
 [Amazon Kinesis Data Firehose Pricing](https://aws.amazon.com/kinesis/data-firehose/pricing/) is based on the volume of data ingested into Kinesis Data Firehose.
 
@@ -96,7 +96,7 @@ Amazon Kinesis Data Stream Architecture [source](https://docs.aws.amazon.com/str
 ["AWS Kinesis Tutorial for Beginners \| Introduction to Amazon Kinesis  AWS Training \| Edureka(video)"](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
 
 ## Azure Event Hub
-Event Hub is a real time ingestion service. The streamed data can be store in Blob storage, Data Lake and other storage. It can be connected to Azure Stream Analytics to analyze the data.Data can be sent to Event Hub, analysed with Azure Stream Analytics at real time, then visualized with Power BI. 
+Event Hub is a real time ingestion service. The streamed data can be store in Blob storage, Data Lake, and other storage. It can be connected to Azure Stream Analytics to analyze the data. Data can be sent to Event Hub, analysed with Azure Stream Analytics at real time, then visualized with Power BI. 
 
 ![Azure Event Hub](https://res.cloudinary.com/dbzzslryr/image/upload/v1608997849/stream%20analytics/event-hub-architecture.png "Azure Event Hub ")
 Azure Event Hub Workflow [source](https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?view=azs-2008)
@@ -105,13 +105,13 @@ Azure Event Hub Workflow [source](https://docs.microsoft.com/en-us/azure-stack/u
 **Other Azure services commonly used with Azure Event Hub** :- Azure Stream Analytics, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics, Azure Event Gird
 
 ### Pricing
-[Azure Event Hub Pricing](https://azure.microsoft.com/en-us/pricing/details/event-hubs/) is based on throughput unit, ingress events and capture. 
+[Azure Event Hub Pricing](https://azure.microsoft.com/en-us/pricing/details/event-hubs/) is based on throughput unit, ingress events, and capture. 
 
-### Hands on Tutorials 
+### Hands-On Tutorials 
 [Migrate captured Event Hubs data to Azure Synapse Analytics using Event Grid and Azure Functions](https://docs.microsoft.com/en-us/azure/event-hubs/store-captured-data-data-warehouse)
-* Data sent to an Azure event hub is captured in an Azure blob storage.
+* Data sent to an Azure event hub is captured in Azure blob storage.
 * When the data capture is complete, an event is generated and sent to an Azure event grid.
-* The event grid forwards this event data to an Azure function app.
+* The event grid forwards this event data to Azure function app.
 * The function app uses the blob URL in the event data to retrieve the blob from the storage.
 * The function app migrates the blob data to an Azure Synapse Analytics.
 
@@ -147,9 +147,9 @@ Azure Stream Analytics Workflow [source](https://docs.microsoft.com/en-us/azure/
 **Other Azure services commonly used with Azure Stream Analytics** :- Azure Event Hub, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics
 
 ### Pricing 
-[Azure Stream Anakytics Pricing](https://azure.microsoft.com/en-us/pricing/details/stream-analytics/) is based on the number of streaming Units Provisioned. A Streaming Unit represents the amount of memory and compute allocated to your resources.
+[Azure Stream Analytics Pricing](https://azure.microsoft.com/en-us/pricing/details/stream-analytics/) is based on the number of streaming Units Provisioned. A Streaming Unit represents the amount of memory and compute allocated to your resources.
 
-### Hands on Tutorials 
+### Hands-On Tutorials 
 [Analyze fraudulent call data with Stream Analytics and visualize results in Power BI dashboard](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-real-time-fraud-detection)
 * Create event hubs. 
 * Start event generator application.
