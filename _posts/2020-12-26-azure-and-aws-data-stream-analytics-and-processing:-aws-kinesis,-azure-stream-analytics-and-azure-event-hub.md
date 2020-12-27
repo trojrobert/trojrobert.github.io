@@ -36,7 +36,7 @@ This article gives a brief description and use cases of the data stream analytic
 Amazon Kinesis is an Amazon Web Service for easy and scalable collection, processing, and analysis of video and data streams in real-time. It can also be used for batch processing. It is can be used for data ingestion for machine learning, analytics, and other applications.
 
 ![Amazon Kinesis Data Stream Architecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1608984421/stream%20analytics/kinesis_architecture.png "Amazon Kinesis Data Stream Architecture")
-Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
+Amazon Kinesis Data Stream Architecture [source](https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html)
 
 **Other Amazon Web Services used with Amazon Kinesis** : Kinesis Video Streams, Kinesis Data Streams, Kinesis Data Firehose, Kinesis Data Analytics, Amazon EC2, Amazon S3, Amazon Redshift, DynamoDB, Amazon EMR, Amazon Elasticsearch Service, Amazon Lambda. 
 
@@ -97,7 +97,7 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 Event Hub is a real time ingestion service. The streamed data can be store in Blob storage, Data Lake and other storage. It can be connected to Azure Stream Analytics to analyze the data.Data can be sent to Event Hub, analysed with Azure Stream Analytics at real time, then visualized with Power BI. 
 
 ![Azure Event Hub](https://res.cloudinary.com/dbzzslryr/image/upload/v1608997849/stream%20analytics/event-hub-architecture.png "Azure Event Hub ")
-Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?view=azs-2008
+Azure Event Hub Workflow [source](https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?view=azs-2008)
 
 
 **Other Azure services commonly used with Azure Event Hub** :- Azure Stream Analytics, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics, Azure Event Gird
@@ -140,7 +140,7 @@ Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?v
 Azure Stream Analytics is a serverless real time analytics service. It uses SQL which can be extensible with custom code and built in machine learning capabilities.
 
 ![Azure Stream Analytics](https://res.cloudinary.com/dbzzslryr/image/upload/v1608999419/stream%20analytics/stream-analytics-pipeline.png "Azure Stream Analytics ")
-Source - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction
+Azure Stream Analytics Workflow [source](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction)
 
 **Other Azure services commonly used with Azure Stream Analytics** :- Azure Event Hub, Power BI, Azure blob storage, Azure event grid, Azure Function, Azure Synapse Analytics
 
