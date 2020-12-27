@@ -12,7 +12,7 @@ author: John Robert
 paginate: false
 ---
 
-Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data. 
+Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data.These [streaming data](https://aws.amazon.com/streaming-data/#:~:text=Streaming%20data%20includes%20a%20wide,devices%20or%20instrumentation%20in%20data) could be transaction data from an e-commerce website, financial trading floors, telemetry from IoT devices and social media data.   
 
 This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
 
@@ -166,9 +166,9 @@ Source - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytic
 
 
 ### Other Resources
-[Azure Stream Analytics Tutorial | Processing stream data with SQL(video)](https://www.youtube.com/watch?v=NbGmyjgY0pU&t=582s)
+[Azure Stream Analytics Tutorial \| Processing stream data with SQL(video)](https://www.youtube.com/watch?v=NbGmyjgY0pU&t=582s)
 
-[Anomaly detection using machine learning in Azure Stream Analytics | Azure Friday(video)](https://www.youtube.com/watch?v=Ra8HhBLdzHE)
+[Anomaly detection using machine learning in Azure Stream Analytics "|" Azure Friday(video)](https://www.youtube.com/watch?v=Ra8HhBLdzHE)
 
 [Azure Stream Analytics(video)](https://www.youtube.com/watch?v=rrODKaB7XSY)
 
@@ -181,5 +181,7 @@ Source - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytic
 
 [Apache Kafka VS AWS Kinesis](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
 
+
+I hope you have been able to get an insight to stream analytics and services provided by AWS and Azure for processing stream data. 
 
 
