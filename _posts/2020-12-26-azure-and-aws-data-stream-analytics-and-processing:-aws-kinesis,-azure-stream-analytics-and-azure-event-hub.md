@@ -131,11 +131,11 @@ Azure Event Hub Workflow [source](https://docs.microsoft.com/en-us/azure-stack/u
 ### Other Resources
 [Azure Event Hub Tutorial \| Big data message streaming service(video)](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
 
-[Azure Event Hubs for Apache Kafka | Azure Friday(video)](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
+[Azure Event Hubs for Apache Kafka \| Azure Friday(video)](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
 
 [How to perform data ingestion with Azure Event Hubs \| Azure Makers Series(video)](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
 
-[https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET(video)](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
+[Messaging with Azure Event Hubs(video)](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
 
 
 ## Azure Stream Analytics 
