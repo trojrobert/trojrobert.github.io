@@ -11,7 +11,7 @@ tags:
 author: John Robert
 paginate: false
 ---
-
+[source](https://flink.apache.org/news/2017/04/04/dynamic-tables.html)
 Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data. These [streaming data](https://aws.amazon.com/streaming-data/#:~:text=Streaming%20data%20includes%20a%20wide,devices%20or%20instrumentation%20in%20data) could be transaction data from an e-commerce website, financial trading floors, telemetry from IoT devices and social media data.   
 
 This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
