@@ -93,7 +93,7 @@ Amazon Kinesis Data Stream Architecture [source](https://docs.aws.amazon.com/str
 
 [Streaming Data Solutions on AWS with Amazon Kinesis(pdf)](https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf)
 
-["AWS Kinesis Tutorial for Beginners \| Introduction to Amazon Kinesis  AWS Training \| Edureka(video)"](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
+[AWS Kinesis Tutorial for Beginners \| Introduction to Amazon Kinesis  AWS Training \| Edureka(video)](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
 
 ## Azure Event Hub
 Event Hub is a real time ingestion service. The streamed data can be store in Blob storage, Data Lake, and other storage. It can be connected to Azure Stream Analytics to analyze the data. Data can be sent to Event Hub, analysed with Azure Stream Analytics at real time, then visualized with Power BI. 
@@ -184,6 +184,6 @@ Azure Stream Analytics Workflow [source](https://docs.microsoft.com/en-us/azure/
 [Apache Kafka VS AWS Kinesis](https://medium.com/faun/apache-kafka-vs-apache-kinesis-57a3d585ef78)
 
 
-I hope you have been able to get an insight to stream analytics and services provided by AWS and Azure for processing stream data. 
+I hope you have been able to gain insight into stream analytics and services provided by AWS and Azure for processing stream data. 
 
 
