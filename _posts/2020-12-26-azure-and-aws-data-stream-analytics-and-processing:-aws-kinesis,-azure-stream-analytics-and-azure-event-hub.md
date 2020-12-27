@@ -12,7 +12,7 @@ author: John Robert
 paginate: false
 ---
 
-Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data.These [streaming data](https://aws.amazon.com/streaming-data/#:~:text=Streaming%20data%20includes%20a%20wide,devices%20or%20instrumentation%20in%20data) could be transaction data from an e-commerce website, financial trading floors, telemetry from IoT devices and social media data.   
+Data Stream Analytics also called event stream processing or real-time analytics is the processing and analysis of real-time data. These [streaming data](https://aws.amazon.com/streaming-data/#:~:text=Streaming%20data%20includes%20a%20wide,devices%20or%20instrumentation%20in%20data) could be transaction data from an e-commerce website, financial trading floors, telemetry from IoT devices and social media data.   
 
 This article gives a brief description and use cases of the data stream analytics services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
 
@@ -91,7 +91,7 @@ Source - https://docs.aws.amazon.com/streams/latest/dev/key-concepts.html
 
 [Streaming Data Solutions on AWS with Amazon Kinesis(pdf)](https://d0.awsstatic.com/whitepapers/whitepaper-streaming-data-solutions-on-aws-with-amazon-kinesis.pdf)
 
-["AWS Kinesis Tutorial for Beginners /| Introduction to Amazon Kinesis  AWS Training | Edureka(video)"](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
+["AWS Kinesis Tutorial for Beginners \| Introduction to Amazon Kinesis  AWS Training | Edureka(video)"](https://www.youtube.com/watch?v=rYbS5ihk_xg&ab_channel=edureka%21)
 
 ## Azure Event Hub
 Event Hub is a real time ingestion service. The streamed data can be store in Blob storage, Data Lake and other storage. It can be connected to Azure Stream Analytics to analyze the data.Data can be sent to Event Hub, analysed with Azure Stream Analytics at real time, then visualized with Power BI. 
@@ -127,11 +127,11 @@ Source - https://docs.microsoft.com/en-us/azure-stack/user/event-hubs-overview?v
 [Azure Event Hubs documentation](https://docs.microsoft.com/en-us/azure/event-hubs/)
 
 ### Other Resources
-[Azure Event Hub Tutorial | Big data message streaming service(video)](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
+[Azure Event Hub Tutorial \| Big data message streaming service(video)](https://www.youtube.com/watch?v=Dc3P27BsK3E&t=537s&ab_channel=AdamMarczak-AzureforEveryone)
 
 [Azure Event Hubs for Apache Kafka | Azure Friday(video)](https://www.youtube.com/watch?v=m3UEDhVYc-Q&t=509s&ab_channel=MicrosoftDeveloper)
 
-[How to perform data ingestion with Azure Event Hubs | Azure Makers Series(video)](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
+[How to perform data ingestion with Azure Event Hubs \| Azure Makers Series(video)](https://www.youtube.com/watch?v=45wgY-VSk9I&ab_channel=MicrosoftAzure)
 
 [https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET(video)](https://www.youtube.com/watch?v=DDDjFQSQyF4&ab_channel=dotNET)
 
@@ -168,7 +168,7 @@ Source - https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytic
 ### Other Resources
 [Azure Stream Analytics Tutorial \| Processing stream data with SQL(video)](https://www.youtube.com/watch?v=NbGmyjgY0pU&t=582s)
 
-[Anomaly detection using machine learning in Azure Stream Analytics "|" Azure Friday(video)](https://www.youtube.com/watch?v=Ra8HhBLdzHE)
+[Anomaly detection using machine learning in Azure Stream Analytics \| Azure Friday(video)](https://www.youtube.com/watch?v=Ra8HhBLdzHE)
 
 [Azure Stream Analytics(video)](https://www.youtube.com/watch?v=rrODKaB7XSY)
 
