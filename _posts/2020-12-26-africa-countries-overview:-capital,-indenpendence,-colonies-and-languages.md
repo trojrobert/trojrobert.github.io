@@ -35,6 +35,9 @@ paginate: false
   </tfoot>
   <tbody>
     <tr>
+      <td colspan=6, bgcolor="#0000FF">Northern Africa</td>
+    <tr>
+    <tr>
       <td>Morocco</td>
       <td>Rabat</td>
       <td>1956</td>
