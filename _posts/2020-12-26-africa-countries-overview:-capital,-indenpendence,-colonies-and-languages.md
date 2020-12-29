@@ -398,7 +398,7 @@ paginate: false
     <tr id="ROW1">
       <td colspan=6, bgcolor="blue"> Central / Middle Africa </td>
     </tr>
-     <tr>
+    <tr>
       <td> Chad </td>
       <td></td>
       <td></td>
