@@ -38,28 +38,69 @@ paginate: false
       <td colspan=6, bgcolor="blue"> Northern Africa </td>
     <tr>
     <tr>
-      <td>Morocco</td>
-      <td>Rabat</td>
-      <td>1956</td>
-      <td>Spain</td>
-      <td>Arabic*, French, Berber dialects, Spanish</td>
+      <td> Morocco </td>
+      <td> Rabat </td>
+      <td> 1956 </td>
+      <td> Spain </td>
+      <td> Arabic*, French, Berber dialects, Spanish </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> Algeria </td>
+      <td> Algiers </td>
+      <td> 1962 </td>
+      <td> France </td>
+      <td> Arabic*, French </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> Tunisia </td>
+      <td> Tunis </td>
+      <td> 1956 </td>
+      <td> France </td>
+      <td> Arabic*, French </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> Libya </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr> 
+    <tr>
+      <td> Egypt </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Algeria</td>
-      <td>Algiers</td>
-      <td>1962</td>
-      <td>France</td>
-      <td>Arabic*, French</td>
+      <td> Egypt </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Tunisia</td>
-      <td>Tunis</td>
-      <td>1956</td>
-      <td>France</td>
-      <td>Arabic*, French</td>
+      <td> Sudan </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td> Western Sahara </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    
   </tbody>
 </table>
