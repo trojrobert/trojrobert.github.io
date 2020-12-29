@@ -11,9 +11,7 @@ tags:
 author:
 paginate: false
 ---
-<style type="text/css">
-  table tr#ROW1  {background-color:blue; color:white;}
-</style>
+
 <table>
   <thead>
     <tr>
@@ -37,7 +35,7 @@ paginate: false
   </tfoot>
   <tbody>
     <tr id="ROW1">
-      <td colspan=6, bgcolor="#0000FF">Northern Africa</td>
+      <td colspan=6, bgcolor="blue"> Northern Africa </td>
     <tr>
     <tr>
       <td>Morocco</td>
