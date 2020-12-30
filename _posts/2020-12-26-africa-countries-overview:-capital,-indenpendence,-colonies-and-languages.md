@@ -25,12 +25,6 @@ paginate: false
   </thead>
   <tfoot>
     <tr>
-      <td>Morocco</td>
-      <td>Rabat</td>
-      <td>1956</td>
-      <td>Spain</td>
-      <td>Arabic, Berber</td>
-      <td></td>
     </tr>
   </tfoot>
   <tbody>
