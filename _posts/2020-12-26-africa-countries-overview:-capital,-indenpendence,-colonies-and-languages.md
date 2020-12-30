@@ -12,15 +12,15 @@ author:
 paginate: false
 ---
 
-<table>
+<table  style="width:500px">
   <thead>
     <tr>
+      <tr> S/N </tr>
       <th>Country</th>
       <th>Capital</th>
       <th>Indenpendence</th>
       <th>Colonized By</th>
       <th>Languages</th>
-      <th>Facts</th>
     </tr>
   </thead>
   <tfoot>
