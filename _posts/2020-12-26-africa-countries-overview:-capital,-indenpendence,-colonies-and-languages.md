@@ -35,8 +35,8 @@ paginate: false
   </tfoot>
   <tbody>
     <tr id="ROW1">
-      <td colspan=6, bgcolor="blue"> Northern Africa </td>
-    <tr>
+      <td colspan=6> Northern Africa </td>
+    </tr>
     <tr>
       <td> Morocco </td>
       <td> Rabat </td>
@@ -102,7 +102,7 @@ paginate: false
       <td></td>
     </tr>
     <tr id="ROW1">
-      <td colspan=6, bgcolor="blue"> Western Africa </td>
+      <td colspan=6> Western Africa </td>
     </tr>
     <tr>
       <td> Cabo Verde </td>
@@ -241,7 +241,7 @@ paginate: false
       <td></td>
     </tr>
     <tr id="ROW1">
-      <td colspan=6, bgcolor="blue"> Eastern Africa </td>
+      <td colspan=6> Eastern Africa </td>
     </tr>
     <tr>
       <td> Mauritius </td>
@@ -396,7 +396,7 @@ paginate: false
       <td></td>
     </tr> 
     <tr id="ROW1">
-      <td colspan=6, bgcolor="blue"> Central / Middle Africa </td>
+      <td colspan=6> Central / Middle Africa </td>
     </tr>
     <tr>
       <td> Chad </td>
