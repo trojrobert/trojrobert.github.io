@@ -15,7 +15,7 @@ paginate: false
 <table  style="width:500px">
   <thead>
     <tr>
-      <tr> S/N </tr>
+      <th> S/N </th>
       <th>Country</th>
       <th>Capital</th>
       <th>Indenpendence</th>
@@ -29,7 +29,7 @@ paginate: false
   </tfoot>
   <tbody>
     <tr id="ROW1">
-      <td colspan=6> Northern Africa </td>
+      <td colspan=6> <b>Northern Africa</b> </td>
     </tr>
     <tr>
       <td> 1 </td>
