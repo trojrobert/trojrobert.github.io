@@ -268,7 +268,7 @@ paginate: false
       <td> 30 </td>
       <td> Eritrea </td>
       <td> Asmara </td>
-      <td> 1991</td>
+      <td> 1993</td>
       <td> Ethiopia </td>
       <td> Tigrinya, English, Arabic</td>
     </tr>
@@ -284,7 +284,7 @@ paginate: false
       <td> 32 </td>
       <td> Ethiopia </td>
       <td> Addis Ababa </td>
-      <td colspan=2> Briefly colonied by Italy </td>
+      <td colspan=2> Briefly colonized by Italy </td>
       <td> English,Afar, Amharic, Oromo, Somali, Tigrinya</td>
     </tr>
     <tr>
@@ -497,7 +497,7 @@ paginate: false
       <td> 58 </td>
       <td> South Africa </td>
       <td> Pretoria, Cape Town, Bloemfontein </td>
-      <td> 1961 </td>
+      <td> 1994 </td>
       <td> Britain </td>
       <td> English</td>
     </tr>
