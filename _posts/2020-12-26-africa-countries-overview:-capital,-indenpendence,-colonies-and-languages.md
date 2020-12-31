@@ -58,54 +58,51 @@ paginate: false
     <tr>
       <td> 4 </td>
       <td> Libya </td>
-      <td></td>
-      <td></td>
-      <td> Britain </td>
-      <td> 1951 </td>
+      <td> Tripoli </td>
+      <td> Italy | Britain </td>
+      <td> 1947 | 1951 </td>
+      <td> Arabic*, Italian, English </td>
     </tr> 
     <tr>
       <td> 5 </td>
       <td> Egypt </td>
-      <td></td>
+      <td> Cairo </td>
       <td> 1922 </td>
       <td> Britain </td>
-      <td></td>
+      <td> Arabic* </td>
     </tr>
     <tr>
       <td> 6 </td>
       <td> Sudan </td>
-      <td></td>
-      <td> 1956</td>
-      <td> Britain / Egypt</td>
-      <td></td>
+      <td> Khartoum </td>
+      <td> 1956 </td>
+      <td> Britain | Egypt </td>
+      <td> Arabic*, English </td>
     </tr>
     <tr>
       <td> 7 </td>
       <td> Western Sahara </td>
       <td> Laayoune </td>
-      <td></td>
-      <td>Morocco</td>
-      <td></td>
+      <td> Part of Morocco </td>
+      <td> Morocco </td>
+      <td> Spanish </td>
     </tr>
     <tr id="ROW1">
-      <td colspan=6> Western Africa </td>
+      <td colspan=6> <b>Western Africa</b> </td>
     </tr>
     <tr>
       <td> 8 </td>
-      <td> Cabo Verde </td>
-      <td></td>
-      <td>1975</td>
+      <td> Cabo Verde / Cabe Verde </td>
+      <td> Praia </td>
+      <td> 1975 </td>
       <td> Portugal </td>
-      <td></td>
+      <td> Portuguese </td>
     </tr>
     <tr>
       <td> 9 </td>
       <td> Saint Helena </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Jamestown </td>
+      <td colspan=3> British Overseas Territory </td>
     </tr>
     <tr>
       <td> 10 </td>
