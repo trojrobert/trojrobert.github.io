@@ -59,8 +59,8 @@ paginate: false
       <td> 4 </td>
       <td> Libya </td>
       <td> Tripoli </td>
-      <td> Italy | Britain </td>
       <td> 1947 | 1951 </td>
+      <td> Italy | Britain </td>
       <td> Arabic*, Italian, English </td>
     </tr> 
     <tr>
@@ -87,7 +87,7 @@ paginate: false
       <td> Morocco </td>
       <td> Spanish </td>
     </tr>
-    <tr id="ROW1">
+    <tr>
       <td colspan=6> <b>Western Africa</b> </td>
     </tr>
     <tr>
@@ -107,66 +107,66 @@ paginate: false
     <tr>
       <td> 10 </td>
       <td> Mauritania </td>
-      <td></td>
+      <td> Nouakchott </td>
       <td>  1960 </td>
       <td> France </td>
-      <td></td>
+      <td> Arabic*, French </td>
     </tr> 
     <tr>
       <td> 11 </td>
       <td> Mali </td>
-      <td></td>
+      <td> Bamako </td>
       <td> 1960 </td>
       <td> France </td>
-      <td></td>
+      <td> French*</td>
     </tr>
     <tr>
       <td> 12 </td>
       <td> Niger </td>
-      <td></td>
+      <td> Niamey </td>
       <td> 1960 </td>
       <td> France </td>
-      <td></td>
+      <td> French* </td>
     </tr>
     <tr>
       <td> 13 </td>
       <td> Senegal </td>
-      <td></td>
+      <td> Dakar </td>
       <td> 1960 </td>
       <td> France </td>
-      <td></td>
+      <td> French, Wolof, Arabic </td>
     </tr>
     <tr>
       <td> 14 </td>
       <td> Gambia </td>
-      <td></td>
+      <td> Banjul </td>
       <td> 1965 </td>
       <td> Britain </td>
-      <td></td>
+      <td> English* </td>
     </tr> 
     <tr>
       <td> 15 </td>
       <td> Guinea-Bissau </td>
-      <td></td>
+      <td> Bissau </td>
       <td> 1973 </td>
       <td> Portugal </td>
-      <td> </td>
+      <td> Portuguese* </td>
     </tr>
     <tr>
       <td> 16 </td>
       <td> Guinea </td>
-      <td></td>
+      <td> Conary </td>
       <td>  1958 </td>
       <td> France </td>
-      <td></td>
+      <td> French </td>
     </tr>
     <tr>
       <td> 17 </td>
       <td> Sierra Leone </td>
-      <td></td>
+      <td> Freetown </td>
       <td> 1961 </td>
-      <td>Britain</td>
-      <td></td>
+      <td> Britain </td>
+      <td> English*, Krio, Mende</td>
     </tr>
     <tr>
       <td> 18 </td>
@@ -178,62 +178,62 @@ paginate: false
     </tr>
     <tr>
       <td> 19 </td>
-      <td> Côte d'Ivoire/Ivory Coast </td>
-      <td></td>
+      <td> Côte d'Ivoire / Ivory Coast </td>
+      <td> Yamoussoukro | Abidjan </td>
       <td> 1960 </td>
       <td> France </td>
-      <td></td>
+      <td> French </td>
     </tr>
     <tr>
       <td> 20 </td>
       <td> Burkina Faso </td>
-      <td></td>
+      <td> Ouagadougou </td>
       <td> 1960 </td>
       <td> France </td>
-      <td></td>
+      <td> French* </td>
     </tr> 
     <tr>
       <td> 21 </td>
       <td> Ghana </td>
-      <td></td>
+      <td> Accra </td>
       <td> 1957 </td>
       <td> Britain </td>
-      <td></td>
+      <td> English* </td>
     </tr>
     <tr>
       <td> 22 </td>
       <td> Togo </td>
-      <td></td>
+      <td> Lomé </td>
       <td> 1960 </td>
       <td> France </td>
-      <td></td>
+      <td> French </td>
     </tr>
     <tr>
       <td> 23 </td>
       <td> Benin </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Porto-Novo </td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> French* </td>
     </tr>
     <tr>
       <td> 24 </td>
       <td> Nigeria </td>
-      <td></td>
+      <td> Abuja </td>
       <td> 1960 </td>
       <td> Britain </td>
-      <td></td>
+      <td> English </td>
     </tr>
     <tr id="ROW1">
-      <td colspan=6> Eastern Africa </td>
+      <td colspan=6> <b>Eastern Africa</b> </td>
     </tr>
     <tr>
       <td> 25 </td>
       <td> Mauritius </td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Port Louis </td>
+      <td> 1968 </td>
+      <td> Britain </td>
+      <td> English*, French </td>
     </tr> 
     <tr>
       <td> 26 </td>
