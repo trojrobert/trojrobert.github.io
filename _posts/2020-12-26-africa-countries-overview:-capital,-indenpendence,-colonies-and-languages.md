@@ -96,7 +96,7 @@ paginate: false
       <td> Praia </td>
       <td> 1975 </td>
       <td> Portugal </td>
-      <td> Portuguese </td>
+      <td> Portuguese, Criuolo </td>
     </tr>
     <tr>
       <td> 9 </td>
@@ -126,7 +126,7 @@ paginate: false
       <td> Niamey </td>
       <td> 1960 </td>
       <td> France </td>
-      <td> French* </td>
+      <td> French*, Hausa, Songhai, Arabic </td>
     </tr>
     <tr>
       <td> 13 </td>
@@ -134,7 +134,7 @@ paginate: false
       <td> Dakar </td>
       <td> 1960 </td>
       <td> France </td>
-      <td> French, Wolof, Arabic </td>
+      <td> French, Wolof, Serer, Arabic </td>
     </tr>
     <tr>
       <td> 14 </td>
@@ -150,7 +150,7 @@ paginate: false
       <td> Bissau </td>
       <td> 1973 </td>
       <td> Portugal </td>
-      <td> Portuguese* </td>
+      <td> Portuguese*, Criolo </td>
     </tr>
     <tr>
       <td> 16 </td>
@@ -166,7 +166,7 @@ paginate: false
       <td> Freetown </td>
       <td> 1961 </td>
       <td> Britain </td>
-      <td> English*, Krio, Mende</td>
+      <td> English*, Mende, Temne, Krio</td>
     </tr>
     <tr>
       <td> 18 </td>
@@ -206,7 +206,7 @@ paginate: false
       <td> Lomé </td>
       <td> 1960 </td>
       <td> France </td>
-      <td> French </td>
+      <td> French*, Ewé, Mina, Kabyé, Cotocoli </td>
     </tr>
     <tr>
       <td> 23 </td>
@@ -224,7 +224,7 @@ paginate: false
       <td> Britain </td>
       <td> English </td>
     </tr>
-    <tr id="ROW1">
+    <tr>
       <td colspan=6> <b>Eastern Africa</b> </td>
     </tr>
     <tr>
@@ -233,7 +233,7 @@ paginate: false
       <td> Port Louis </td>
       <td> 1968 </td>
       <td> Britain </td>
-      <td> English*, French </td>
+      <td> English*, French*, Creole, Hindi, Urdu, Hakka </td>
     </tr> 
     <tr>
       <td> 26 </td>
@@ -241,7 +241,7 @@ paginate: false
       <td> Moroni </td>
       <td> 1975 </td>
       <td> France </td>
-      <td> Comorian*, French, Arabic</td>
+      <td> Comorian*, French, Arabic,  Shaafi Islam, Malagasu</td>
     </tr> 
     <tr>
       <td> 27 </td>
@@ -262,7 +262,7 @@ paginate: false
       <td> Victoria </td>
       <td> 1976 </td>
       <td> Britain </td>
-      <td>English*, French</td>
+      <td> English*, French*, Seselwa </td>
     </tr>
     <tr>
       <td> 30 </td>
@@ -278,7 +278,7 @@ paginate: false
       <td> Djibouti </td>
       <td> 1977 </td>
       <td> France </td>
-      <td> French*, Arabic</td>
+      <td> Arabic*, French*, Afar, Somali </td>
     </tr> 
     <tr>
       <td> 32 </td>
@@ -301,7 +301,7 @@ paginate: false
       <td> Mogadishu </td>
       <td> 1960 </td>
       <td> Italy | Britain</td>
-      <td> Somali*, Arabic, English, Italian[</td>
+      <td> Somali*, Arabic, English, Italian</td>
     </tr>
     <tr>
       <td> 35 </td>
@@ -317,7 +317,7 @@ paginate: false
       <td> Kampala </td>
       <td> 1962 </td>
       <td> Britain </td>
-      <td> English*, Swahili</td>
+      <td> English*, Swahili, Luganda, Ateso, Luo</td>
     </tr>
     <tr>
       <td> 37 </td>
@@ -325,7 +325,7 @@ paginate: false
       <td> Kigali </td>
       <td> 1962 </td>
       <td> Belgium </td>
-      <td> English*, French</td>
+      <td> English*, French, Kinyarwanda</td>
     </tr> 
     <tr>
       <td> 38 </td>
@@ -333,7 +333,7 @@ paginate: false
       <td> Bujumbura | Gitega </td>
       <td> 1962 </td>
       <td> Belgium </td>
-      <td> Kirundi,French</td>
+      <td> Kirundi*, French*, Swahili</td>
     </tr>
     <tr>
       <td> 39 </td>
@@ -349,7 +349,7 @@ paginate: false
       <td> Maputo </td>
       <td> 1975 </td>
       <td> Portugal </td>
-      <td> Portuguese </td>
+      <td> Portuguese*, Bantu languages </td>
     </tr>
     <tr>
       <td> 41 </td>
@@ -357,7 +357,7 @@ paginate: false
       <td> Lilongwe </td>
       <td> 1964 </td>
       <td> Britain </td>
-      <td> English, Chewa </td>
+      <td> English, Chichewa </td>
     </tr>
     <tr>
       <td> 42 </td>
@@ -365,7 +365,7 @@ paginate: false
       <td> Harare </td>
       <td> 1965 </td>
       <td> Britain </td>
-      <td> English, Chewa, Chibarwe</td>
+      <td> English*, Ndebele, Shona</td>
     </tr>
     <tr>
       <td> 43 </td>
@@ -392,7 +392,7 @@ paginate: false
       <td> Bangui </td>
       <td> 1960 </td>
       <td> France </td>
-      <td> French, Sango</td>
+      <td> French*, Sangho, Arabic, Hansa, Swahili</td>
     </tr>
     <tr>
       <td> 46 </td>
@@ -400,7 +400,7 @@ paginate: false
       <td> Kinshasa </td>
       <td> 1960 </td>
       <td> Belgium </td>
-      <td> French </td>
+      <td> French*, Swahili, Lingala, Ishiluba, Kikongo </td>
     </tr>
     <tr>
       <td> 47 </td>
@@ -416,7 +416,7 @@ paginate: false
       <td> Brazzaville </td>
       <td> 1960 </td>
       <td> France </td>
-      <td> French </td>
+      <td> French*, Lingala, Kikongo</td>
     </tr>
      <tr>
       <td> 49 </td>
@@ -424,7 +424,7 @@ paginate: false
       <td> Kinshasa </td>
       <td> 1960 </td>
       <td> Belgium </td>
-      <td> French </td>
+      <td> French*, Swahili, Lingala, Ishiluba, Kikongo </td>
     </tr>
     <tr>
       <td> 50 </td>
@@ -432,7 +432,7 @@ paginate: false
       <td> Libreville </td>
       <td> 1960 </td>
       <td> France </td>
-      <td> 	French </td>
+      <td> French*, Fang, Myene, Bateke </td>
     </tr>
     <tr>
       <td> 51 </td>
@@ -440,7 +440,7 @@ paginate: false
       <td> Malabo</td>
       <td> 1968 </td>
       <td> Spain </td>
-      <td>Spanish, Portuguese </td>
+      <td> Spanish, Portuguese,French*, English, Fang </td>
     </tr>
     <tr>
       <td> 52 </td>
@@ -448,7 +448,7 @@ paginate: false
       <td> Luanda </td>
       <td> 1975 </td>
       <td>  Portugal </td>
-      <td> Portuguese </td>
+      <td> Bantu, Portuguese* </td>
     </tr>
     <tr>
       <td> 53 </td>
@@ -467,7 +467,7 @@ paginate: false
       <td> Windhoek </td>
       <td> 1990 </td>
       <td> South Africa </td>
-      <td> English </td>
+      <td> English*, Afrikaans, German </td>
     </tr>
     <tr>
       <td> 55 </td>
@@ -475,7 +475,7 @@ paginate: false
       <td> Gaborone </td>
       <td> 1966 </td>
       <td> Britain </td>
-      <td> English, Setswana</td>
+      <td> English*, Setswana </td>
     </tr>
     <tr>
       <td> 56 </td>
@@ -483,7 +483,7 @@ paginate: false
       <td> Maseru </td>
       <td> 1966 </td>
       <td> Britain </td>
-      <td> Sesotho, English </td>
+      <td> English*, Sesotho*, Zulu, Xhosa </td>
     </tr>
     <tr>
       <td> 57 </td>
@@ -499,7 +499,7 @@ paginate: false
       <td> Pretoria, Cape Town, Bloemfontein </td>
       <td> 1994 </td>
       <td> Britain </td>
-      <td> English</td>
+      <td> Xhosa*, Zulu*, English,</td>
     </tr>
    
   </tbody>
