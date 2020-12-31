@@ -238,273 +238,268 @@ paginate: false
     <tr>
       <td> 26 </td>
       <td> Comoros </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Moroni </td>
+      <td> 1975 </td>
+      <td> France </td>
+      <td> Comorian*, French, Arabic</td>
     </tr> 
     <tr>
       <td> 27 </td>
       <td> Réunion </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> </td>
+      <td colspan=3> Department of France</td>
       <td></td>
     </tr>
     <tr>
       <td> 28 </td>
       <td> Mayotte </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Mamoudzou </td>
+      <td colspan=3> Department of France</td>
     </tr>
     <tr>
       <td> 29 </td>
       <td> Seychelles </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Victoria </td>
+      <td> 1976 </td>
+      <td> Britain </td>
+      <td>English*, French</td>
     </tr>
     <tr>
       <td> 30 </td>
       <td> Eritrea </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Asmara </td>
+      <td> 1991</td>
+      <td> Ethiopia </td>
+      <td> Tigrinya, English, Arabic</td>
     </tr>
     <tr>
       <td> 31 </td>
       <td> Djibouti </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Djibouti </td>
+      <td> 1977 </td>
+      <td> France </td>
+      <td> French*, Arabic</td>
     </tr> 
     <tr>
       <td> 32 </td>
       <td> Ethiopia </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Addis Ababa </td>
+      <td colspan=2> Briefly colonied by Italy </td>
+      <td> English,Afar, Amharic, Oromo, Somali, Tigrinya</td>
     </tr>
     <tr>
       <td> 33 </td>
       <td> South Sudan </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Juba </td>
+      <td> 2011 </td>
+      <td> Sudan </td>
+      <td> English*, Swahili</td>
     </tr>
     <tr>
       <td> 34 </td>
       <td> Somalia </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Mogadishu </td>
+      <td> 1960 </td>
+      <td> Italy | Britain</td>
+      <td> Somali*, Arabic, English, Italian[</td>
     </tr>
     <tr>
       <td> 35 </td>
       <td> Kenya </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Nairobi </td>
+      <td> 1963 </td>
+      <td> Britain </td>
+      <td> English*, Swahili</td>
     </tr>
     <tr>
       <td> 36 </td>
       <td> Uganda </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Kampala </td>
+      <td> 1962 </td>
+      <td> Britain </td>
+      <td> English*, Swahili</td>
     </tr>
     <tr>
       <td> 37 </td>
       <td> Rwanda </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Kigali </td>
+      <td> 1962 </td>
+      <td> Belgium </td>
+      <td> English*, French</td>
     </tr> 
     <tr>
       <td> 38 </td>
       <td> Burundi </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Bujumbura | Gitega </td>
+      <td> 1962 </td>
+      <td> Belgium </td>
+      <td> Kirundi,French</td>
     </tr>
     <tr>
       <td> 39 </td>
       <td> Tanzania </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Dodoma </td>
+      <td> 1961 </td>
+      <td> Britain </td>
+      <td> Swahili, English </td>
     </tr>
     <tr>
       <td> 40 </td>
       <td> Mozambique </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Maputo </td>
+      <td> 1975 </td>
+      <td> Portugal </td>
+      <td> Portuguese </td>
     </tr>
     <tr>
       <td> 41 </td>
       <td> Malawi </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Lilongwe </td>
+      <td> 1964 </td>
+      <td> Britain </td>
+      <td> English, Chewa </td>
     </tr>
     <tr>
       <td> 42 </td>
       <td> Zimbabwe </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Harare </td>
+      <td> 1965 </td>
+      <td> Britain </td>
+      <td> English, Chewa, Chibarwe</td>
     </tr>
     <tr>
       <td> 43 </td>
       <td> Madagascar </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Antananarivo</td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> Malagasy, French*</td>
     </tr> 
-    <tr id="ROW1">
-      <td colspan=6> Central / Middle Africa </td>
+    <tr>
+      <td colspan=6> <b>Central / Middle Africa</b> </td>
     </tr>
     <tr>
       <td> 44 </td>
       <td> Chad </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> N'Djamena </td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> Arabic, French</td>
     </tr>
     <tr>
       <td> 45 </td>
       <td> Central African Republic </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Bangui </td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> French, Sango</td>
     </tr>
     <tr>
       <td> 46 </td>
       <td> Democratic Republic of the Congo </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Kinshasa </td>
+      <td> 1960 </td>
+      <td> Belgium </td>
+      <td> French </td>
     </tr>
     <tr>
       <td> 47 </td>
       <td> Cameroon </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Yaounde </td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> English, French</td>
     </tr>
     <tr>
       <td> 48 </td>
       <td> Congo </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Brazzaville </td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> French </td>
     </tr>
      <tr>
       <td> 49 </td>
       <td> Democratic Republic of the Congo </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Kinshasa </td>
+      <td> 1960 </td>
+      <td> Belgium </td>
+      <td> French </td>
     </tr>
     <tr>
       <td> 50 </td>
       <td> Gabon </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Libreville </td>
+      <td> 1960 </td>
+      <td> France </td>
+      <td> 	French </td>
     </tr>
     <tr>
       <td> 51 </td>
       <td> Equatorial Guinea </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Malabo</td>
+      <td> 1968 </td>
+      <td> Spain </td>
+      <td>Spanish, Portuguese </td>
     </tr>
     <tr>
       <td> 52 </td>
       <td> Angola </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Luanda </td>
+      <td> 1975 </td>
+      <td>  Portugal </td>
+      <td> Portuguese </td>
     </tr>
     <tr>
       <td> 53 </td>
       <td> Sao Tome and Principe </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> São Tomé </td>
+      <td> 1975 </td>
+      <td> Portugal </td>
+      <td> Portuguese </td>
     </tr>
-    <tr id="ROW1">
-      <td colspan=6> Southern Africa </td>
+    <tr>
+      <td colspan=6> <b>Southern Africa</b> </td>
     </tr>
     <tr>
       <td> 54 </td>
       <td> Namibia </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Windhoek </td>
+      <td> 1990 </td>
+      <td> South Africa </td>
+      <td> English </td>
     </tr>
     <tr>
       <td> 55 </td>
       <td> Botswana </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Gaborone </td>
+      <td> 1966 </td>
+      <td> Britain </td>
+      <td> English, Setswana</td>
     </tr>
     <tr>
       <td> 56 </td>
       <td> Lesotho </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Maseru </td>
+      <td> 1966 </td>
+      <td> Britain </td>
+      <td> Sesotho, English </td>
     </tr>
     <tr>
       <td> 57 </td>
-      <td> Swaziland </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Eswatini / Swaziland </td>
+      <td> Mbabane, Lobamba</td>
+      <td> 1968 </td>
+      <td> Britain </td>
+      <td> Swazi, English </td>
     </tr>
     <tr>
       <td> 58 </td>
       <td> South Africa </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td> Pretoria, Cape Town, Bloemfontein </td>
+      <td> 1961 </td>
+      <td> Britain </td>
+      <td> English</td>
     </tr>
    
   </tbody>
