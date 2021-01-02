@@ -155,7 +155,7 @@ paginate: false
     <tr>
       <td> 16 </td>
       <td> Guinea </td>
-      <td> Conary </td>
+      <td> Conakry </td>
       <td>  1958 </td>
       <td> France </td>
       <td> French </td>
