@@ -1,6 +1,6 @@
 ---
 date: 2021-01-03 21:31:41
-layout: post
+layout: Cloud
 title: "Serverless in AWS and Azure: Amazon Lambda, Amazon Fargate, and Azure Function"
 subtitle:
 description:
