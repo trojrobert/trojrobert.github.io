@@ -1,20 +1,21 @@
 ---
 date: 2021-01-03 21:31:41
-layout: Cloud
+layout: post
 title: "Serverless in AWS and Azure: Amazon Lambda, Amazon Fargate, and Azure Function"
 subtitle:
-description:
+description: This article gives a brief description and use cases of the serverless services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
 image:
 optimized_image:
-category:
+category: Cloud
 tags:
 author:
 paginate: false
 ---
-This article describes serverless services in AWS and Azure. It also contains resources about these services. 
 
 I spend 1 hour every day exploring cloud services in AWS and Azure. I explore based on use case or functionality. Each week I document the resources I used during my exploration. This week I explored serverless services in AWS and Azure. The major serverless services in AWS are Amazon Lambda and Amazon Fargate, while for Azure we have Azure Function. Amazon Lambda is similar to Azure Functions.
 Serverless is building and running applications without servers, that is without the burden of managing infrastructure.
+
+This article gives a brief description and use cases of the serverless services in AWS and Azure. It also contains resources about their prices, components, hands-on examples, code samples, and comparison.
 
 Use cases 
 * Application for continuous delivery pipeline
