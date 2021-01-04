@@ -89,7 +89,7 @@ Task Definition is the blueprint to run application, it contain the description 
 
 ### Pricing
 
-AWS Fargate pricing is based on the amount of vCPU and memory resources consumed by your containerized applications.
+[AWS Fargate pricing](https://aws.amazon.com/fargate/pricing/) is based on the amount of vCPU and memory resources consumed by your containerized applications.
 
 ### Hands-On Tutorials
 [Getting Started with Amazon ECS on AWS Fargate](https://docs.aws.amazon.com/AmazonECS/latest/userguide/fargate-getting-started.html)
