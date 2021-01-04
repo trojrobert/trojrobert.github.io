@@ -135,7 +135,7 @@ Task Definition is the blueprint to run application, it contain the description 
 Azure Functions is a serverless compute service that runs event triggered code without provisioning infrastructures like compute. “Compute on demand”.
 
 ![Azure Functions use case](https://res.cloudinary.com/dbzzslryr/image/upload/v1609719377/serverless/functions-architecture.png "Azure Functions use case")
-[source](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-function?toc=%2Fazure%2Fazure-functions%2Ftoc.json&view=iotedge-2018-06
+[source](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-function?toc=%2Fazure%2Fazure-functions%2Ftoc.json&view=iotedge-2018-06)
 
 ### Pricing
 
