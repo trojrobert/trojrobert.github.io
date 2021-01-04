@@ -4,8 +4,8 @@ layout: post
 title: "Serverless in AWS and Azure: Amazon Lambda, Amazon Fargate, and Azure Function"
 subtitle:
 description: This covers a brief description and use cases of the serverless services in AWS and Azure. It also provide resources on their prices, components, hands-on examples, code examples, and comparison.
-image:
-optimized_image:
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1609719664/serverless/Serverless-architecture-backend-web.png
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1609719664/serverless/Serverless-architecture-backend-web.png
 category: Cloud
 tags:
 author:
@@ -29,7 +29,11 @@ Serverless is building and running applications without servers, that is without
 
 Amazon Lambda runs code without servers and clusters. In other words, you don’t need to provision infrastructure. Amazon Lambda also has a code editor where you can write, test, and view execution results. Your code should be uploaded as a zip file or as a container image, the resources required are automatically allocated to it. This code could be run based on a trigger for instance change in data in S3 bucket, response to HTTP request using Amazon API Gateway.
 
- Major Amazon Web Services(AWS) used with Amazon Lambda: Amazon S3, Amazon DynamoDB, Amazon Kinesis, Amazon SNS, Amazon CloudWatch, Amazon API Gateway, AWS IoT Core, Amazon SNS, Amazon SAM, Amazon EventBridge, Amazon Step Functions, SQS, Amazon Aurora Serverless.
+
+![AWS Lambda use case](https://res.cloudinary.com/dbzzslryr/image/upload/v1609719424/serverless/lambda_usecase.png "AWS Lambda use case")
+[source](https://aws.amazon.com/lambda/)
+
+**Major Amazon Web Services(AWS) used with Amazon Lambda**: Amazon S3, Amazon DynamoDB, Amazon Kinesis, Amazon SNS, Amazon CloudWatch, Amazon API Gateway, AWS IoT Core, Amazon SNS, Amazon SAM, Amazon EventBridge, Amazon Step Functions, SQS, Amazon Aurora Serverless.
  
 ### Pricing 
 
@@ -82,10 +86,13 @@ Amazon Lambda free usage tier includes 1M free requests per month and 400,000 GB
 [AWS Lambda Introduction](https://www.youtube.com/watch?v=d6lrokAELO0)
 
 
-## Amazon Farget
+## Amazon Fargete
 
-Amazon Farget runs containers without provisioning any infrastructure. It works majorly with Amazon ECS and Amazon EKS.
+Amazon Fargete runs containers without provisioning any infrastructure. It works majorly with Amazon ECS and Amazon EKS.
 Task Definition is the blueprint to run application, it contain the description of containers used in the application. It is always in JSON format.
+
+![How AWS Fargate works](https://res.cloudinary.com/dbzzslryr/image/upload/v1609719453/serverless/fargate_architecture.png "How AWS Fargate works")
+[source](https://aws.amazon.com/fargate/)
 
 ### Pricing
 
@@ -126,6 +133,9 @@ Task Definition is the blueprint to run application, it contain the description 
 ## Azure Functions 
 
 Azure Functions is a serverless compute service that runs event triggered code without provisioning infrastructures like compute. “Compute on demand”.
+
+![Azure Functions use case](https://res.cloudinary.com/dbzzslryr/image/upload/v1609719377/serverless/functions-architecture.png "Azure Functions use case")
+[source](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-function?toc=%2Fazure%2Fazure-functions%2Ftoc.json&view=iotedge-2018-06
 
 ### Pricing
 
