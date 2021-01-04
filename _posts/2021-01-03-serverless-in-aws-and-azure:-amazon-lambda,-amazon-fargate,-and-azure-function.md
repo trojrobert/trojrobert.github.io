@@ -86,9 +86,9 @@ Amazon Lambda free usage tier includes 1M free requests per month and 400,000 GB
 [AWS Lambda Introduction](https://www.youtube.com/watch?v=d6lrokAELO0)
 
 
-## Amazon Fargete
+## Amazon Fargate
 
-Amazon Fargete runs containers without provisioning any infrastructure. It works majorly with Amazon ECS and Amazon EKS.
+Amazon Fargate runs containers without provisioning any infrastructure. It works majorly with Amazon ECS and Amazon EKS.
 Task Definition is the blueprint to run application, it contain the description of containers used in the application. It is always in JSON format.
 
 ![How AWS Fargate works](https://res.cloudinary.com/dbzzslryr/image/upload/v1609719453/serverless/fargate_architecture.png "How AWS Fargate works")
