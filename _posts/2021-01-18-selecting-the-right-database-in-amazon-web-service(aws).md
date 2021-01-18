@@ -33,25 +33,26 @@ highly available that is the databases are guaranteed to be always up
 ### Amazon Relational Database Service(RDS)
 
 ![Amazon RDS](https://res.cloudinary.com/dbzzslryr/image/upload/v1610989754/aws_databases/amazon_rds.png "Amazon RDS")
+
 [source](https://www.drilling-aws.de/amazon-rds-preise/)
 
 Amazon RDS is not a database itself instead it is used to set up, operate, and scale relational databases in the cloud. It helps us in provisioning  Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server. It is like an administrator for these databases.  It automates failover, backups, restore, disaster recovery, access management, encryption, security, monitoring, and performance optimization.  It has two major backup solutions which are automated backups and manual snapshots. It has automatic failover protection and maximum of 5 replicas. Its replicas can be multi-availability zone replica, cross-region replicas, and read replica. But the resources aren't replicated across AWS Regions by default expect you set it specifically.
 
 
 #### When to use Amazon Relational Database Service(RDS)
-If you need to use any of these six databases Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
+* If you need to use any of these six databases Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
 
 ### Official Resources 
-[Amazon Relational Database Services(RDS)](https://aws.amazon.com/rds/)
-[Amazon RDS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) 
-[Amazon RDS Blog](https://aws.amazon.com/blogs/database/category/database/amazon-rds/
+* [Amazon Relational Database Services(RDS)](https://aws.amazon.com/rds/)
+* [Amazon RDS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) 
+* [Amazon RDS Blog](https://aws.amazon.com/blogs/database/category/database/amazon-rds/
 
 
 ### Other Resources 
-[AWS Certified Solutions Architect - Associate 2020 (6:23:16 - 7:00:11)](6:23:16 - 7:00:11)(https://www.youtube.com/watch?v=Ia-UEYYR44s)
+* [AWS Certified Solutions Architect - Associate 2020 (6:23:16 - 7:00:11)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
 
-[Amazon Relational Database Service (Amazon RDS)](https://www.youtube.com/watch?v=igRfulrrYCo) by Vlad Vlasceanu 
+* [Amazon Relational Database Service (Amazon RDS)](https://www.youtube.com/watch?v=igRfulrrYCo) by Vlad Vlasceanu 
 
-[Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ) by Brain Welcker
+* [Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ) by Brain Welcker
 
-[Amazon RDS](https://docs.datadoghq.com/integrations/amazon_rds/?tab=standard)
+* [Amazon RDS](https://docs.datadoghq.com/integrations/amazon_rds/?tab=standard)
