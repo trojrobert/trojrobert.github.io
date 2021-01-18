@@ -16,10 +16,10 @@ paginate: false
 Deciding the database to use can be very tricky. If you have to select databases for your workload or application in Amazon Web Service(AWS), you can be confused about the right choice to select.  Since I join AWS Community Builder, I spend a least 1 hour exploring AWS services based on use case. This article is a documentation of what I learned and the resources I used in understanding the various databases in AWS and how to decide when to use them. I hope it will be of value to you. I will like to have feedback on what you think I should add or remove or improve on as I continue exploring AWS services.
 
 There are a lot of criteria the could help us in selecting the right database in AWS, to make it easier for us, we summarize it into the following 4 criteria 
-1. *Type* of Data
-2. *Size* of Data
-3. *Structure or Shape* of Data
-4. *Activities* that will be done on the Data
+1. **Type** of Data
+2. **Size** of Data
+3. **Structure or Shape** of Data
+4. **Activities** that will be done on the Data
 
 ![AWS Database Characteristics](https://res.cloudinary.com/dbzzslryr/image/upload/v1610988705/aws_databases/database_characteristics.jpg "AWS Database Characteristics")
 
@@ -45,7 +45,7 @@ Amazon RDS is not a database itself instead it is used to set up, operate, and s
 ### Official Resources 
 * [Amazon Relational Database Services(RDS)](https://aws.amazon.com/rds/)
 * [Amazon RDS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) 
-* [Amazon RDS Blog](https://aws.amazon.com/blogs/database/category/database/amazon-rds/
+* [Amazon RDS Blog](https://aws.amazon.com/blogs/database/category/database/amazon-rds/)
 
 
 ### Other Resources 
