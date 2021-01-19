@@ -28,9 +28,9 @@ fully managed by AWS
 scalable that is increase and decrease based on demand 
 highly available that is the databases are guaranteed to be always up
 
-## Relation Databases 
+# Relation Databases 
 
-### Amazon Relational Database Service(RDS)
+## Amazon Relational Database Service(RDS)
 
 ![Amazon RDS](https://res.cloudinary.com/dbzzslryr/image/upload/v1610989754/aws_databases/amazon_rds.png "Amazon RDS")
 
@@ -63,6 +63,10 @@ Amazon Aurora has  MySQL and PostgreSQL compatibility, it is five times faster t
 Aurora Serverless gives aurora the ability to automatically scale up, scale down, start-up, and shut down(auto-scaling). Aurora Serverless is best used when building an application that is not frequently used, building a new application, building an application with varying and unpredictable workloads.
 
 
+![Parallel Query for Amazon Aurora](https://res.cloudinary.com/dbzzslryr/image/upload/v1611030224/aws_databases/aurora_model.png " Parallel Query for Amazon Aurora")
+
+[Parallel Query for Amazon Aurora - source](https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora/)
+
 ### Pricing
 [Amazon Aurora Pricing](https://aws.amazon.com/rds/aurora/pricing/) is based on either we select the MySQL edition or the PostgreSQL edition. 
 Aurora Serverless is charged based on Aurora Capacity Unit(ACU)
@@ -78,5 +82,33 @@ Aurora Serverless is charged based on Aurora Capacity Unit(ACU)
 * [Amazon Aurora Global Database Deep Dive](https://www.youtube.com/watch?v=1vFg1z-2E7Y) by Aditya Samant
 * [AWS Certified Solutions Architect - Associate 2020 (7:02:14 - 7:06:56)](https://www.youtube.com/watch?v=Ia-UEYYR44s) 
 * [Amazon Aurora ascendant: How we designed a cloud-native relational database](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
+
+# Data Warehousing 
+## Amazon Redshift  
+
+Amazon Redshift is columnar storage used for data warehousing, it is used to analyze and get insight from large data quickly by executing complex queries on them.  These data are usually at rest and historical data. It contains a cluster of nodes, it could be in a single node mode or in a multi-node mode. There are two types of nodes in Amazon Redshift, namely leader node and compute node. The leader node stores SQL endpoints, metadata, and coordinates parallel SQL processing. Compute nodes stores the data, and execute the queries. Amazon Redshift stores data on a single Availability Zone. Amazon Redshift spectrum is used to query Amazon Simple Storage Service(Amazon S3) directly. [Amazon Redshift federated queries](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) enables us to query and analyze live data across databases, data warehouses, and data lakes. 
+
+### When to use Amazon Redshift
+*For Online Analytical Processing
+* When you need to run queries across multiple data sources. For instance, we can copy data from different storages like Amazon EMR and Amazon S3 into Amazon Redshift. 
+* Amazon Redshift is suitable for generating reports for business intelligence
+
+### Pricing 
+Amazon Redshift pricing(https://aws.amazon.com/redshift/pricing/) basic price for Amazon Redshift starts from $0.25 per hour. There are several other capabilities that can influence the price like Amazon Redshift Spectrum pricing, Concurrency Scaling pricing, Redshift managed pricing, and Redshift ML pricing.
+
+### Official Resources 
+* Amazon Redshift (https://aws.amazon.com/redshift/)
+* Amazon Redshift Documentation (https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) 
+* Amazon Redshift Blog (https://aws.amazon.com/blogs/big-data/category/database/amazon-redshift/)
+
+### Other Resources 
+
+* [AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redsh (ABD304)](https://www.youtube.com/watch?v=Q_K3qH5OYaM) by Tony Gibbs
+* [Getting Started with Amazon Redshift - AWS Online Tech Talks](https://www.youtube.com/watch?v=dfo4J5ZhlKI) by Greg Khairallah  and Harshida Patel
+* [Amazon Redshift Tutorial /| Amazon Redshift Architecture /| AWS Tutorial For Beginners /| Simplilearn](https://www.youtube.com/watch?v=7bfOllAyxlg)
+* [Amazon Redshift Tutorial /| AWS Tutorial for Beginners /| AWS Certification Training /| Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
+* [AWS Certified Solutions Architect - Associate 2020 (7:07:58)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
+* [What is Amazon Redshift?](https://www.sumologic.com/blog/what-is-amazon-redshift/) By Kevin Goldberg
+
 
 
