@@ -21,8 +21,6 @@ There are a lot of criteria the could help us in selecting the right database in
 3. **Structure or Shape** of Data
 4. **Activities** that will be done on the Data
 
-![AWS Database Characteristics](https://res.cloudinary.com/dbzzslryr/image/upload/v1610988705/aws_databases/database_characteristics.jpg "AWS Database Characteristics")
-
 Now that we have an idea of the criteria required in selecting the various databases, let us dive into each of these databases. All databases in AWS are known to have the following properties 
 fully managed by AWS
 scalable that is increase and decrease based on demand 
@@ -114,7 +112,7 @@ Amazon Redshift is columnar storage used for data warehousing, it is used to ana
 * [AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redsh (ABD304)](https://www.youtube.com/watch?v=Q_K3qH5OYaM) by Tony Gibbs
 * [Getting Started with Amazon Redshift - AWS Online Tech Talks](https://www.youtube.com/watch?v=dfo4J5ZhlKI) by Greg Khairallah  and Harshida Patel
 * [Amazon Redshift Tutorial \| Amazon Redshift Architecture \| AWS Tutorial For Beginners \| Simplilearn](https://www.youtube.com/watch?v=7bfOllAyxlg)
-* [Amazon Redshift Tutorial \| AWS Tutorial for Beginners \| AWS Certification Training | Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
+* [Amazon Redshift Tutorial \| AWS Tutorial for Beginners \| AWS Certification Training \| Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
 * [AWS Certified Solutions Architect - Associate 2020 (7:07:58)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
 * [What is Amazon Redshift?](https://www.sumologic.com/blog/what-is-amazon-redshift/) By Kevin Goldberg
 
