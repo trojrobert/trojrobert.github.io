@@ -178,8 +178,9 @@ This is a document database that supports Mongo DB. It has the capability to eas
 * [Building with Amazon DocumentDB (with MongoDB compatibility) - AWS Virtual Workshop](https://www.youtube.com/watch?v=Ild9ay9U_vY) by 
 Meet Bhagdev
 
-
-[MongoDB vs. DocumentDB: Which Is Right for You?](https://getstream.io/blog/mongodb-vs-documentdb-which-is-right-for-you/)
+## DynamoDB vs AWS DocumentDB vs MongoDB
+* [MongoDB vs. DocumentDB: Which Is Right for You?](https://getstream.io/blog/mongodb-vs-documentdb-which-is-right-for-you/)
+* [Difference between AWS DynamoDB vs AWS DocumentDB vs MongoDB?](https://medium.com/@caseygibson_42696/difference-between-aws-dynamodb-vs-aws-documentdb-vs-mongodb-9cb026a94767)
 
 # Graph Database
 ## Amazon Neptune 
