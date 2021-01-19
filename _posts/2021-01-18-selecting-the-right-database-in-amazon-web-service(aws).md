@@ -105,9 +105,9 @@ Amazon Redshift is columnar storage used for data warehousing, it is used to ana
 [source](https://aws.amazon.com/de/redshift/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
 
 ### Official Resources 
-* Amazon Redshift (https://aws.amazon.com/redshift/)
-* Amazon Redshift Documentation (https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) 
-* Amazon Redshift Blog (https://aws.amazon.com/blogs/big-data/category/database/amazon-redshift/)
+* [Amazon Redshift](https://aws.amazon.com/redshift/)
+* [Amazon Redshift Documentation](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) 
+* [Amazon Redshift Blog](https://aws.amazon.com/blogs/big-data/category/database/amazon-redshift/)
 
 ### Other Resources 
 
@@ -118,5 +118,42 @@ Amazon Redshift is columnar storage used for data warehousing, it is used to ana
 * [AWS Certified Solutions Architect - Associate 2020 (7:07:58)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
 * [What is Amazon Redshift?](https://www.sumologic.com/blog/what-is-amazon-redshift/) By Kevin Goldberg
 
+# NoSQL - Key/Value
+## DynamoDB
 
+DynamoDB is a NoSQL database, key/value, and document database. That is it support document and key/value structures. DynamoDB's major components are tables, items, attributes, keys, and values. A table is a collection of items and an item is a collection of attributes. Items are similar to rows while attributes are similar to columns in a traditional database. A key is used to identify attributes and value is the data itself. The Major API components in DynamoDB are control plane, data plane, DynamoDB streams, and transactions. On-Demand and Provisioned Mode are the two major read/write capacity modes in DynamoDB. Amazon DynamoDB provides us the ability to specific our Provisioned capacity based on Read Capacity Units(RCU) and Write Capacity Units(WCU). Amazon DynamoDB creates partitions based on size, Read Capacity Units and Write Capacity Units. The criteria required for partitioning are size of 10GB, RCU of 3000, and WCU of 1000.   Encrypt data at rest (that is inactive data), data is not moving from one device to another or from one network to another.  DynamoDB has a Point in time recovery feature that is we can restore your data to any point in time. Amazon DynamoDB Accelerator(DAX) enables us to manage write through cache for DynamoDB, it reduces response time from milliseconds to microseconds. It uses SSD storage and stores its data across 3 different availability zone. 
+
+![Amazon DynamoDB Key/Value](https://res.cloudinary.com/dbzzslryr/image/upload/v1611062740/aws_databases/dynamoDB_key_value.png "Amazon DynamoDB Key/Value")
+
+[source](https://www.infoq.com/articles/mars-rover-application-DynamoDB/)
+
+### When to use Amazon DynamoDB
+* For Online Transaction Processing(OTP).
+* To store real-time data from an IoT device.
+* To store activities and events on a web application such as clicks. 
+* To store items in a Web application like user profile, user events used by advertising, gaming, retail, finance, and media companies.
+* For Data that requires high request rate(millions of requests per seconds).
+* It is best used in situations that require high consistency.
+
+### Price
+[Amazon DynamoDB pricing](https://aws.amazon.com/dynamodb/pricing/) depends on on-demand capacity mode and provisioned capacity mode.
+
+### Hands-On 
+[Creating Tables and Loading Data](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SampleData.html)
+
+### Sample Code
+
+[Create a ToDo Web App Storing your data in  Amazon DynamoDB](https://github.com/aws-samples/lambda-refarch-webapp)
+
+### Official Resources 
+* [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+* [Amazon DynamoDB Documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+* [Amazon DynamoDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-dynamodb/)
+
+### Other Resources 
+* [AWS DynamoDB Tutorial | AWS Services | AWS Tutorial For Beginners | AWS Training Video | Simplilearn](https://www.youtube.com/watch?v=2mVR_Qgx_RU&t=372s)
+* [AWS Certified Developer - Associate 2020 (5:05:21) ](https://www.youtube.com/watch?v=RrKRN9zRBWs&t=18321s)
+* [AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database](https://www.youtube.com/watch?v=yvBR71D0nAQ) by Jaso Sorenson
+* [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k&t=5s) by Rick Houlihan
+* [Building a Mars Rover Application with DynamoDB](https://www.infoq.com/articles/mars-rover-application-DynamoDB/)
 
