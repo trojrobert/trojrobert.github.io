@@ -238,3 +238,29 @@ Amazon ElastiCache has two engines
 * [AWS re:Invent 2019: Supercharge your real-time apps with Amazon ElastiCache (DAT208)](https://www.youtube.com/watch?v=v0GfpL5jfns) by Pratibha Suryadevara
 * [AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)](https://www.youtube.com/watch?v=QxcB53mL_oA) byMichael Labib
 * [AWS Certified Solutions Architect - Associate 2020(8:38:40)](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=26691s)    
+
+
+
+# Time series 
+## Amazon Timestream 
+It is a serverless time-series database for IoT and operational applications. Time series data are recorded over a period of time such as stock data, temperatures of a device. Amazon Timestream can be used to store and analyze trillions of events per day up to 1,000 times faster and at as little as 1/10th the cost of relational databases. One major advantage of  Amazon Timestream database is its capability to move historical data to low-cost storage but retain recent data(hot data) in-memory. Queries can be run on both historical data and recent data. In addition, Amazon Timestream has a built-in time-series analytics function such as smoothing, approximation, and interpolation which can help in detecting patterns in data. Major concepts on Amazon Timestream are record, dimension, measure, timestamp, table, and Database. Records cannot be deleted or updated.
+
+![Amazon Timestream](https://res.cloudinary.com/dbzzslryr/image/upload/v1611088320/aws_databases/Amazon-Timestream_IoT.png "Amazon Timestream")
+
+### When to use Amazon Timestream 
+* for time series data from IoT devices 
+* collecting and analysing operational metrics 
+* analytical application 
+
+### Sample code 
+[Getting started with Amazon Timestream with Python](https://github.com/awslabs/amazon-timestream-tools/blob/master/sample_apps/python/README.md)
+
+### Official Resources 
+* [Amazon TImestream](https://aws.amazon.com/timestream/)
+* [Amazon Timestream Documentation](https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html)
+* [Amazon Timestream Blog](https://aws.amazon.com/blogs/database/category/database/amazon-timestream/)
+
+
+### Other Resources 
+* [Getting Started with Amazon Timestream](https://www.youtube.com/watch?v=8RHFPNReylI) by Tony Gibbs
+* [Deep Dive on Amazon Timestream](https://www.youtube.com/watch?v=39ijv_pfWSQ) by Tony Gibbs
