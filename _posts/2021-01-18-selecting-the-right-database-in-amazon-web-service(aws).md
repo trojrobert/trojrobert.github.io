@@ -56,3 +56,27 @@ Amazon RDS is not a database itself instead it is used to set up, operate, and s
 * [Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ) by Brain Welcker
 
 * [Amazon RDS](https://docs.datadoghq.com/integrations/amazon_rds/?tab=standard)
+
+## Amazon Aurora
+
+Amazon Aurora has  MySQL and PostgreSQL compatibility, it is five times faster than standard MySQL and three times faster than standard PostgreSQL database. Amazon Aurora is 90% cheaper than standard MySQL and PostgreSQL databases.  It has a maximum size of 128 TB. Amazon Aurora defines a scaling policy of maximum of 15 Aurora Replicas.  Aurora Backup and Failover are automatic. Amazon Aurora supports cross-region replication. Aurora MySQL DB Cluster and PostgreSQL are created using the Amazon Relation Database Service console.
+Aurora Serverless gives aurora the ability to automatically scale up, scale down, start-up, and shut down(auto-scaling). Aurora Serverless is best used when building an application that is not frequently used, building a new application, building an application with varying and unpredictable workloads.
+
+
+### Pricing
+[Amazon Aurora Pricing](https://aws.amazon.com/rds/aurora/pricing/) is based on either we select the MySQL edition or the PostgreSQL edition. 
+Aurora Serverless is charged based on Aurora Capacity Unit(ACU)
+
+### Official Resources 
+* [Amazon Aurora](https://aws.amazon.com/rds/aurora/) 
+* [Amazon Aurora Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/)
+* [Amazon Aurora Blog](https://aws.amazon.com/blogs/database/category/database/amazon-aurora/)
+
+### Other Resources 
+* [Amazon Aurora Introduction](https://www.youtube.com/watch?v=ZCt3ctVfGIk)
+* [AWS re:Invent 2019: [REPEAT] Amazon Aurora storage demystified: How it all works (DAT309-R)](https://www.youtube.com/watch?v=uaQEGLKtw54) by Murali Brahmadesa  and Tobias Ternström
+* [Amazon Aurora Global Database Deep Dive](https://www.youtube.com/watch?v=1vFg1z-2E7Y) by Aditya Samant
+* [AWS Certified Solutions Architect - Associate 2020 (7:02:14 - 7:06:56)](https://www.youtube.com/watch?v=Ia-UEYYR44s) 
+* [Amazon Aurora ascendant: How we designed a cloud-native relational database](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
+
+
