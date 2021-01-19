@@ -135,7 +135,7 @@ DynamoDB is a NoSQL database, key/value, and document database. That is it suppo
 * For Data that requires high request rate(millions of requests per seconds).
 * It is best used in situations that require high consistency.
 
-### Price
+### Pricing
 [Amazon DynamoDB pricing](https://aws.amazon.com/dynamodb/pricing/) depends on on-demand capacity mode and provisioned capacity mode.
 
 ### Hands-On 
@@ -156,4 +156,31 @@ DynamoDB is a NoSQL database, key/value, and document database. That is it suppo
 * [AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database](https://www.youtube.com/watch?v=yvBR71D0nAQ) by Jaso Sorenson
 * [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k&t=5s) by Rick Houlihan
 * [Building a Mars Rover Application with DynamoDB](https://www.infoq.com/articles/mars-rover-application-DynamoDB/)
+
+# Document Database
+## Amazon DocumentDB
+This is a document database that supports Mongo DB. It has the capability to easily store, query, and index JSON data. It has about 15 read replicas and scales vertically with very low impact. It has flexible schema and Ad hoc query capability, It is easy to index and it is used for operational and analytics workloads.
+
+![Amazon DocumentDB](https://res.cloudinary.com/dbzzslryr/image/upload/v1611068153/aws_databases/amazon_documentDB.png "Amazon DocumentDB")
+
+### When to use Amazon DocumentDB
+* it is Amazon version of MongoDB, it is used when you need to run MongoDB at scale
+* best  for Profile management, Content, and catalog management
+
+### Official Resources
+[Amazon DocumentDB](https://aws.amazon.com/documentdb/)
+[Amazon DocumentDB Documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html)
+[Amazon DocumentDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-document-db/)
+
+### Other Resources 
+
+* [AWS re:Invent 2019: Amazon DocumentDB deep dive (DAT326)](https://www.youtube.com/watch?v=D3_hWN9C9iE) by Joseph Idziorek and Antra Grover
+* [Building with Amazon DocumentDB (with MongoDB compatibility) - AWS Virtual Workshop](https://www.youtube.com/watch?v=Ild9ay9U_vY) by 
+Meet Bhagdev
+
+
+[MongoDB vs. DocumentDB: Which Is Right for You?](https://getstream.io/blog/mongodb-vs-documentdb-which-is-right-for-you/)
+
+# Graph Database
+## Amazon Neptune 
 
