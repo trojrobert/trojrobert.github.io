@@ -98,7 +98,7 @@ Amazon Redshift is columnar storage used for data warehousing, it is used to ana
 * Amazon Redshift is suitable for generating reports for business intelligence
 
 ### Pricing 
-Amazon Redshift pricing(https://aws.amazon.com/redshift/pricing/) basic price for Amazon Redshift starts from $0.25 per hour. There are several other capabilities that can influence the price like Amazon Redshift Spectrum pricing, Concurrency Scaling pricing, Redshift managed pricing, and Redshift ML pricing.
+[Amazon Redshift pricing](https://aws.amazon.com/redshift/pricing/) basic price for Amazon Redshift starts from $0.25 per hour. There are several other capabilities that can influence the price like Amazon Redshift Spectrum pricing, Concurrency Scaling pricing, Redshift managed pricing, and Redshift ML pricing.
 
 ![Amazon Redshift Architecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1611033488/aws_databases/Product-Page-Diagram_Redshift.png "Amazon Redshift Architecture")
 
@@ -113,8 +113,8 @@ Amazon Redshift pricing(https://aws.amazon.com/redshift/pricing/) basic price fo
 
 * [AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redsh (ABD304)](https://www.youtube.com/watch?v=Q_K3qH5OYaM) by Tony Gibbs
 * [Getting Started with Amazon Redshift - AWS Online Tech Talks](https://www.youtube.com/watch?v=dfo4J5ZhlKI) by Greg Khairallah  and Harshida Patel
-* [Amazon Redshift Tutorial /| Amazon Redshift Architecture /| AWS Tutorial For Beginners /| Simplilearn](https://www.youtube.com/watch?v=7bfOllAyxlg)
-* [Amazon Redshift Tutorial /| AWS Tutorial for Beginners /| AWS Certification Training /| Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
+* [Amazon Redshift Tutorial | Amazon Redshift Architecture | AWS Tutorial For Beginners | Simplilearn](https://www.youtube.com/watch?v=7bfOllAyxlg)
+* [Amazon Redshift Tutorial | AWS Tutorial for Beginners | AWS Certification Training | Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
 * [AWS Certified Solutions Architect - Associate 2020 (7:07:58)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
 * [What is Amazon Redshift?](https://www.sumologic.com/blog/what-is-amazon-redshift/) By Kevin Goldberg
 
