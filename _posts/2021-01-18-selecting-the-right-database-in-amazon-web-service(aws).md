@@ -264,3 +264,29 @@ It is a serverless time-series database for IoT and operational applications. Ti
 ### Other Resources 
 * [Getting Started with Amazon Timestream](https://www.youtube.com/watch?v=8RHFPNReylI) by Tony Gibbs
 * [Deep Dive on Amazon Timestream](https://www.youtube.com/watch?v=39ijv_pfWSQ) by Tony Gibbs
+
+# Ledger Database
+
+## Amazon Quantum Ledger Database(QLDB)
+
+Amazon QLDB is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log ‎owned by a central trusted authority.  It is used to track data changes in applications. It can be used for storing audit logs. It uses a SQL like language called PartiQL. It is immutable, transparent, cryptographically verifiable, and serverless. 
+
+![Amazon QLDB](https://res.cloudinary.com/dbzzslryr/image/upload/v1611092933/aws_databases/AWS-Quantum.png "Amazon QLDB")
+
+### When to use Amazon QLDB
+* Best suited for economic and financial record
+* For application data
+* Used in finance for tracking credit and debit transactions 
+* For HR systems to track employee payroll, bonus, benefits and other details 
+* For manufacturing to track product manufacturing history 
+
+
+### Official Resources 
+* [Amazon Quantum Ledger Database(QLDB)](https://aws.amazon.com/qldb/)
+* [Amazon Quantum Ledger Database Documentation](https://docs.aws.amazon.com/qldb/latest/developerguide/what-is.html)
+ 8[Amazon Quantum Ledger Database Blog](https://aws.amazon.com/blogs/database/tag/amazon-qldb/) 
+
+
+### Other Resources 
+* [AWS re:Invent 2019: Amazon QLDB: An engineer’s deep dive on why this is a game changer (DAT380)](https://www.youtube.com/watch?v=ZfYDl4kaVCo) by Andrew Certain 
+* [Building System of Record Applications with Amazon QLDB - AWS Online Tech Talks](https://www.youtube.com/watch?v=XGeCNr8eOiA) by Philip Simko and Michael Labib 
