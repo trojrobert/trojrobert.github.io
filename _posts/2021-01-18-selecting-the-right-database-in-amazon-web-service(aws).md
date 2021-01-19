@@ -168,9 +168,9 @@ This is a document database that supports Mongo DB. It has the capability to eas
 * best  for Profile management, Content, and catalog management
 
 ### Official Resources
-[Amazon DocumentDB](https://aws.amazon.com/documentdb/)
-[Amazon DocumentDB Documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html)
-[Amazon DocumentDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-document-db/)
+* [Amazon DocumentDB](https://aws.amazon.com/documentdb/)
+* [Amazon DocumentDB Documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html)
+* [Amazon DocumentDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-document-db/)
 
 ### Other Resources 
 
