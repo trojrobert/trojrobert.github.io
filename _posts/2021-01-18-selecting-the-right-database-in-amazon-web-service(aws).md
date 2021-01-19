@@ -88,13 +88,21 @@ Aurora Serverless is charged based on Aurora Capacity Unit(ACU)
 
 Amazon Redshift is columnar storage used for data warehousing, it is used to analyze and get insight from large data quickly by executing complex queries on them.  These data are usually at rest and historical data. It contains a cluster of nodes, it could be in a single node mode or in a multi-node mode. There are two types of nodes in Amazon Redshift, namely leader node and compute node. The leader node stores SQL endpoints, metadata, and coordinates parallel SQL processing. Compute nodes stores the data, and execute the queries. Amazon Redshift stores data on a single Availability Zone. Amazon Redshift spectrum is used to query Amazon Simple Storage Service(Amazon S3) directly. [Amazon Redshift federated queries](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) enables us to query and analyze live data across databases, data warehouses, and data lakes. 
 
+![Amazon Redshift Architecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1611030754/aws_databases/amazon_redshift_model.png "Amazon Redshift Architecture")
+
+[Amazon Redshift Architecture - source](https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html)
+
 ### When to use Amazon Redshift
-*For Online Analytical Processing
+* For Online Analytical Processing
 * When you need to run queries across multiple data sources. For instance, we can copy data from different storages like Amazon EMR and Amazon S3 into Amazon Redshift. 
 * Amazon Redshift is suitable for generating reports for business intelligence
 
 ### Pricing 
 Amazon Redshift pricing(https://aws.amazon.com/redshift/pricing/) basic price for Amazon Redshift starts from $0.25 per hour. There are several other capabilities that can influence the price like Amazon Redshift Spectrum pricing, Concurrency Scaling pricing, Redshift managed pricing, and Redshift ML pricing.
+
+![Amazon Redshift Architecture](https://res.cloudinary.com/dbzzslryr/image/upload/v1611033488/aws_databases/Product-Page-Diagram_Redshift.png "Amazon Redshift Architecture")
+
+[source](https://aws.amazon.com/de/redshift/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
 
 ### Official Resources 
 * Amazon Redshift (https://aws.amazon.com/redshift/)
