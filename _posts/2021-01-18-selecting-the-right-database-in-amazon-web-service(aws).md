@@ -182,6 +182,33 @@ Meet Bhagdev
 * [MongoDB vs. DocumentDB: Which Is Right for You?](https://getstream.io/blog/mongodb-vs-documentdb-which-is-right-for-you/)
 * [Difference between AWS DynamoDB vs AWS DocumentDB vs MongoDB?](https://medium.com/@caseygibson_42696/difference-between-aws-dynamodb-vs-aws-documentdb-vs-mongodb-9cb026a94767)
 
+
 # Graph Database
 ## Amazon Neptune 
+Amazon Neptune is a graph database, it works with highly connected datasets. It checks for relations or similarity in data. For instance similarity between the movies a user watches on Netflix. It components are node(data entities), edges(relationships) and properties. Amazon Neptune support property graph like open-source Apache TinkerPop Germlin and Resource Description Framework(RDF)  SPARQL. Amazon Neptune replicates data 6 times across 3 Availability Zones. Amazon Neptune Streams can be used to capture changes in a graph.
+
+![Knowledge Graph](https://res.cloudinary.com/dbzzslryr/image/upload/v1611070119/aws_databases/knowledge-graph.png "Knowledge Graph")
+
+### When to use Amazon Neptune 
+* Amazon Neptune is best used when we have relationships in the data.
+* for recommendation engines, fraud detection, and drug discovery.
+* for knowledge base application such as Wikidata.
+* for identity graphs to show unified view of customers and prospects based on their interactions with a product or a website.
+* for social Networking application to store user profile and interactions.
+
+
+![Recommendation Relationships](https://res.cloudinary.com/dbzzslryr/image/upload/v1611070132/aws_databases/recommendation-relationships.png "Recommendation Relationships")
+
+
+### Official Resources 
+* [Amazon Neptune](https://aws.amazon.com/neptune/)
+* [Amazon Neptune Documentation](https://docs.aws.amazon.com/neptune/latest/userguide/intro.html)
+* [Amazon Neptune Blog](https://aws.amazon.com/blogs/database/category/database/amazon-neptune/)
+
+### Other Resources 
+* [AWS re:Invent 2019: Deep dive on Amazon Neptune (DAT361)](https://www.youtube.com/watch?v=dSqNAlYAAoQ) by Bradley Bebee, Karthik Bharathy, and Ora Lassila
+* [Nike: A Social Graph at Scale with Amazon Neptune](https://www.youtube.com/watch?v=ZCj2wuKBBu4)
+* [Homesite: Event-Driven Data Analytics Platform Using Amazon Neptune](https://www.youtube.com/watch?v=j9OZ-7aCAyA)
+* [AWS on Air 2020: AWS What’s Next ft. Amazon Neptune ML](https://www.youtube.com/watch?v=K5Dr_Jdculg)
+
 
