@@ -4,8 +4,8 @@ layout: post
 title: "Selecting the right database in Amazon Web Service(AWS)"
 subtitle:
 description: This article is a documentation of what I learned and the resources I used in understanding the various databases in AWS and how to decide when to use them.
-image: https://res.cloudinary.com/dbzzslryr/image/upload/v1610988705/aws_databases/database_characteristics.jpg
-optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1610988705/aws_databases/database_characteristics.jpg
+image: https://res.cloudinary.com/dbzzslryr/image/upload/v1611072337/aws_databases/aws_databases.png
+optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1611072337/aws_databases/aws_databases.png
 category:
 tags:
 author:
@@ -209,4 +209,32 @@ Amazon Neptune is a graph database, it works with highly connected datasets. It 
 * [Homesite: Event-Driven Data Analytics Platform Using Amazon Neptune](https://www.youtube.com/watch?v=j9OZ-7aCAyA)
 * [AWS on Air 2020: AWS What’s Next ft. Amazon Neptune ML](https://www.youtube.com/watch?v=K5Dr_Jdculg)
 
+# In memory 
+## Amazon ElastiCache 
 
+
+It is used to manage in-memory caching. Caching is storing data in a temporary storage area. This data is stored on the RAM which is volatile, that is the data can get lost easily and can be accessed fast. It stores frequently accessed data to improve performance, this helps to avoid application latency and throughput. It caches data from the database which is different from CloudFront(Content Delivery Network). Amazon ElastiCache stores important data in memory. Amazon Cloudfront stores static files, for example, HTML, audio, video, media files required by a web app. Amazon ElastiCache access only resources in the same VPC. 
+
+![ElatiCache Redis vs Memcached](https://res.cloudinary.com/dbzzslryr/image/upload/v1611073857/aws_databases/elasticache_redis_memcached.png "ElatiCache Redis vs Memcached")
+[source](https://www.youtube.com/watch?v=v0GfpL5jfns)
+
+Amazon ElastiCache has two engines
+1. Amazon ElastiCache for Redis
+2. Amazon ElastiCache for Memcached. 
+
+### When to use Amazon ElasticCache
+* it is best used when you need microseconds latency, key-based queries, and specialized data structures.
+* for situations like leader boards and real-time caching
+* if the data is on every page load or every request. 
+
+### Official Resources 
+* [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
+* [Amazon ElastiCache for Redis Documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.html)
+* [Amazon ElastiCache for Memcached Documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/WhatIs.html)
+* [Amazon ElastiCacke Blog](https://aws.amazon.com/blogs/database/category/database/amazon-elasticache/)
+
+### Other Resources 
+
+* [AWS re:Invent 2019: Supercharge your real-time apps with Amazon ElastiCache (DAT208)](https://www.youtube.com/watch?v=v0GfpL5jfns) by Pratibha Suryadevara
+* [AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)](https://www.youtube.com/watch?v=QxcB53mL_oA) byMichael Labib
+* [AWS Certified Solutions Architect - Associate 2020(8:38:40)](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=26691s)    
