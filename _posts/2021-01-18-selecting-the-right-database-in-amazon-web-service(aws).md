@@ -3,7 +3,7 @@ date: 2021-01-18 16:07:17
 layout: cloud
 title: "Selecting the right database in Amazon Web Service(AWS)"
 subtitle:
-description:This article is a documentation of what I learned and the resources I used in understanding the various databases in AWS and how to decide when to use them. 
+description: This article is a documentation of what I learned and the resources I used in understanding the various databases in AWS and how to decide when to use them. 
 image: https://res.cloudinary.com/dbzzslryr/image/upload/v1611072337/aws_databases/aws_databases.png
 optimized_image: https://res.cloudinary.com/dbzzslryr/image/upload/v1611072337/aws_databases/aws_databases.png
 category:
