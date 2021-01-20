@@ -38,25 +38,31 @@ Amazon RDS is not a database itself instead it is used to set up, operate, and s
 
 
 #### When to use Amazon Relational Database Service(RDS)
-* If we need to use any of these six databases Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
+If we need to use any of these six databases Amazon Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
 
 ### Pricing 
 [Amazon Relational Database Services(RDS) pricing](https://aws.amazon.com/rds/pricing/) depends on either we are using it On-Demand or Reserved Instances.
 
 ### Official Resources 
-* [Amazon Relational Database Services(RDS)](https://aws.amazon.com/rds/)
-* [Amazon RDS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) 
-* [Amazon RDS Blog](https://aws.amazon.com/blogs/database/category/database/amazon-rds/)
+[Amazon Relational Database Services(RDS)](https://aws.amazon.com/rds/)
+
+[Amazon RDS Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) 
+
+[Amazon RDS Blog](https://aws.amazon.com/blogs/database/category/database/amazon-rds/)
 
 
 ### Other Resources 
-* [AWS Certified Solutions Architect - Associate 2020 (6:23:16 - 7:00:11)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
 
-* [Amazon Relational Database Service (Amazon RDS)](https://www.youtube.com/watch?v=igRfulrrYCo) by Vlad Vlasceanu 
+[AWS Certified Solutions Architect - Associate 2020 (6:23:16 - 7:00:11)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
 
-* [Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ) by Brain Welcker
 
-* [Amazon RDS](https://docs.datadoghq.com/integrations/amazon_rds/?tab=standard)
+[Amazon Relational Database Service (Amazon RDS)](https://www.youtube.com/watch?v=igRfulrrYCo) by Vlad Vlasceanu 
+
+
+[Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ) by Brain Welcker
+
+
+[Amazon RDS](https://docs.datadoghq.com/integrations/amazon_rds/?tab=standard)
 
 
 ## Amazon Aurora
@@ -74,16 +80,22 @@ Aurora Serverless gives Amazon Aurora the ability to automatically scale up, sca
 Aurora Serverless is charged based on Aurora Capacity Unit(ACU)
 
 ### Official Resources 
-* [Amazon Aurora](https://aws.amazon.com/rds/aurora/) 
-* [Amazon Aurora Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/)
-* [Amazon Aurora Blog](https://aws.amazon.com/blogs/database/category/database/amazon-aurora/)
+[Amazon Aurora](https://aws.amazon.com/rds/aurora/) 
+
+[Amazon Aurora Documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/)
+
+[Amazon Aurora Blog](https://aws.amazon.com/blogs/database/category/database/amazon-aurora/)
 
 ### Other Resources 
-* [Amazon Aurora Introduction](https://www.youtube.com/watch?v=ZCt3ctVfGIk)
-* [AWS re:Invent 2019: [REPEAT] Amazon Aurora storage demystified: How it all works (DAT309-R)](https://www.youtube.com/watch?v=uaQEGLKtw54) by Murali Brahmadesa  and Tobias Ternström
-* [Amazon Aurora Global Database Deep Dive](https://www.youtube.com/watch?v=1vFg1z-2E7Y) by Aditya Samant
-* [AWS Certified Solutions Architect - Associate 2020 (7:02:14 - 7:06:56)](https://www.youtube.com/watch?v=Ia-UEYYR44s) 
-* [Amazon Aurora ascendant: How we designed a cloud-native relational database](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
+[Amazon Aurora Introduction](https://www.youtube.com/watch?v=ZCt3ctVfGIk)
+
+[AWS re:Invent 2019: [REPEAT] Amazon Aurora storage demystified: How it all works (DAT309-R)](https://www.youtube.com/watch?v=uaQEGLKtw54) by Murali Brahmadesa  and Tobias Ternström
+
+[Amazon Aurora Global Database Deep Dive](https://www.youtube.com/watch?v=1vFg1z-2E7Y) by Aditya Samant
+
+[AWS Certified Solutions Architect - Associate 2020 (7:02:14 - 7:06:56)](https://www.youtube.com/watch?v=Ia-UEYYR44s) 
+
+[Amazon Aurora ascendant: How we designed a cloud-native relational database](https://www.allthingsdistributed.com/2019/03/Amazon-Aurora-design-cloud-native-relational-database.html)
 
 # Data Warehousing 
 ## Amazon Redshift  
@@ -95,9 +107,11 @@ Amazon Redshift is columnar storage used for data warehousing, it is used to ana
 [Amazon Redshift Architecture - source](https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html)
 
 ### When to use Amazon Redshift
-* for Online Analytical Processing
-* if we need to run queries across multiple data sources. For instance, we can copy data from different storages like Amazon EMR and Amazon S3 into Amazon Redshift. 
-* Amazon Redshift is suitable for generating reports for business intelligence
+for Online Analytical Processing
+
+if we need to run queries across multiple data sources. For instance, we can copy data from different storages like Amazon EMR and Amazon S3 into Amazon Redshift. 
+
+Amazon Redshift is suitable for generating reports for business intelligence
 
 ### Pricing 
 [Amazon Redshiftp pricing](https://aws.amazon.com/redshift/pricing/) - the basic price for Amazon Redshift starts from $0.25 per hour. There are several other features that can influence the price such as Amazon Redshift Spectrum pricing, Concurrency Scaling pricing, Redshift managed pricing, and Redshift ML pricing.
@@ -107,18 +121,25 @@ Amazon Redshift is columnar storage used for data warehousing, it is used to ana
 [source](https://aws.amazon.com/de/redshift/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc)
 
 ### Official Resources 
-* [Amazon Redshift](https://aws.amazon.com/redshift/)
-* [Amazon Redshift Documentation](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) 
-* [Amazon Redshift Blog](https://aws.amazon.com/blogs/big-data/category/database/amazon-redshift/)
+[Amazon Redshift](https://aws.amazon.com/redshift/)
+
+[Amazon Redshift Documentation](https://docs.aws.amazon.com/redshift/latest/dg/welcome.html) 
+
+[Amazon Redshift Blog](https://aws.amazon.com/blogs/big-data/category/database/amazon-redshift/)
 
 ### Other Resources 
 
-* [AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redsh (ABD304)](https://www.youtube.com/watch?v=Q_K3qH5OYaM) by Tony Gibbs
-* [Getting Started with Amazon Redshift - AWS Online Tech Talks](https://www.youtube.com/watch?v=dfo4J5ZhlKI) by Greg Khairallah  and Harshida Patel
-* [Amazon Redshift Tutorial \| Amazon Redshift Architecture \| AWS Tutorial For Beginners \| Simplilearn](https://www.youtube.com/watch?v=7bfOllAyxlg)
-* [Amazon Redshift Tutorial \| AWS Tutorial for Beginners \| AWS Certification Training \| Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
-* [AWS Certified Solutions Architect - Associate 2020 (7:07:58)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
-* [What is Amazon Redshift?](https://www.sumologic.com/blog/what-is-amazon-redshift/) By Kevin Goldberg
+[AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redsh (ABD304)](https://www.youtube.com/watch?v=Q_K3qH5OYaM) by Tony Gibbs
+
+[Getting Started with Amazon Redshift - AWS Online Tech Talks](https://www.youtube.com/watch?v=dfo4J5ZhlKI) by Greg Khairallah  and Harshida Patel
+
+[Amazon Redshift Tutorial \| Amazon Redshift Architecture \| AWS Tutorial For Beginners \| Simplilearn](https://www.youtube.com/watch?v=7bfOllAyxlg)
+
+[Amazon Redshift Tutorial \| AWS Tutorial for Beginners \| AWS Certification Training \| Edureka](https://www.youtube.com/watch?v=fc5WPKnbam8)
+
+[AWS Certified Solutions Architect - Associate 2020 (7:07:58)](https://www.youtube.com/watch?v=Ia-UEYYR44s)
+
+[What is Amazon Redshift?](https://www.sumologic.com/blog/what-is-amazon-redshift/) By Kevin Goldberg
 
 # NoSQL - Key/Value
 ## DynamoDB
@@ -130,12 +151,18 @@ DynamoDB is a NoSQL database, key/value, and document database. That is it suppo
 [source](https://www.infoq.com/articles/mars-rover-application-DynamoDB/)
 
 ### When to use Amazon DynamoDB
-* for Online Transaction Processing(OTP).
-* to store real-time data from an IoT device.
-* to store activities and events on a web application such as clicks. 
-* to store items in a Web application like user profile, user events used by advertising, gaming, retail, finance, and media companies.
-* for Data that requires high request rate(millions of requests per seconds).
-* it is best used in situations that require high consistency.
+
+for Online Transaction Processing(OTP).
+
+to store real-time data from an IoT device.
+
+to store activities and events on a web application such as clicks. 
+
+to store items in a Web application like user profile, user events used by advertising, gaming, retail, finance, and media companies.
+
+for Data that requires high request rate(millions of requests per seconds).
+
+it is best used in situations that require high consistency.
 
 ### Pricing
 [Amazon DynamoDB pricing](https://aws.amazon.com/dynamodb/pricing/) depends on on-demand capacity mode and provisioned capacity mode.
@@ -148,16 +175,23 @@ DynamoDB is a NoSQL database, key/value, and document database. That is it suppo
 [Create a ToDo Web App Storing your data in  Amazon DynamoDB](https://github.com/aws-samples/lambda-refarch-webapp)
 
 ### Official Resources 
-* [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
-* [Amazon DynamoDB Documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
-* [Amazon DynamoDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-dynamodb/)
+
+[Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+
+[Amazon DynamoDB Documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+
+[Amazon DynamoDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-dynamodb/)
 
 ### Other Resources 
-* [AWS DynamoDB Tutorial \| AWS Services \| AWS Tutorial For Beginners \| AWS Training Video \| Simplilearn](https://www.youtube.com/watch?v=2mVR_Qgx_RU&t=372s)
-* [AWS Certified Developer - Associate 2020 (5:05:21) ](https://www.youtube.com/watch?v=RrKRN9zRBWs&t=18321s)
-* [AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database](https://www.youtube.com/watch?v=yvBR71D0nAQ) by Jaso Sorenson
-* [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k&t=5s) by Rick Houlihan
-* [Building a Mars Rover Application with DynamoDB](https://www.infoq.com/articles/mars-rover-application-DynamoDB/)
+[AWS DynamoDB Tutorial \| AWS Services \| AWS Tutorial For Beginners \| AWS Training Video \| Simplilearn](https://www.youtube.com/watch?v=2mVR_Qgx_RU&t=372s)
+
+[AWS Certified Developer - Associate 2020 (5:05:21) ](https://www.youtube.com/watch?v=RrKRN9zRBWs&t=18321s)
+
+[AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database](https://www.youtube.com/watch?v=yvBR71D0nAQ) by Jaso Sorenson
+
+[AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k&t=5s) by Rick Houlihan
+
+[Building a Mars Rover Application with DynamoDB](https://www.infoq.com/articles/mars-rover-application-DynamoDB/)
 
 # Document Database
 ## Amazon DocumentDB
@@ -169,23 +203,30 @@ This is a document database that supports MongoDB. It has the capability to easi
 [Amazon DocumentDB pricing](https://aws.amazon.com/documentdb/pricing/) is based on On-demand instances, database I/O, database storage and backup storage.
 
 ### When to use Amazon DocumentDB
-* it is Amazon version of MongoDB, it is used when you need to run MongoDB at scale
-* best  for Profile management, Content, and catalog management.
+
+it is Amazon version of MongoDB, it is used when you need to run MongoDB at scale
+
+best  for Profile management, Content, and catalog management.
 
 ### Official Resources
-* [Amazon DocumentDB](https://aws.amazon.com/documentdb/)
-* [Amazon DocumentDB Documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html)
-* [Amazon DocumentDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-document-db/)
+
+[Amazon DocumentDB](https://aws.amazon.com/documentdb/)
+
+[Amazon DocumentDB Documentation](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html)
+
+[Amazon DocumentDB Blog](https://aws.amazon.com/blogs/database/category/database/amazon-document-db/)
 
 ### Other Resources 
 
-* [AWS re:Invent 2019: Amazon DocumentDB deep dive (DAT326)](https://www.youtube.com/watch?v=D3_hWN9C9iE) by Joseph Idziorek and Antra Grover
-* [Building with Amazon DocumentDB (with MongoDB compatibility) - AWS Virtual Workshop](https://www.youtube.com/watch?v=Ild9ay9U_vY) by 
+[AWS re:Invent 2019: Amazon DocumentDB deep dive (DAT326)](https://www.youtube.com/watch?v=D3_hWN9C9iE) by Joseph Idziorek and Antra Grover
+
+[Building with Amazon DocumentDB (with MongoDB compatibility) - AWS Virtual Workshop](https://www.youtube.com/watch?v=Ild9ay9U_vY) by 
 Meet Bhagdev
 
 ## DynamoDB vs AWS DocumentDB vs MongoDB
-* [MongoDB vs. DocumentDB: Which Is Right for You?](https://getstream.io/blog/mongodb-vs-documentdb-which-is-right-for-you/)
-* [Difference between AWS DynamoDB vs AWS DocumentDB vs MongoDB?](https://medium.com/@caseygibson_42696/difference-between-aws-dynamodb-vs-aws-documentdb-vs-mongodb-9cb026a94767)
+[MongoDB vs. DocumentDB: Which Is Right for You?](https://getstream.io/blog/mongodb-vs-documentdb-which-is-right-for-you/)
+
+[Difference between AWS DynamoDB vs AWS DocumentDB vs MongoDB?](https://medium.com/@caseygibson_42696/difference-between-aws-dynamodb-vs-aws-documentdb-vs-mongodb-9cb026a94767)
 
 # Graph Database
 ## Amazon Neptune 
@@ -197,26 +238,35 @@ Amazon Neptune is a graph database, it works with highly connected datasets. It 
 [Amazon Neptune pricing](https://aws.amazon.com/neptune/pricing/) is influenced by On-demand instances, database I/O, database storage, backup storage and data transfer.
 
 ### When to use Amazon Neptune 
-* Amazon Neptune is best used when we have relationships in the data.
-* for recommendation engines, fraud detection, and drug discovery.
-* for knowledge base applications such as Wikidata.
-* for identity graphs to show unified view of customers and prospects based on their interactions with a product or a website.
-* for social Networking applications to store user profiles and interactions.
+Amazon Neptune is best used when we have relationships in the data.
+
+for recommendation engines, fraud detection, and drug discovery.
+
+for knowledge base applications such as Wikidata.
+
+for identity graphs to show unified view of customers and prospects based on their interactions with a product or a website.
+
+for social Networking applications to store user profiles and interactions.
 
 
 ![Recommendation Relationships](https://res.cloudinary.com/dbzzslryr/image/upload/v1611070132/aws_databases/recommendation-relationships.png "Recommendation Relationships")
 
 
 ### Official Resources 
-* [Amazon Neptune](https://aws.amazon.com/neptune/)
-* [Amazon Neptune Documentation](https://docs.aws.amazon.com/neptune/latest/userguide/intro.html)
-* [Amazon Neptune Blog](https://aws.amazon.com/blogs/database/category/database/amazon-neptune/)
+[Amazon Neptune](https://aws.amazon.com/neptune/)
+
+[Amazon Neptune Documentation](https://docs.aws.amazon.com/neptune/latest/userguide/intro.html)
+
+[Amazon Neptune Blog](https://aws.amazon.com/blogs/database/category/database/amazon-neptune/)
 
 ### Other Resources 
-* [AWS re:Invent 2019: Deep dive on Amazon Neptune (DAT361)](https://www.youtube.com/watch?v=dSqNAlYAAoQ) by Bradley Bebee, Karthik Bharathy, and Ora Lassila
-* [Nike: A Social Graph at Scale with Amazon Neptune](https://www.youtube.com/watch?v=ZCj2wuKBBu4)
-* [Homesite: Event-Driven Data Analytics Platform Using Amazon Neptune](https://www.youtube.com/watch?v=j9OZ-7aCAyA)
-* [AWS on Air 2020: AWS What’s Next ft. Amazon Neptune ML](https://www.youtube.com/watch?v=K5Dr_Jdculg)
+[AWS re:Invent 2019: Deep dive on Amazon Neptune (DAT361)](https://www.youtube.com/watch?v=dSqNAlYAAoQ) by Bradley Bebee, Karthik Bharathy, and Ora Lassila
+
+[Nike: A Social Graph at Scale with Amazon Neptune](https://www.youtube.com/watch?v=ZCj2wuKBBu4)
+
+[Homesite: Event-Driven Data Analytics Platform Using Amazon Neptune](https://www.youtube.com/watch?v=j9OZ-7aCAyA)
+
+[AWS on Air 2020: AWS What’s Next ft. Amazon Neptune ML](https://www.youtube.com/watch?v=K5Dr_Jdculg)
 
 
 # In memory 
@@ -235,21 +285,28 @@ Amazon ElastiCache has two engines
 [Amazon ElastiCache pricing](https://aws.amazon.com/elasticache/pricing/) is based on the node types, backup storage, and data transfer.
 
 ### When to use Amazon ElastiCache
-* it is best used when you need microseconds latency, key-based queries, and specialized data structures.
-* for situations like leader boards and real-time caching
-* if the data is on every page load or every request. 
+it is best used when you need microseconds latency, key-based queries, and specialized data structures.
+
+for situations like leader boards and real-time caching
+
+if the data is on every page load or every request. 
 
 ### Official Resources 
-* [Amazon ElastiCache](https://aws.amazon.com/elasticache/)
-* [Amazon ElastiCache for Redis Documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.html)
-* [Amazon ElastiCache for Memcached Documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/WhatIs.html)
-* [Amazon ElastiCacke Blog](https://aws.amazon.com/blogs/database/category/database/amazon-elasticache/)
+[Amazon ElastiCache](https://aws.amazon.com/elasticache/)
+
+[Amazon ElastiCache for Redis Documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/WhatIs.html)
+
+[Amazon ElastiCache for Memcached Documentation](https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/WhatIs.html)
+
+[Amazon ElastiCacke Blog](https://aws.amazon.com/blogs/database/category/database/amazon-elasticache/)
 
 ### Other Resources 
 
-* [AWS re:Invent 2019: Supercharge your real-time apps with Amazon ElastiCache (DAT208)](https://www.youtube.com/watch?v=v0GfpL5jfns) by Pratibha Suryadevara
-* [AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)](https://www.youtube.com/watch?v=QxcB53mL_oA) byMichael Labib
-* [AWS Certified Solutions Architect - Associate 2020(8:38:40)](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=26691s) 
+[AWS re:Invent 2019: Supercharge your real-time apps with Amazon ElastiCache (DAT208)](https://www.youtube.com/watch?v=v0GfpL5jfns) by Pratibha Suryadevara
+
+[AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)](https://www.youtube.com/watch?v=QxcB53mL_oA) byMichael Labib
+
+[AWS Certified Solutions Architect - Associate 2020(8:38:40)](https://www.youtube.com/watch?v=Ia-UEYYR44s&t=26691s) 
 
 
 
@@ -263,22 +320,28 @@ Amazon Timestream is a serverless time-series database for IoT and operational a
 [Amazon Timestream pricing](https://aws.amazon.com/timestream/pricing/) is based on writes, SSD store, magnetic store, data transfer and queries.
 
 ### When to use Amazon Timestream 
-* for time series data from IoT devices 
-* collecting and analysing operational metrics 
-* analytical application 
+for time series data from IoT devices 
+
+collecting and analysing operational metrics 
+
+analytical application 
 
 ### Sample code 
 [Getting started with Amazon Timestream with Python](https://github.com/awslabs/amazon-timestream-tools/blob/master/sample_apps/python/README.md)
 
 ### Official Resources 
-* [Amazon TImestream](https://aws.amazon.com/timestream/)
-* [Amazon Timestream Documentation](https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html)
-* [Amazon Timestream Blog](https://aws.amazon.com/blogs/database/category/database/amazon-timestream/)
+
+[Amazon TImestream](https://aws.amazon.com/timestream/)
+
+[Amazon Timestream Documentation](https://docs.aws.amazon.com/timestream/latest/developerguide/what-is-timestream.html)
+
+[Amazon Timestream Blog](https://aws.amazon.com/blogs/database/category/database/amazon-timestream/)
 
 
 ### Other Resources 
-* [Getting Started with Amazon Timestream](https://www.youtube.com/watch?v=8RHFPNReylI) by Tony Gibbs
-* [Deep Dive on Amazon Timestream](https://www.youtube.com/watch?v=39ijv_pfWSQ) by Tony Gibbs
+[Getting Started with Amazon Timestream](https://www.youtube.com/watch?v=8RHFPNReylI) by Tony Gibbs
+
+[Deep Dive on Amazon Timestream](https://www.youtube.com/watch?v=39ijv_pfWSQ) by Tony Gibbs
 
 
 # Ledger Database
@@ -293,28 +356,37 @@ Amazon QLDB is a fully managed ledger database that provides a transparent, immu
 [Amazon Quantum Ledger Database(QLDB) pricing](https://aws.amazon.com/qldb/pricing/) is based on the data transfer, data storage and I/O.
 
 ### When to use Amazon QLDB
-* Best suited for economic and financial record
-* For application data
-* Used in finance for tracking credit and debit transactions 
-* For HR systems to track employee payroll, bonus, benefits and other details 
-* For manufacturing to track product manufacturing history 
+best suited for economic and financial record
+
+for application data
+
+used in finance for tracking credit and debit transactions 
+
+for HR systems to track employee payroll, bonus, benefits and other details 
+
+for manufacturing to track product manufacturing history 
 
 
 ### Official Resources 
-* [Amazon Quantum Ledger Database(QLDB)](https://aws.amazon.com/qldb/)
-* [Amazon Quantum Ledger Database Documentation](https://docs.aws.amazon.com/qldb/latest/developerguide/what-is.html)
- 8[Amazon Quantum Ledger Database Blog](https://aws.amazon.com/blogs/database/tag/amazon-qldb/) 
+[Amazon Quantum Ledger Database(QLDB)](https://aws.amazon.com/qldb/)
+
+[Amazon Quantum Ledger Database Documentation](https://docs.aws.amazon.com/qldb/latest/developerguide/what-is.html)
+
+[Amazon Quantum Ledger Database Blog](https://aws.amazon.com/blogs/database/tag/amazon-qldb/) 
 
 
 ### Other Resources 
-* [AWS re:Invent 2019: Amazon QLDB: An engineer’s deep dive on why this is a game changer (DAT380)](https://www.youtube.com/watch?v=ZfYDl4kaVCo) by Andrew Certain 
-* [Building System of Record Applications with Amazon QLDB - AWS Online Tech Talks](https://www.youtube.com/watch?v=XGeCNr8eOiA) by Philip Simko and Michael Labib
+[AWS re:Invent 2019: Amazon QLDB: An engineer’s deep dive on why this is a game changer (DAT380)](https://www.youtube.com/watch?v=ZfYDl4kaVCo) by Andrew Certain 
+
+[Building System of Record Applications with Amazon QLDB - AWS Online Tech Talks](https://www.youtube.com/watch?v=XGeCNr8eOiA) by Philip Simko and Michael Labib
 
 # Other resources on selecting the right database
 
-* [AWS re:Invent 2017: [REPEAT] Which Database to Use When? (DAT310-R)](https://www.youtube.com/watch?v=KWOSGVtHWqA) by Tony Petrossian and Ian Meyers
-* [Selecting the Right Database for Your Application](https://www.youtube.com/watch?v=6K0Sds9Y2N0) by Joseph Idziorek
-* [Choosing The Right Database](https://www.youtube.com/watch?v=Rk0h7Jd1WGQ) by Randall Hunt
+[AWS re:Invent 2017: [REPEAT] Which Database to Use When? (DAT310-R)](https://www.youtube.com/watch?v=KWOSGVtHWqA) by Tony Petrossian and Ian Meyers
+
+[Selecting the Right Database for Your Application](https://www.youtube.com/watch?v=6K0Sds9Y2N0) by Joseph Idziorek
+
+[Choosing The Right Database](https://www.youtube.com/watch?v=Rk0h7Jd1WGQ) by Randall Hunt
 
 
 Whoa, so many databases and terminologies. I am sure you need a break. I hope you were able to understand the different databases in AWS, when to use them, and resources that will give you a deep dive. 
