@@ -12,7 +12,6 @@ author:
 paginate: false
 ---
 
-
 Deciding on the database to use for our application or workload can be very tricky. Since I join AWS Community Builder, I spend a least 1 hour every day exploring AWS services based on use case. Amazon Web Service(AWS) provides several options for Databases, we can be confused on the right one to choose.  This article is a documentation of what I learned and the resources I used in understanding the various databases in AWS and how to decide when to use them. I hope it will be of value to you. I will like to have feedback on what you think I should add or remove or improve on as I continue exploring AWS and other cloud services.
 
 There are a lot of criteria the could help us in selecting the right database in AWS, to make it easier for us, we summarize it into the following 4 criteria 
